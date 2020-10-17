@@ -1,0 +1,5 @@
+{
+	"binary": "clang-format.exe",
+	"style": "File",
+	"format_on_save": true
+}

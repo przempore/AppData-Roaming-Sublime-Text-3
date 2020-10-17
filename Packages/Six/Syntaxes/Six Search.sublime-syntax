@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+name: Six Search
+scope: text.six-search
+hidden: true
+
+contexts:
+  main:
+    - match: ""
+      push: "Packages/Regular Expressions/RegExp.sublime-syntax"

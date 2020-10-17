@@ -1,0 +1,6 @@
+include README.md
+include LICENSE.txt
+recursive-include all *.py
+recursive-include installer *.py
+recursive-include docs Makefile *.py *.rst
+

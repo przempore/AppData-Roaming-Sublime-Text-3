@@ -1,0 +1,47 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"10% Too Dull for My Tastes Color Scheme",
+		"AdvancedNewFile",
+		"C++11",
+		"Clang Format",
+		"CMakeEditor",
+		"Cmder",
+		"Copy Filepath With Line Numbers",
+		"CTags",
+		"Git",
+		"HexViewer",
+		"JSON Key-Value",
+		"JSONLint",
+		"LaTeXTools",
+		"MarkdownPreview",
+		"Material Theme",
+		"MaxPane",
+		"Monokai JSON+",
+		"NeoVintageous",
+		"Origami",
+		"Package Control",
+		"PanePane",
+		"PlantUmlDiagrams",
+		"PowerShell",
+		"Pretty JSON",
+		"Python 3",
+		"Python Completions",
+		"QML",
+		"REG",
+		"RustAutoComplete",
+		"SideBarEnhancements",
+		"Six",
+		"Sublime Bookmarks",
+		"TabNine",
+		"ToggleNeoVintageous",
+		"TOML",
+		"Whitespace Removal",
+		"x86 and x86_64 Assembly",
+		"YouCompleteMe"
+	]
+}

@@ -1,0 +1,40 @@
+[
+	{ "keys": ["ctrl+shift+["], "command": "fold" },
+    { "keys": ["ctrl+shift+]"], "command": "unfold" },
+    {
+        "keys": ["ctrl+alt+right"],
+        "command": "set_layout", 
+        "args": {
+            "cols": [0.0, 0.75, 1.0],
+            "rows": [0.0, 1.0], 
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    },
+    {
+        "keys": ["ctrl+alt+left"],
+        "command": "set_layout", 
+        "args": {
+            "cols": [0.0, 0.25, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    },
+    {
+        "keys": ["ctrl+alt+up"],
+        "command": "set_layout",
+        "args": {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    },
+    { "keys": ["ctrl+shift+s"], "command": "save_all" },
+    { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
+    { "keys": ["ctrl+alt+shift+v"], "command": "toggle_neovintageous" },
+    { "keys": ["alt+v", "alt+v"], "command": "toggle_neovintageous" },
+
+    {
+        "command": "navigate_to_definition",
+        "keys": ["ctrl+k", "ctrl+p"]
+    },
+]

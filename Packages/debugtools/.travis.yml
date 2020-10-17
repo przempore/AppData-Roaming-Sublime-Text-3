@@ -1,0 +1,132 @@
+
+env:
+    global:
+        - PACKAGE="debugtools" # Package name
+        - SUBLIME_TEXT_VERSION="3"
+
+        # # use UNITTESTING_TAG to specific tag of UnitTesting
+        # - UNITTESTING_TAG="master"
+
+
+# https://github.com/SublimeText/UnitTesting/issues/163
+services:
+  - xvfb
+
+
+# mutliple os matrix
+# https://docs.travis-ci.com/user/multi-os/#Python-example-(unsupported-languages)
+matrix:
+    include:
+        - os: linux
+          python: 3.4
+          language: python
+
+        - os: linux
+          python: 2.7
+          language: python
+          env: TOXENV=py27
+
+        - os: linux
+          python: 3.4
+          language: python
+          env: TOXENV=py34
+
+        - os: linux
+          python: 3.5
+          language: python
+          env: TOXENV=py35
+
+        - os: linux
+          python: 3.6
+          language: python
+          env: TOXENV=py36
+
+        - os: linux
+          python: 3.7
+          language: python
+          env: TOXENV=py37
+          dist: xenial
+
+        # Currently Travis OSX only supports Python 2.7 and 3.6
+        - os: osx
+          python: 2.7
+          language: generic
+
+        - os: osx
+          python: 2.7
+          language: generic
+          env: TOXENV=py27
+
+        - os: osx
+          python: 3.6
+          language: generic
+          env: TOXENV=py36
+
+
+before_install:
+    - pwd
+
+    # if $TOXENV is empty
+    - if [ -z "$TOXENV" ]; then
+            curl -OL https://raw.githubusercontent.com/evandrocoan/UnitTesting/master/sbin/travis.sh;
+      fi
+
+    - if [ -z "$TOXENV" ] && [ "$TRAVIS_OS_NAME" == "osx" ]; then
+            brew update > /dev/null;
+            python --version;
+            python3 --version;
+            brew upgrade python;
+            python --version;
+            python3 --version;
+      fi
+
+
+install:
+    - if ! [ -z "$TOXENV" ] && [ "$TRAVIS_OS_NAME" == "linux" ]; then
+            pip install --disable-pip-version-check tox;
+            pip install --disable-pip-version-check debug_tools;
+            pip install --disable-pip-version-check -e .[full] --upgrade;
+            pip install --disable-pip-version-check diff-match-patch;
+            pip list;
+      fi
+
+    - if ! [ -z "$TOXENV" ] && [ "$TRAVIS_OS_NAME" == "osx" ]; then
+            brew update > /dev/null;
+            brew install python3;
+            sudo -H pip3 install --disable-pip-version-check virtualenv;
+            pip3 install --disable-pip-version-check tox;
+            pip3 install --disable-pip-version-check debug_tools;
+            pip3 install --disable-pip-version-check -e .[full] --upgrade;
+            pip3 install --disable-pip-version-check diff-match-patch;
+            pip3 list;
+      fi
+
+    # bootstrap the testing environment
+    # install Package Control and package dependencies
+    - if [ -z "$TOXENV" ]; then
+            sh travis.sh bootstrap;
+            sh travis.sh clone_git_package "https://github.com/evandroforks/portalockerfile" "portalockerfile";
+            sh travis.sh clone_git_package "https://github.com/evandroforks/diffmatchpatch" "diffmatchpatch";
+            sh travis.sh clone_git_package "https://github.com/evandroforks/concurrentloghandler" "concurrentloghandler";
+            sh travis.sh install_package_control;
+      fi
+
+
+script:
+    # run tests with test coverage report
+    - if [ -z "$TOXENV" ]; then
+            sh travis.sh run_tests; sh travis.sh show_full_sublime_text_console $?;
+      fi
+
+    - if ! [ -z "$TOXENV" ]; then
+            tox;
+      fi
+
+
+after_success:
+    - echo AFTER SUCCESS
+
+
+notifications:
+    email: false
+

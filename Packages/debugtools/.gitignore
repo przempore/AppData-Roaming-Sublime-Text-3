@@ -1,0 +1,8 @@
+
+.tox/
+dist/
+build/
+all/debug_tools.egg-info
+
+*.pyc
+/tests/*file_handler_manual_tests*.txt*
