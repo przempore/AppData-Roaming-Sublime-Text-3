@@ -1,3 +1,4 @@
 {
-	"ycmd_root_directory": "C:/tools/ycmd"
+	"ycmd_keep_logs": true,
+	"ycmd_root_directory": "C:\\tools\\YouCompleteMe"
 }

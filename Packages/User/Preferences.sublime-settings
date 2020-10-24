@@ -13,7 +13,7 @@
 		".vscode",
 		".vs"
 	],
-	"font_size": 10,
+	"font_size": 8,
 	"ignored_packages":
 	[
 		"JavaScript",
@@ -28,6 +28,7 @@
 	"material_theme_contrast_mode": true,
 	"material_theme_small_statusbar": true,
 	"material_theme_small_tab": true,
+	"material_theme_tabs_autowidth": true,
 	"material_theme_tabs_separator": true,
 	"neovintageous_build_version": 11100,
 	"theme": "Material-Theme.sublime-theme",
