@@ -13,10 +13,11 @@
 		".vscode",
 		".vs"
 	],
-	"font_size": 8,
+	"font_size": 9,
 	"ignored_packages":
 	[
 		"JavaScript",
+		"Rust",
 		"Six",
 		"Sublimerge 3",
 		"Vintage",
