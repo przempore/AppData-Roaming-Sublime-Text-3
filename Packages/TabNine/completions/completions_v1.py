@@ -16,7 +16,11 @@ AUTOCOMPLETE_CHAR_LIMIT = 100000
 PREFERENCES_PATH = "Preferences.sublime-settings"
 GLOBAL_HIGHLIGHT_COUNTER = 0
 
-sublime.load_settings(PREFERENCES_PATH).set("auto_complete", False)
+
+def plugin_loaded():
+    sublime.load_settings(PREFERENCES_PATH).set("auto_complete", False)
+    sublime.save_settings(PREFERENCES_PATH)
+
 
 GLOBAL_IGNORE_EVENTS = False
 
@@ -25,7 +29,7 @@ PACK_MANAGER = package_manager.PackageManager()
 
 class TabNineCommand(sublime_plugin.TextCommand):
     def run(*args, **kwargs):  # pylint: disable=W0613,E0211
-        print("TabNine commands are supposed to be intercepted by TabNineListener")
+        print("Tabnine commands are supposed to be intercepted by TabNineListener")
 
 
 class TabNineLeaderKeyCommand(TabNineCommand):
@@ -82,7 +86,7 @@ class TabNineSubstituteCommand(sublime_plugin.TextCommand):
             if observed_prefix != expected_prefix:
                 new_begin = self.view.word(sel).begin()
                 print(
-                    'TabNine expected prefix "{}" but found prefix "{}", falling back to substituting from word beginning: "{}"'.format(
+                    'Tabnine expected prefix "{}" but found prefix "{}", falling back to substituting from word beginning: "{}"'.format(
                         expected_prefix,
                         observed_prefix,
                         self.view.substr(sublime.Region(new_begin, sel.begin())),
@@ -548,5 +552,5 @@ class OpenconfigCommand(sublime_plugin.TextCommand):
 def plugin_unloaded():
     from package_control import events
 
-    if events.remove("TabNine"):
+    if events.remove("Tabnine"):
         uninstalling()

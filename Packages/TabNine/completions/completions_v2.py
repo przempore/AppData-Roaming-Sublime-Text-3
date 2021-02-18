@@ -23,6 +23,7 @@ from ..lib.view_helpers import (
     is_query_after_new_line,
     should_return_empty_list,
     active_view,
+    escape_tab_stop_sign,
 )
 
 from .commit_completion_handler import handle_completion
@@ -42,13 +43,13 @@ STOP_COMPLETION_COMMANDS = [
     "paste",
 ]
 
-STARS_PREFIX = "✨"
+ATTRIBUTION_ELEMENT = "⌬"
 
 
 class TabNineCommand(sublime_plugin.TextCommand):
     def run(*args, **kwargs):  # pylint: disable=W0613,E0211
         logger.info(
-            "TabNine commands are supposed to be intercepted by TabNineListener"
+            "Tabnine commands are supposed to be intercepted by TabNineListener"
         )
 
 
@@ -109,7 +110,11 @@ class TabNineListener(sublime_plugin.EventListener):
         in_query_after_new_line = is_query_after_new_line(view, current_location)
 
         is_selector_matched = view.match_selector(current_location, "source | text")
-        is_wrong_view = active_view().id() != view.id()
+
+        current_active_view = active_view()
+        is_wrong_view = current_active_view is None or (
+            current_active_view.id() != view.id()
+        )
 
         if is_wrong_view:
             return False
@@ -133,7 +138,7 @@ class TabNineListener(sublime_plugin.EventListener):
 
     def on_activated(self, view):
         self.on_any_event(view)
-        view.set_status("tabnine-status", "TabNine " + STARS_PREFIX)
+        view.set_status("tabnine-status", ATTRIBUTION_ELEMENT + " tabnine")
 
     def on_query_completions(self, view, prefix, locations):
         def _run_complete():
@@ -223,10 +228,10 @@ class TabNineListener(sublime_plugin.EventListener):
     def get_completion(self):
         return [
             [
-                "{}\t{} {}".format(
-                    r.get("new_prefix"), r.get("detail", "TabNine"), STARS_PREFIX
+                "{}\t{} {}".format(r.get("new_prefix"), ATTRIBUTION_ELEMENT, "tabnine"),
+                "{}$0{}".format(
+                    escape_tab_stop_sign(r.get("new_prefix")), r.get("new_suffix", "")
                 ),
-                "{}$0{}".format(r.get("new_prefix"), r.get("new_suffix", "")),
             ]
             for r in self._results
         ]
@@ -394,11 +399,13 @@ def _setup_config():
             },
         ],
     )
+    sublime.save_settings(PREFERENCES_PATH)
 
 
 def _revert_config():
     sublime.load_settings(PREFERENCES_PATH).erase("auto_complete_triggers")
     sublime.load_settings(PREFERENCES_PATH).erase("auto_complete")
+    sublime.save_settings(PREFERENCES_PATH)
 
 
 def _init_rules():
@@ -424,6 +431,6 @@ def _init_rules():
 def plugin_unloaded():
     from package_control import events
 
-    if events.remove("TabNine"):
+    if events.remove("Tabnine"):
         _revert_config()
         uninstalling()

@@ -1,1 +1,1 @@
-{"url": "https://codota.com", "platforms": ["*"], "version": "3.0.11", "dependencies": [], "description": "Sublime Text client for TabNine. https://packagecontrol.io/packages/TabNine", "sublime_text": "*"}
+{"url": "https://tabnine.com", "platforms": ["*"], "description": "Tabnine Autocomplete AI: JavaScript, Python, TypeScript, PHP, C/C++, HTML/CSS, Go, Java, Ruby, C#, Rust, SQL, Bash, Kotlin, Julia, Lua, OCaml, Perl, Haskell, React", "sublime_text": "*", "dependencies": [], "version": "3.1.0"}

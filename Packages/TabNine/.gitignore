@@ -1,8 +1,10 @@
 binaries/*
-!binaries/3.1.20
+!binaries/3.2.84
 
 **.DS_Store
 
 registration_key
 sig
 auth
+.idea/
+*.iml
