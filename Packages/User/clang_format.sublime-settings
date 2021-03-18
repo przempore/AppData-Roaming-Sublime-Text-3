@@ -1,5 +1,5 @@
 {
 	"binary": "clang-format.exe",
 	"format_on_save": true,
-	"style": "LLVM"
+	"style": "File"
 }

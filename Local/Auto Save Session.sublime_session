@@ -1,9 +1,12 @@
 {
 	"folder_history":
 	[
+		"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib",
+		"/C/Users/PrzemyslawPorebski/Projects/sentinel",
+		"/C/Users/przem/Projects/rust/InputBot",
+		"/C/Users/przem/Projects/rust/wmm",
 		"/C/Users/przem/AppData/Roaming/Sublime Text 3",
 		"/C/Users/przem/AppData/Roaming/Sublime Text 3/Packages/User",
-		"/C/Users/przem/Projects/rust/wmm",
 		"/C/Users/przem/OneDrive/Dokumente/dieta",
 		"/C/Users/przem/Projects/rust/detect_key_press",
 		"/C/tools/msys64/home/przem/.config/fish",
@@ -19,7 +22,6 @@
 		"/C/Users/przem/Projects/Mateusz/glfw/build",
 		"/C/Users/przem/Projects/Mateusz/modern_template",
 		"/C/Users/przem/Projects/Mateusz/coscoscos",
-		"/C/Users/PrzemyslawPorebski/Projects/sentinel",
 		"/C/Users/przem/Projects/Switcheroo",
 		"/C/Users/przem/Projects/car_crash",
 		"/C/Users/przem/.ssh",
@@ -102,11 +104,11 @@
 		"/C/Users/PrzemyslawPorebski/Projects/build-simple_widgee_app-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug"
 	],
 	"last_version": 3211,
-	"last_window_id": 432,
+	"last_window_id": 459,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 988.0,
+		"new_window_height": 1518.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -114,56 +116,516 @@
 				"selected_items":
 				[
 					[
-						"please",
-						"please_stop\t⌬ tabnine"
+						"is_su",
+						"is_success: \" << is_success;\t⌬ tabnine"
 					],
 					[
-						"up",
-						"upload_url"
+						"qDe",
+						"qDebug() << \"--- DEBUG --- PtuControl.cpp:\" << __LINE__ << \" | \";\t⌬ tabnine"
 					],
 					[
-						"uploa",
-						"upload-artifact"
+						"vali",
+						"validatePositionSequence\t⌬ tabnine"
 					],
 					[
-						"out",
-						"outputs"
+						"m",
+						"m_worker->getMaxSpeed()\t⌬ tabnine"
 					],
 					[
-						"runs",
-						"runs-on"
+						"start",
+						"startPositionSequence(position\t⌬ tabnine"
 					],
 					[
-						"no",
-						"nospace\t?"
+						"m_",
+						"m_worker->\t⌬ tabnine"
 					],
 					[
-						"las",
-						"lastRow"
+						"count",
+						"count();\t⌬ tabnine"
 					],
 					[
-						"QSqlRe",
-						"QSqlRelationalTableModel"
+						"PtuPoti",
+						"PtuPositionsContainer\t⌬ tabnine"
 					],
 					[
-						"to",
-						"toList"
+						"si",
+						"size();\t⌬ tabnine"
 					],
 					[
-						"CALIBRATION_HEATER_",
-						"CALIBRATION_HEATER_TURNED_OFF_SETUP"
+						"__LI",
+						"__LINE__ << \"\t⌬ tabnine"
 					],
 					[
-						"Alpha",
-						"AlphaConnectionWorker"
+						"Time",
+						"TimestampToxelCollator\t⌬ tabnine"
 					],
 					[
-						"AlphaC",
-						"AlphaConnectionConfigTests"
+						"nosp",
+						"nospace() <<\t⌬ tabnine"
 					],
 					[
-						"CMAKE_CURR",
-						"CMAKE_CURRENT_SOURCE_DIR"
+						"ptu",
+						"ptuError\t⌬ tabnine"
+					],
+					[
+						"getPtu",
+						"getPtuControl().\t⌬ tabnine"
+					],
+					[
+						"has",
+						"has_value();\t⌬ tabnine"
+					],
+					[
+						"ca",
+						"catch (const std::bad_optional_access &) {\t⌬ tabnine"
+					],
+					[
+						"m_azim",
+						"m_azimuthOffset\t⌬ tabnine"
+					],
+					[
+						"azimuthOffset",
+						"azimuthOffset =\t⌬ tabnine"
+					],
+					[
+						"re",
+						"relativePositions\t⌬ tabnine"
+					],
+					[
+						"PtuOri",
+						"PtuOriginPosition\t⌬ tabnine"
+					],
+					[
+						"PtuO",
+						"PtuOriginPosition\t⌬ tabnine"
+					],
+					[
+						"Ptu",
+						"PtuControl::PtuPositionRelative expectedPosition{\t⌬ tabnine"
+					],
+					[
+						"newIdl",
+						"newIdlePos;\t⌬ tabnine"
+					],
+					[
+						"set",
+						"setPtuIdlePosition\t⌬ tabnine"
+					],
+					[
+						"PtuPosition",
+						"PtuPositionRad\t⌬ tabnine"
+					],
+					[
+						"pub",
+						"public model::SpherePosition {};\t⌬ tabnine"
+					],
+					[
+						"publi",
+						"public\t⌬ tabnine"
+					],
+					[
+						"PtuRe",
+						"PtuPositionRelative\t⌬ tabnine"
+					],
+					[
+						"val",
+						"value());\t⌬ tabnine"
+					],
+					[
+						"abso",
+						"absolutePosition =\t⌬ tabnine"
+					],
+					[
+						"absolu",
+						"absolutePosition\t⌬ tabnine"
+					],
+					[
+						"bad_",
+						"bad_optional_acces&)\t⌬ tabnine"
+					],
+					[
+						"bad",
+						"bad_optional_access\t⌬ tabnine"
+					],
+					[
+						"value",
+						"values();\t⌬ tabnine"
+					],
+					[
+						"Sphere",
+						"SpherePosition\t⌬ tabnine"
+					],
+					[
+						"objectUnderTe",
+						"objectUnderTest->getPtuOriginPosition();\t⌬ tabnine"
+					],
+					[
+						"getPtuOri",
+						"getPtuOriginPosition\t⌬ tabnine"
+					],
+					[
+						"obje",
+						"objectUnderTest\t⌬ tabnine"
+					],
+					[
+						"PtuPoo",
+						"PtuPositionRad getPtuOrigin() const\t⌬ tabnine"
+					],
+					[
+						"ptuOri",
+						"ptuOriginIdlePosition);\t⌬ tabnine"
+					],
+					[
+						"new",
+						"newIdlePos);\t⌬ tabnine"
+					],
+					[
+						"ptuOrigin",
+						"ptuOriginIdlePosition\t⌬ tabnine"
+					],
+					[
+						"checkIf",
+						"checkIfOutsideOfLimits\t⌬ tabnine"
+					],
+					[
+						"m_azi",
+						"m_azimuthOffset\t⌬ tabnine"
+					],
+					[
+						"PtuPo",
+						"PtuPositionRad\t⌬ tabnine"
+					],
+					[
+						"moveTo",
+						"moveToPtuOrigin\t⌬ tabnine"
+					],
+					[
+						"current",
+						"currentPosition: \" << objectUnderTest->getCurrentPosition\t⌬ tabnine"
+					],
+					[
+						"full",
+						"fullCircleRadians\t⌬ tabnine"
+					],
+					[
+						"constexpr",
+						"constexpr auto expected\t⌬ tabnine"
+					],
+					[
+						"cons",
+						"constexpr\t⌬ tabnine"
+					],
+					[
+						"azi",
+						"azimuthOffset\t⌬ tabnine"
+					],
+					[
+						"positionwi",
+						"positionWithOffset\t⌬ tabnine"
+					],
+					[
+						"posi",
+						"positionWithoutOffset\t⌬ tabnine"
+					],
+					[
+						"azimuth",
+						"azimuthOffset =\t⌬ tabnine"
+					],
+					[
+						"azim",
+						"azimuth()\t⌬ tabnine"
+					],
+					[
+						"qD",
+						"qDebug() << \"PtuDriver: retry command because of\t⌬ tabnine"
+					],
+					[
+						"getCu",
+						"getCurrentPosition()\t⌬ tabnine"
+					],
+					[
+						"setAzi",
+						"setAzimuthOffset\t⌬ tabnine"
+					],
+					[
+						"EXPE",
+						"EXPECT_EQ(true\t⌬ tabnine"
+					],
+					[
+						"TEST_F",
+						"TEST_F(PtuControlInitialized\t⌬ tabnine"
+					],
+					[
+						"Insta",
+						"Installation.h\t⌬ tabnine"
+					],
+					[
+						"coordina",
+						"coordinates.\t⌬ tabnine"
+					],
+					[
+						"moveToIdl",
+						"moveToIdlePos\t⌬ tabnine"
+					],
+					[
+						"stat",
+						"stateMachine\t⌬ tabnine"
+					],
+					[
+						"off",
+						"offset is\t⌬ tabnine"
+					],
+					[
+						"qInfo",
+						"qInfo() <<\t⌬ tabnine"
+					],
+					[
+						"calibra",
+						"calibrationData\t⌬ tabnine"
+					],
+					[
+						"phase",
+						"phase.\t⌬ tabnine"
+					],
+					[
+						"lastQuer",
+						"lastQuery();\t⌬ tabnine"
+					],
+					[
+						"DEBUG",
+						"DEBUG ---\" << pos\t⌬ tabnine"
+					],
+					[
+						"qDebug",
+						"qDebug() << \"\t⌬ tabnine"
+					],
+					[
+						"Mock",
+						"CVMock.vin\t?"
+					],
+					[
+						"m_sta",
+						"m_stationId);\t⌬ tabnine"
+					],
+					[
+						"station",
+						"station_id\t⌬ tabnine"
+					],
+					[
+						"insta",
+						"installation\t⌬ tabnine"
+					],
+					[
+						"getHea",
+						"getHeading(\t⌬ tabnine"
+					],
+					[
+						"QGeo",
+						"QGeoCoordinate HeadingCalibration::\t⌬ tabnine"
+					],
+					[
+						"azimuthToTar",
+						"azimuthToTarget\t⌬ tabnine"
+					],
+					[
+						"azimuthToT",
+						"azimuthToTargetDegree\t⌬ tabnine"
+					],
+					[
+						"targe",
+						"targetCoordinates"
+					],
+					[
+						"azimuthToDegree",
+						"azimuthToDegrees =\t⌬ tabnine"
+					],
+					[
+						"heading_p",
+						"heading_plus);\t⌬ tabnine"
+					],
+					[
+						"heading_",
+						"heading_plus"
+					],
+					[
+						"calibrationL",
+						"calibrationLongitude: \" << coordinates.longitude\t⌬ tabnine"
+					],
+					[
+						"coor",
+						"coordinates.latitude()\t⌬ tabnine"
+					],
+					[
+						"calibrationLati",
+						"calibrationLatitude: \"\t⌬ tabnine"
+					],
+					[
+						"cameraSerialNo",
+						"cameraSerialNo: \" << m_cameraSerialNo\t⌬ tabnine"
+					],
+					[
+						"m_ptuSer",
+						"m_ptuSerialNo\t⌬ tabnine"
+					],
+					[
+						"nos",
+						"nospace() <\t⌬ tabnine"
+					],
+					[
+						"heading",
+						"heading \" << heading\t⌬ tabnine"
+					],
+					[
+						"HeadingCali",
+						"HeadingCalibration\tident"
+					],
+					[
+						"stationC",
+						"stationCoordinates.\t⌬ tabnine"
+					],
+					[
+						"QG",
+						"QGeoCoordinate\t⌬ tabnine"
+					],
+					[
+						"QVariant",
+						"QVariant::fromValue(\t⌬ tabnine"
+					],
+					[
+						"inc",
+						"include <boost/\t⌬ tabnine"
+					],
+					[
+						"time",
+						"timestamp\t⌬ tabnine"
+					],
+					[
+						"coo",
+						"coordinates.longitude);\t⌬ tabnine"
+					],
+					[
+						"quer",
+						"query.bindValue(\t⌬ tabnine"
+					],
+					[
+						"lati",
+						"latitude);\t⌬ tabnine"
+					],
+					[
+						"head",
+						"heading\tident"
+					],
+					[
+						"m_alpha",
+						"m_alphaSerialNo"
+					],
+					[
+						"m_ptu",
+						"m_ptuSerialNo\tident"
+					],
+					[
+						"incl",
+						"include\t⌬ tabnine"
+					],
+					[
+						"Hea",
+						"HeadingCalibration::\t⌬ tabnine"
+					],
+					[
+						"calibration_long",
+						"calibration_longitude)\t⌬ tabnine"
+					],
+					[
+						"cal",
+						"calibration_latitude"
+					],
+					[
+						"camera_seria",
+						"camera_serial_no\t⌬ tabnine"
+					],
+					[
+						"alpha_ser",
+						"alpha_serial_no\t⌬ tabnine"
+					],
+					[
+						"NONNUL",
+						"NONNULL values\t⌬ tabnine"
+					],
+					[
+						"headin",
+						"heading values\t⌬ tabnine"
+					],
+					[
+						"__",
+						"__LINE__\t⌬ tabnine"
+					],
+					[
+						"Heading",
+						"HeadingCalibration\t⌬ tabnine"
+					],
+					[
+						"bin",
+						"bindValue(1,heading);\t⌬ tabnine"
+					],
+					[
+						"query",
+						"query.bindValue(0,\t⌬ tabnine"
+					],
+					[
+						"if",
+						"if\tident"
+					],
+					[
+						"station_",
+						"station_id=?\"))\t⌬ tabnine"
+					],
+					[
+						"VA",
+						"VALUES (?)\t⌬ tabnine"
+					],
+					[
+						"INSERT",
+						"INSERT INTO station\t⌬ tabnine"
+					],
+					[
+						"hea",
+						"heading"
+					],
+					[
+						"save",
+						"save(heading);\t⌬ tabnine"
+					],
+					[
+						"longi",
+						"longitude\t⌬ tabnine"
+					],
+					[
+						"ini",
+						"initAndValidate\tident"
+					],
+					[
+						"m_data",
+						"m_databaseConnection\tident"
+					],
+					[
+						"m_database",
+						"m_databaseConnection;\t⌬ tabnine"
+					],
+					[
+						"Data",
+						"DatabaseConnection\tident"
+					],
+					[
+						"Head",
+						"HeadingCalibration::HeadingCalibration(\t⌬ tabnine"
+					],
+					[
+						"CONST",
+						"CONSTANT\t⌬ tabnine"
+					],
+					[
+						"getStation",
+						"getStationCoordinates\t⌬ tabnine"
 					]
 				]
 			},
@@ -172,25 +634,17 @@
 				[
 					[
 						[
-							"Packages/C++/C++ Single File.sublime-build",
+							"Packages/Python/Python.sublime-build",
 							""
 						],
 						[
-							"Packages/C++/C++ Single File.sublime-build",
-							"Run"
-						],
-						[
-							"Packages/C++11/C++11.sublime-build",
-							""
-						],
-						[
-							"Packages/C++11/C++11.sublime-build",
-							"Run"
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
 						]
 					],
 					[
-						"Packages/C++11/C++11.sublime-build",
-						"Run"
+						"Packages/Python/Python.sublime-build",
+						""
 					]
 				]
 			],
@@ -202,103 +656,135 @@
 				"selected_items":
 				[
 					[
-						"install",
+						"install pa",
 						"Package Control: Install Package"
 					],
 					[
-						"open repos",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"packat upda",
-						"Package Control: Upgrade Package"
-					],
-					[
-						"clang",
-						"Clang Format: Select Style"
-					],
-					[
-						"previe",
-						"Markdown Preview: Preview in Browser"
-					],
-					[
-						"format",
-						"Clang Format: Select Style"
-					],
-					[
-						"set syn c++",
-						"Set Syntax: C++"
-					],
-					[
-						"new ",
-						"ANF: New File"
-					],
-					[
-						"install pac",
-						"Package Control: Install Package"
-					],
-					[
-						"merge",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"remove",
-						"Remove Selected Whitespace"
-					],
-					[
-						"install ",
-						"Package Control: Install Package"
-					],
-					[
-						"rename",
-						"Rename File"
-					],
-					[
-						"copy",
+						"copy file line",
 						"Copy Filepath With Line Numbers"
 					],
 					[
-						"blame",
-						"Sublime Merge: Blame File"
+						"copyt file line ",
+						"Copy Filepath With Line Numbers"
+					],
+					[
+						"copy filenam line",
+						"Copy Filepath With Line Numbers"
 					],
 					[
 						"open repo",
 						"Sublime Merge: Open Repository"
 					],
 					[
+						"subl book",
+						"SublimeBookmarks: Toggle Current Line"
+					],
+					[
+						"copy line",
+						"Copy Filepath With Line Numbers"
+					],
+					[
+						"copy file re",
+						"File: Copy Path Relative To Last Selected View "
+					],
+					[
 						"open",
 						"Sublime Merge: Open Repository"
 					],
 					[
-						"sublime mer",
+						"repo",
 						"Sublime Merge: Open Repository"
 					],
 					[
-						"json",
-						"Pretty JSON: Format (Pretty Print) JSON"
+						"ctags",
+						"CTags: Rebuild Tags"
 					],
 					[
-						"set syntax json",
-						"Set Syntax: JSON Key-Value"
+						"origa",
+						"Origami: Create Pane Below"
 					],
 					[
-						"isntall pac",
-						"Package Control: Install Package"
+						"format",
+						"Clang Format: Select Style"
 					],
 					[
-						"install pack",
-						"Package Control: Install Package"
+						"ctage ",
+						"CTags: Rebuild Tags"
 					],
 					[
-						"list",
+						"origami",
+						"Origami: Create Pane Below"
+					],
+					[
+						"clang",
+						"Clang Format: Select Style"
+					],
+					[
+						"upgrade",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"rebuild",
+						"CTags: Rebuild Tags"
+					],
+					[
+						"copy path",
+						"File: Copy Relative Path To Project"
+					],
+					[
+						"copy pat",
+						"File: Copy Path"
+					],
+					[
+						"conver",
+						"Indentation: Convert to Spaces"
+					],
+					[
+						"tabnine",
+						"⌬ tabnine: Open Configuration"
+					],
+					[
+						"package",
 						"Package Control: List Packages"
 					],
 					[
-						"you",
-						"YouCompleteMe: Edit settings"
+						"packa",
+						"Package Control: Remove Package"
 					],
 					[
-						"install pa",
+						"tabni",
+						"⌬ tabnine: Enable Current View"
+					],
+					[
+						"tabnin",
+						"⌬ tabnine: Disable Current View"
+					],
+					[
+						"copy fi",
+						"File: Copy Name"
+					],
+					[
+						"setting",
+						"Preferences: Settings"
+					],
+					[
+						"remove pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"actual",
+						"ActualVim: Disable (Global)"
+					],
+					[
+						"go to file",
+						"Git: Open Modified Files"
+					],
+					[
+						"actualvim",
+						"ActualVim: Disable (File)"
+					],
+					[
+						"install",
 						"Package Control: Install Package"
 					],
 					[
@@ -306,164 +792,180 @@
 						"Material Theme: Configuration"
 					],
 					[
-						"toggle",
-						"NeoVintageous: Toggle CTRL keys"
-					],
-					[
-						"syntac c++",
-						"Set Syntax: C++11"
-					],
-					[
-						"packages",
-						"Package Control: List Packages"
-					],
-					[
-						"set book",
-						"SublimeBookmarks: Toggle Current Line"
-					],
-					[
-						"repos",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"open rep",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"rena",
+						"rename",
 						"Rename File"
 					],
 					[
-						"TabNine",
-						"TabNine: Open Configuration"
-					],
-					[
-						"tabnin",
-						"TabNine: Open Configuration"
-					],
-					[
-						"ocnifg",
-						"TabNine: Open Configuration"
-					],
-					[
-						"setting",
-						"Preferences: Settings"
-					],
-					[
-						"forma",
-						"Clang Format: Format Selection"
-					],
-					[
-						"remove paca",
-						"Package Control: Remove Package"
-					],
-					[
-						"install p",
+						"install ",
 						"Package Control: Install Package"
 					],
 					[
-						"confi",
-						"Material Theme: Configuration"
+						"copy filenam",
+						"File: Copy Name"
 					],
 					[
-						"mat",
-						"Material Theme: Activate theme"
+						"convert",
+						"Indentation: Convert to Spaces"
 					],
 					[
-						"rmeov",
-						"Package Control: Remove Package"
+						"copy",
+						"File: Copy Name"
 					],
 					[
-						"intal",
-						"Package Control: Install Package"
+						"copy file",
+						"File: Copy Name"
 					],
 					[
-						"tab",
-						"TabNine: Open Configuration"
+						"copy ",
+						"File: Copy Name"
 					],
 					[
-						"list packa",
-						"Package Control: List Packages"
+						"synta js",
+						"Set Syntax: JavaScript (Rails)"
 					],
 					[
-						"neovin",
-						"Toggle NeoVintageous"
+						"synta javas",
+						"Set Syntax: JavaScript (Rails)"
 					],
 					[
-						"renam",
+						"ctrl",
+						"NeoVintageous: Toggle CTRL keys"
+					],
+					[
+						"rename ",
 						"Rename File"
-					],
-					[
-						"copy r",
-						"Copy Reference"
-					],
-					[
-						"remo",
-						"Package Control: Remove Package"
-					],
-					[
-						"synta",
-						"Set Syntax: C++11"
-					],
-					[
-						"renamee",
-						"Rename File"
-					],
-					[
-						"remove packa",
-						"Package Control: Remove Package"
-					],
-					[
-						"neo",
-						"NeoVintageous: Changelog"
-					],
-					[
-						"toggl",
-						"NeoVintageous: Toggle CTRL keys"
-					],
-					[
-						"togg",
-						"NeoVintageous: Toggle CTRL keys"
-					],
-					[
-						"to",
-						"NeoVintageous: Toggle CTRL keys"
 					],
 					[
 						"open ",
 						"Sublime Merge: Open Repository"
 					],
 					[
-						"synta c",
-						"Set Syntax: C"
+						"sublimebookmars li",
+						"SublimeBookmarks: Show All Bookmarks "
 					],
 					[
-						"tog",
-						"NeoVintageous: Toggle CTRL keys"
+						"update packa",
+						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
-						"packa",
-						"Package Control: Remove Package"
+						"subl book all",
+						"SublimeBookmarks: Show All Bookmarks "
 					],
 					[
-						"synta power",
-						"Set Syntax: PowerShell"
+						"book lall",
+						"SublimeBookmarks: Show All Bookmarks "
 					],
 					[
-						"mer open",
+						"book list",
+						"SublimeBookmarks: Show Bookmarks Only In Current Project "
+					],
+					[
+						"tags",
+						"CTags: Show Symbols (all)"
+					],
+					[
+						"blame",
+						"Sublime Merge: Blame File"
+					],
+					[
+						"sublime show",
+						"SublimeBookmarks: Show All Bookmarks "
+					],
+					[
+						"subl book set",
+						"SublimeBookmarks: Toggle Current Line"
+					],
+					[
+						"toggle book",
+						"SublimeBookmarks: Toggle Current Line"
+					],
+					[
+						"package up",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"packa upda",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"copy filename",
+						"File: Copy Name"
+					],
+					[
+						"reposi",
 						"Sublime Merge: Open Repository"
 					],
 					[
-						"list ",
+						"subl book sho",
+						"SublimeBookmarks: Show Bookmarks Only In Current File "
+					],
+					[
+						"subl book lis",
+						"SublimeBookmarks: Show All Bookmarks "
+					],
+					[
+						"remove boom",
+						"SublimeBookmarks: Remove A Bookmark"
+					],
+					[
+						"book",
+						"SublimeBookmarks: Goto Bookmark"
+					],
+					[
+						"isntall",
+						"Package Control: Install Package"
+					],
+					[
+						"merge",
+						"Sublime Merge: Open Repository"
+					],
+					[
+						"preview",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"merge open",
+						"Sublime Merge: Open Repository"
+					],
+					[
+						"open mer",
+						"Sublime Merge: Open Repository"
+					],
+					[
+						"copy filepat",
+						"File: Copy Path"
+					],
+					[
+						"copyt path",
+						"File: Copy Path"
+					],
+					[
+						"sublime mer",
+						"Sublime Merge: Open Repository"
+					],
+					[
+						"neovi",
+						"Toggle NeoVintageous"
+					],
+					[
+						"package list",
 						"Package Control: List Packages"
 					],
 					[
-						"isntall ",
-						"Package Control: Advanced Install Package"
+						"install pack",
+						"Package Control: Install Package"
 					],
 					[
-						"isntall pa",
-						"Package Control: Install Package"
+						"material theme li",
+						"Material Theme: Configuration"
+					],
+					[
+						"config",
+						"Material Theme: Configuration"
+					],
+					[
+						"toggle",
+						"NeoVintageous: Toggle CTRL keys"
 					],
 					[
 						"blame file",
@@ -478,6 +980,10 @@
 						"Set Syntax: C++"
 					],
 					[
+						"install pac",
+						"Package Control: Install Package"
+					],
+					[
 						"toggle ",
 						"NeoVintageous: Toggle CTRL keys"
 					],
@@ -490,12 +996,20 @@
 						"Package Control: Install Package"
 					],
 					[
+						"remove packa",
+						"Package Control: Remove Package"
+					],
+					[
 						"isntall pack",
 						"Package Control: Install Package"
 					],
 					[
 						"rmeove packa",
 						"Package Control: Remove Package"
+					],
+					[
+						"renam",
+						"Rename File"
 					],
 					[
 						"ren",
@@ -544,22 +1058,15 @@
 					[
 						"inst",
 						"Package Control: Install Package"
-					],
-					[
-						"isntall",
-						"Install Package Control"
 					]
 				],
 				"width": 0.0
 			},
 			"console":
 			{
-				"height": 457.0,
+				"height": 432.0,
 				"history":
 				[
-					"TabNine::version",
-					"TabNine:version",
-					"tabinene:version",
 					"import os; [(os.path.dirname(file)[len('Packages/'):], sublime.decode_value(sublime.load_resource(file))['url']) for file in sublime.find_resources('package-metadata.json')]"
 				]
 			},
@@ -574,144 +1081,186 @@
 			},
 			"file_history":
 			[
-				"/C/tools/msys64/home/przem/.config/fish/config.fish",
-				"/C/Users/przem/.rustup/toolchains/nightly-x86_64-pc-windows-msvc/lib/rustlib/src/rust/library/std/src/thread/mod.rs",
-				"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów_do_środy.txt",
-				"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów_od_środy.txt",
-				"/C/Users/przem/Projects/rust/wmm/Cargo.lock",
-				"/C/Users/przem/Projects/rust/wmm/Cargo.toml",
-				"/C/Users/przem/Projects/rust/wmm/bindings/build.rs",
-				"/C/Users/przem/Projects/rust/wmm/target/debug/build/bindings-b129f50866817650/out/windows.rs",
-				"/C/Users/przem/Projects/rust/rwm_windows/src/main.rs",
-				"/C/Users/przem/Projects/rust/rwm_windows/Cargo.toml",
-				"/C/Users/przem/Projects/rust/rwm_windows/src/build.rs",
-				"/C/Users/przem/AppData/Roaming/Mozilla/Firefox/Profiles/sueea553.default-release/chrome/userChrome.css",
-				"/C/Users/przem/Google Drive/documents/Firefox/OneTab.exported",
-				"/C/Users/przem/Projects/rwm/cpp/build/qml/main.qml",
-				"/C/Users/przem/Projects/rwm/src/main.rs",
-				"/C/Users/przem/Projects/rwm/cpp/main.cpp",
-				"/C/ProgramData/chocolatey/lib/gstreamer-devel/gstreamer-devel.nuspec",
-				"/C/ProgramData/chocolatey/logs/chocolatey.log",
-				"/C/Users/przem/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.clang-format",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.github/workflows/continuous_integration.yml",
-				"/C/Users/PrzemyslawPorebski/Downloads/Program.txt",
-				"/C/Users/PrzemyslawPorebski/Downloads/Rozmowa.cmd",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/Sentinel.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient-internal.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/TimestampToxelCollator.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/TimestampToxelCollator.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl.h",
 				"/C/Users/PrzemyslawPorebski/AppData/Local/Grandperspective/Sentinel/sentinel.settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaConnectionTests.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/gtags.files",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnection.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnection.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaStatemachine.scxml",
-				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/windows/build_gtags.cmd",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/vcpkg.txt",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/CTags/Default.sublime-keymap",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/Sentinel.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/main.qml",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaHttpDriver.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/Installation.qml",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/SidebarDirectControl.qml",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/PtuPositionsContainer.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/modules/PtuControlTest.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/PtuPositionsContainer.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ImageProvider.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ScanAreaProxy.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ScanAreaProxy.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanArea.cpp",
+				"/C/ProgramData/chocolatey/logs/chocolatey.log",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GigECamera.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnection.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/main.qml",
+				"/C/Users/przem/Projects/Switcheroo/Core/AppWindow.cs",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/SidebarScanArea.qml",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/AqTimestamper.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaCalibrationData.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/SpherePosition.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/CMakeLists.txt",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl-internal.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/Sentinel.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/Sentinel.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.github/workflows/continuous_integration.yml",
+				"/C/Users/PrzemyslawPorebski/Projects/builds/sentinel/Sources_autogen/EWIEGA46WW/moc_Sentinel.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/main.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/NetworkAccessManager.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/modules/PtuControlWorkerMock.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaConnectionTests.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/Installation.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/Installation.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuDriver.h",
+				"/C/Users/PrzemyslawPorebski/.config/fish/config.fish",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/modules/Installationtest.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/PtuControl.qml",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/HeadingCalibration.qml",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/HeadingCalibration.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/HeadingCalibration.cpp",
+				"/C/Users/PrzemyslawPorebski/OpenVPN/log/przemyslaw__ssl_vpn_config.log",
+				"/C/Users/PrzemyslawPorebski/.pgAdmin4.1057243102.log",
 				"/C/Users/PrzemyslawPorebski/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/DatabaseConnection.cpp",
+				"//wsl$/Ubuntu-20.04/home/przemo/Projects/scanfeld-configuration/roles/cabinetPC/tasks/main.yml",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Scan.cpp",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Toxel.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/CMakeLists.txt",
-				"//wsl$/Ubuntu-20.04/home/przemo/Projects/26158053.1",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.gitignore",
-				"/C/Users/PrzemyslawPorebski/Projects/hello_github_action/.github/workflows/cmake.yml",
-				"/C/Users/PrzemyslawPorebski/Projects/HelloWorld/.github/workflows/build_cmake.yml",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Merge/Packages/User/Default (Windows).sublime-keymap",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanArea.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanArea.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Scan.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/MsTimestamp.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/MsTimestamp.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ScanProxy.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/CompoundRefFactory.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/CompoundRefFactory.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/AngleConversions.js",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanAreaContainer.h",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanAreaContainer.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/DatabaseConnection.h",
-				"/C/Users/PrzemyslawPorebski/Projects/builds/install/release/opusRsTimesFile.log",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/User/clang_format.sublime-settings",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/Clang Format/clang_format.sublime-settings",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/Clang Format/Default (Windows).sublime-keymap",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/CameraControl.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/CameraControl.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/builds/install/release/opusRsTimesFile",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl-internal.h",
-				"//wsl$/kali-linux/home/przemo/.vimrc",
-				"//wsl$/Ubuntu-20.04/home/przemo/.config/nvim/init.vim",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/modules/PtuControlTest.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuDriver.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/CMakeLists.txt.user",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/sentinel-fluent-bit-dev/Readme.md",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Spectrum.cpp",
-				"/C/Users/PrzemyslawPorebski/PycharmProjects/pythonProject/main.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/TimestampToxelCollator.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/AqTimestamper.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/AqTimestamper.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Spectrum.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/model/PtuPositionsContainerTest.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/PtuPositionsContainer.cpp",
-				"/C/Users/PrzemyslawPorebski/Documents/n53sv_Przemek.rdp",
-				"/C/Users/PrzemyslawPorebski/Documents/PowerShell/Microsoft.PowerShell_profile.ps1",
-				"/C/Users/PrzemyslawPorebski/_vimrc",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/PtuPositionsContainer.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/PtuControl.qml",
-				"/C/Users/PrzemyslawPorebski/Projects/mlcourse.ai/run_docker_jupyter_windows.cmd",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/jsonstruct/Timestamp.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ScanProxy.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/DatabaseConnection.cpp",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Installed Packages/RustAutoComplete.sublime-package",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/ExposureControl.qml",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ScanProxy.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanBackground.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanBackground.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/DatabaseConnection.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnection.h",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Toxel.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Scan.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/MsTimestamp.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/MsTimestamp.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/SidebarDirectControl.qml",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/Sentinel_AlphaConnectino_coordination.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/helpers/TimeConversion.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/NordVPN_Polish_servers.txt",
-				"/C/Users/PrzemyslawPorebski/Stuff/LassPass.csv",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/SentinelTest.cpp",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/Grandperspective/Sentinel/subl",
-				"/C/Users/PrzemyslawPorebski/Projects/opus-rs-testclient/Unit1.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/opus-rs-alpha/OpagIFM.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/ProjectionTest.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaCalibrationData.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaCalibrationData.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/windows/choco_local.list",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GeDetekt.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/vcpkg/buildtrees/opencv4/src/4.1.1-fb9e10326a/modules/core/src/matrix.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.gitbugtraq",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/sentinel.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr27.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr19.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr22.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr13.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_nr2.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_INTERFEROGRAM_nr18.log",
-				"/C/Users/PrzemyslawPorebski/Projects/builds/sentinel-Qt_5_14_2_msvc2017_64-Debug/compile_commands.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/commonTest/mocks/AlphaConnectionMock.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GeDetekt.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AbstractAlphaConnection.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/SentinelStateMachine.scxml",
-				"/C/Users/PrzemyslawPorebski/Documents/firefox_oneTab_tabs.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/ComClient_test.cpp",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/integrationTests/sentinel.settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/windows/NordVPN_reset_commands.log",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComponentState.h"
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/Scan_DatabaseTest.cpp",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/TabNine/tabnine_config.json",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/ScanArea_DatabaseTest.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/databaseConnection/scanfeld-db/sentineldb/db_helpers.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/SettingsSection.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.tags",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.tags_sorted_by_file",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/GPATH",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/GRTAGS",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/GTAGS",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/compile_commands.json",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/gtags.files",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/User/ActualVim.sublime-settings",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/sentinel.includes",
+				"/C/Users/PrzemyslawPorebski/AppData/Local/nvim/init.vim",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/CameraControl.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/CompoundResult.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/DefineScanAreaMouseArea.qml",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/User/Results.sublime-settings",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/User/Find",
+				"/C/Users/PrzemyslawPorebski/Documents/ansible_knowledge_sharing.txt",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/ScanAreaRectTextField.qml",
+				"/C/Users/PrzemyslawPorebski/Projects/builds/sentinel/CreateSentinelDBScript.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanArea.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/SphereRect.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/ScanRectCoordinates.qml",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/databaseConnection/scanfeld-db/refresh_sentineldb_for_test.py",
+				"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów_od_środy.txt",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ImageProvider.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/ScanRectangleHelper.js",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/ScanRectangle.qml",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/Projection.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuDriver.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/Projection.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.clangd/index/spatial_query.hpp.D3186229F9B7B671.idx",
+				"/C/Users/PrzemyslawPorebski/Documents/PowerShell/Microsoft.PowerShell_profile.ps1",
+				"/C/Users/PrzemyslawPorebski/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1",
+				"/C/tools/Cmder/config/user_profile.cmd",
+				"/C/Users/PrzemyslawPorebski/Documents/RDP/cabinetPC-3.rdp",
+				"/C/Users/PrzemyslawPorebski/Documents/RDP/cabinetPC-1.rdp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/vcpkg/ports/jsoncons/CONTROL",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/vcpkg/installed/x64-windows/share/gtest/GTestConfig.cmake",
+				"/C/Program Files/STEMMER IMAGING/Common Vision Blox/cmake/FindCVB.cmake",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/vcpkg/buildtrees/grpc/src/v1.23.1-e3bc36af44/src/ruby/lib/grpc/core/time_consts.rb",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/vcpkg/scripts/buildsystems/vcpkg.cmake",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComponentState.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient-internal.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient.h",
+				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/.run/All profiler Unittests.run.xml",
+				"//wsl$/Ubuntu-20.04/home/przemo/Projects/scanfeld-configuration/setup_testenv.yml",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/databaseConnection/TestDatabaseConnection.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/alarmgeneration/alarmcreator.py",
+				"//wsl$/Ubuntu-20.04/home/przemo/Projects/testserver-configuration/inventory_testenv.yml",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/databaseConnection/TestDatabaseConnection.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/databaseConnection/CreateSentinelDBScript.h.in",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaHttpDriver.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/builds/sentinel/logFile",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/vcpkg.txt",
+				"/C/Users/PrzemyslawPorebski/Projects/tmp/scanner_temp.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/Toxel_DatabaseTest.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/CameraControl.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComponentState.h",
+				"/C/Users/PrzemyslawPorebski/Documents/SN-326/sentinel_8-11.01_weekend_test___only_debug.log"
 			],
 			"find":
 			{
-				"height": 24.0
+				"height": 48.0
 			},
 			"find_in_files":
 			{
-				"height": 157.0,
+				"height": 136.0,
 				"where_history":
 				[
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.cpp, *.h, *.qml, *.scxml, -*Test.cpp",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.qml",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.cpp, *.h, *.qml, *.scxml, -*Test.cpp",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.cpp, *.h, *.qml, *.scxml, *Test.cpp",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.cpp, *.h, *.qml, *.scxml",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.cpp, *.h, *.qml, *.scxml, -*Test.cpp",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.cpp, *.h, *.qml, -*Test.cpp",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel\\qmlExtracted, *.qml",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel\\qmlExtracted",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.cpp, *.h, *.qml, -*Test.cpp",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.qml",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.cpp, *.h, *.qml, -*Test.cpp",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.cpp, *.h, *.qml",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.cpp, *.h, *.qml, -*Test.cpp",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.cpp, *.h, *.qml",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel,*.qml",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.cpp, *.h, *.qml",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel\\modules",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.cpp, *.h, *.qml",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.cpp, *.h",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.qml",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel,*.qml",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.cpp, *.h, *.qml",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.cpp, *.h",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel,",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.qml",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, +*.qml",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel\\qmlExtracted",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, -C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel\\vcpkg",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel\\vcpkg\\installed\\x64-windows\\share\\gtest",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel\\",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel\\,*.h, *.cpp",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel\\,*.h, *.cpp, -*Test*.cpp",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel\\,*.h, *.cpp",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel\\,*.h, *.cpp, -*Test*.cpp",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel\\,*.h, *.cpp",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel\\",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel\\modules\\DatabaseConnection.h",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel\\modules\\DatabaseConnection.cpp",
 					""
 				]
 			},
@@ -720,8 +1269,134 @@
 				"case_sensitive": true,
 				"find_history":
 				[
-					"bindings",
-					"\n    "
+					"positionAtTimestamp",
+					"onPositionAtTimestamp",
+					"positionAtTimestamp",
+					"addPtuPositionToModel",
+					"addPtuPosition",
+					"positionAtTimestamp",
+					"addPtuPositionToModel",
+					"addPtuPosition",
+					"startPositionSequence",
+					"moveToPosition",
+					"addPtuPositionToModel",
+					"addPtuPosition",
+					"rawToxelWithTimestamp",
+					"nextToxelWithTimestamp",
+					"addPtuPositionToModel",
+					"addPtuPosition",
+					"getInterpolatedPosition",
+					"positionAtTimestamp",
+					"onPositionAtTimestamp",
+					"-- DEBUG --",
+					"-- DEBUG ---",
+					"moveToPosition",
+					"onPositionAtTimestamp",
+					"positionAtTimestamp",
+					"addPtuPositionToModel",
+					"addPtuPosition",
+					"insert",
+					"addPtuPositionToModel",
+					"addPtuPosition",
+					"insert",
+					"ptu",
+					"addTimestamp",
+					"addToxel",
+					"addTimestamp",
+					"nextToxelWithTimestamp",
+					"rawToxelWithTimestamp",
+					"checkIfIsCalibratedOrReportError",
+					"ptuError",
+					"resetBackgroundScan",
+					"ptuError",
+					"startScan",
+					"getCurrentPosition",
+					"isOutsideOfLimits",
+					"positionAtTimestamp",
+					"onPositionAtTimestamp",
+					"positionAtTimestamp",
+					"ptu",
+					"startPositionSequence",
+					"getPtuControl",
+					"handleFileDownloading",
+					"fileDownloadFinished",
+					"addToxel",
+					"nextToxelWithTimestamp",
+					"rawToxelWithTimestamp",
+					"fileDownloadFinished",
+					"addToxel",
+					"nextTimestamp",
+					"addTimestamp",
+					"nextToxelWithTimestamp",
+					"rawToxelWithTimestamp",
+					"moveToPosition",
+					"PtuPosition",
+					"nextTimestamp",
+					"addTimestamp",
+					"processQueues",
+					"nextToxelWithTimestamp",
+					"rawToxelWithTimestamp",
+					"comclient",
+					"DEBUG --- PtuControl.cpp",
+					"DEBUG",
+					"PtuOriginPosition",
+					"setPtuIdlePosition",
+					"getCurrentPosition",
+					"getTrueNorthPtuIdlePosition",
+					"getPtuIdlePosition",
+					"getTrueNorthPtuIdlePosition",
+					"PtuPositionRad",
+					"getCurrentTrueNorthPosition",
+					"PtuPositionRad",
+					"PtuOriginRad",
+					"PtuPositionRad",
+					"PtuOriginRad",
+					"PtuOriginPosition",
+					"PtuPositionRad",
+					"PtuOriginPosition",
+					"PtuPositionRad",
+					"shouldCompleteHighTemperatureCalibrationMeasurement",
+					"toRelativeCoord",
+					"toAbsolutCoord",
+					"PtuPositionRelative",
+					"PtuPositionAbsolute",
+					"getCurrentPositionAbsolute",
+					"getPtuIdlePositionAbsolute",
+					"getPtuIdlePosition",
+					"setPtuIdlePosition",
+					"getPtuIdlePosition",
+					"getCurrentPosition",
+					"moveToPosition",
+					"PtuPosition",
+					"getCurrentPosition",
+					"relative",
+					"setAzimuthOffset",
+					"readStationAzimuthOffsetFromInstallation",
+					"toRelativeCoord",
+					"toTrueNorthCoord",
+					"objectUnderTest",
+					"getPtuOriginPostion",
+					"MoveToFirstPos",
+					"setPtuIdlePositionRelative",
+					"moveToPTUOrigin",
+					"isOutsideOfPtuCoordinatesLimits",
+					"onPtuError",
+					"setPtuIdlePosition",
+					"cancelPositionSequence",
+					"isOutsideOfLimits",
+					"moveToPosition",
+					"enabled: stateMachine.Ready",
+					"getOtherSideAngleIfNotInPtuRange",
+					"onPtuError",
+					"setPtuIdlePosition",
+					"setPtuIdlePositionRelative",
+					"right",
+					"Installation",
+					"0.0523599",
+					"positionAtTimestamp",
+					"PtuControlError",
+					"setAzimuthOffset",
+					"ptu.currentPosition.x"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -729,6 +1404,26 @@
 				"regex": false,
 				"replace_history":
 				[
+					"checkIfCalibratedOrReportError",
+					"PtuOriginPosition",
+					"toPtuOriginCoord",
+					"toTrueNorthCoord",
+					"PtuOriginPosition",
+					"PtuTrueNorthPosition",
+					"getCurrentTrueNorthPosition",
+					"getTrueNorthPtuIdlePosition",
+					"getPtuOriginPosition",
+					"moveToPtuOrigin",
+					"getOppositeSideAngleIfNotInPtuRange",
+					"nospace",
+					"getScannerTemperature(",
+					"modules::TestDatabaseConnection::runRefreshTestDatabase();",
+					"m_testDatabaseConnection.runRefreshTestDatabase();",
+					"database",
+					"QSqlDatabase &dbConnection",
+					"database",
+					"modules::TestDatabaseConnection::instance().runRefreshTestDatabase();",
+					"modules::TestDatabaseConnection::instance().runRefreshTestDatabase()"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -742,20 +1437,16 @@
 			},
 			"input":
 			{
-				"height": 55.0
+				"height": 49.0
 			},
 			"menu_visible": true,
-			"output.ECC":
-			{
-				"height": 334.0
-			},
 			"output.exec":
 			{
-				"height": 98.0
+				"height": 189.0
 			},
 			"output.find_results":
 			{
-				"height": 0.0
+				"height": 211.0
 			},
 			"output.hex_viewer_inspector":
 			{
@@ -768,7 +1459,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 92.0
+				"height": 44.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -778,188 +1469,360 @@
 				"selected_items":
 				[
 					[
-						"",
-						".clang-format"
-					],
-					[
-						"comclien",
-						"modules\\ComClient.h"
-					],
-					[
-						"gitign",
-						".gitignore"
-					],
-					[
-						"client",
-						"modules\\ComClient.cpp"
-					],
-					[
-						"cam",
+						"camera",
 						"modules\\GigECamera.cpp"
 					],
 					[
-						"readm",
-						"sentinel-fluent-bit-dev\\Readme.md"
+						"main.qml",
+						"qmlExtracted\\main.qml"
 					],
 					[
-						"cmake",
-						"CMakeLists.txt"
+						"qml",
+						"qmlExtracted\\Installation.qml"
 					],
 					[
-						"ptuconto",
+						"modules/PtuControl.cpp",
 						"modules\\PtuControl.cpp"
 					],
 					[
-						"ptucontte",
-						"unitTests\\modules\\PtuControlTest.cpp"
-					],
-					[
-						"ptudriver",
-						"modules\\PtuDriver.cpp"
+						"camer",
+						"modules\\GigECamera.cpp"
 					],
 					[
 						"comclient",
 						"modules\\ComClient.cpp"
 					],
 					[
-						"PtuControl",
-						"modules\\PtuControl.h"
+						"modules\\PtuControl.cpp",
+						"modules\\PtuControl.cpp"
 					],
 					[
-						"ptucon",
-						"modules\\PtuControl.h"
-					],
-					[
-						"unitTests/model/PtuPositionsContainerTest.cpp",
-						"unitTests\\model\\PtuPositionsContainerTest.cpp"
-					],
-					[
-						"ptu",
-						"modules\\PtuControl.h"
-					],
-					[
-						"alpha",
-						"alpha_access\\AlphaConnection.cpp"
-					],
-					[
-						"aqtim",
-						"modules\\AqTimestamper.cpp"
-					],
-					[
-						"aqtime",
-						"modules\\AqTimestamper.cpp"
-					],
-					[
-						"time",
-						"helpers\\TimeConversion.cpp"
+						"sentinel",
+						"Sentinel.cpp"
 					],
 					[
 						"com",
 						"modules\\ComClient.cpp"
 					],
 					[
-						"sentinelTest",
-						"unitTests\\SentinelTest.cpp"
+						"cmake",
+						"CMakeLists.txt"
 					],
 					[
-						"comclie in",
-						"modules\\ComClient-internal.h"
+						"sentinel.cpp",
+						"Sentinel.cpp"
 					],
 					[
-						"comclie",
-						"modules\\ComClient.cpp"
+						"main",
+						"main.cpp"
 					],
 					[
-						"alpha test",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
+						"ptucontro",
+						"modules\\PtuControl.cpp"
 					],
 					[
-						"alphatest",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
+						"ptucontrol",
+						"modules\\PtuControl-internal.h"
 					],
 					[
-						"http",
-						"alpha_access\\AlphaHttpDriver.cpp"
+						"modules/Installation.cpp",
+						"modules\\Installation.cpp"
 					],
 					[
-						"gedete",
-						"modules\\GeDetekt.cpp"
+						"ptucontrol-in",
+						"modules\\PtuControl-internal.h"
 					],
 					[
-						"comclientin",
-						"modules\\ComClient-internal.h"
+						"install",
+						"modules\\Installation.h"
 					],
 					[
-						"comcli",
-						"modules\\ComClient.cpp"
+						"ptucontroltest",
+						"unitTests\\modules\\PtuControlTest.cpp"
 					],
 					[
-						"gede",
-						"modules\\GeDetekt.cpp"
+						"ptu",
+						"qmlExtracted\\PtuControl.qml"
 					],
 					[
-						"pha_access/AlphaConnectionTests.cpp ",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
+						"installa",
+						"modules\\Installation.cpp"
 					],
 					[
-						"AlphaStatemachine.scxml",
-						"alpha_access\\AlphaStatemachine.scxml"
+						"PtuControl.qml",
+						"qmlExtracted\\PtuControl.qml"
+					],
+					[
+						"instal",
+						"qmlExtracted\\Installation.qml"
+					],
+					[
+						"cmke",
+						"CMakeLists.txt"
 					],
 					[
 						"sentine",
 						"Sentinel.cpp"
 					],
 					[
-						"comclient_te",
-						"integrationTests\\ComClient_test.cpp"
+						"ptucon",
+						"modules\\PtuControl.cpp"
 					],
 					[
-						"AlphaConnection.cpp",
-						"alpha_access\\AlphaConnection.cpp"
+						"mstime",
+						"model\\MsTimestamp.h"
 					],
 					[
-						"AlphaConnectionTe.",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
+						"scan",
+						"model\\Scan.cpp"
 					],
 					[
-						"AlphaStatemachine.scxml ",
-						"alpha_access\\AlphaStatemachine.scxml"
+						"heading",
+						"qmlExtracted\\HeadingCalibration.qml"
 					],
 					[
-						"comclien inte",
-						"modules\\ComClient-internal.h"
+						"integrationtests",
+						"integrationTests\\Scan_DatabaseTest.cpp"
 					],
 					[
-						"alphacali",
-						"alpha_access\\AlphaCalibrationData.h"
+						"modules/SettingsSection.h",
+						"modules\\SettingsSection.h"
 					],
 					[
-						"ab",
-						"alpha_access\\AbstractAlphaConnection.h"
+						"SettingsSection.h",
+						"modules\\SettingsSection.h"
 					],
 					[
-						"AlphaConnectionTests.cpp",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
+						"HeadingCalibration.h",
+						"modules\\HeadingCalibration.h"
 					],
 					[
-						"gigecam",
+						"database",
+						"modules\\DatabaseConnection.h"
+					],
+					[
+						"scan.h",
+						"model\\Scan.h"
+					],
+					[
+						"diretccont",
+						"qmlExtracted\\SidebarDirectControl.qml"
+					],
+					[
+						"scanareproxy",
+						"presenter\\ScanAreaProxy.cpp"
+					],
+					[
+						"ScanRectangleHelper.js",
+						"qmlExtracted\\ScanRectangleHelper.js"
+					],
+					[
+						"gig",
 						"modules\\GigECamera.cpp"
 					],
 					[
-						"ge",
-						"modules\\GeDetekt.cpp"
+						"DefineScanAreaMouseArea.qml",
+						"qmlExtracted\\DefineScanAreaMouseArea.qml"
 					],
 					[
-						"drivermock",
-						"commonTest\\mocks\\AlphaHttpDriverMock.h"
+						"aqtime",
+						"modules\\AqTimestamper.cpp"
 					],
 					[
-						"alphaconn test",
+						"aqtu",
+						".clangd\\index\\spatial_query.hpp.D3186229F9B7B671.idx"
+					],
+					[
+						"gtest .cmake",
+						"vcpkg\\installed\\x64-windows\\share\\gtest\\GTestConfig.cmake"
+					],
+					[
+						"ptudri",
+						"modules\\PtuDriver.cpp"
+					],
+					[
+						"modules/ComClient-internal.h",
+						"modules\\ComClient-internal.h"
+					],
+					[
+						"alpha_access/AlphaConnection.cpp",
+						"alpha_access\\AlphaConnection.cpp"
+					],
+					[
+						"Sentinel.cpp",
+						"Sentinel.cpp"
+					],
+					[
+						"integrationTests/databaseConnection/TestDatabaseConnection.cpp",
+						"integrationTests\\databaseConnection\\TestDatabaseConnection.cpp"
+					],
+					[
+						"scantest",
+						"integrationTests\\Scan_DatabaseTest.cpp"
+					],
+					[
+						"scanproxy",
+						"presenter\\ScanProxy.cpp"
+					],
+					[
+						"CreateSentinelDBScript.h",
+						"integrationTests\\databaseConnection\\CreateSentinelDBScript.h.in"
+					],
+					[
+						"alphadrive",
+						"alpha_access\\AlphaHttpDriver.cpp"
+					],
+					[
+						"alphastate",
+						"alpha_access\\AlphaStatemachine.scxml"
+					],
+					[
+						"statemachine",
+						"SentinelStateMachine.scxml"
+					],
+					[
+						"alphadri",
+						"alpha_access\\AlphaHttpDriver.cpp"
+					],
+					[
+						"modules/PtuDriver.cpp",
+						"modules\\PtuDriver.cpp"
+					],
+					[
+						"alphaconnectiontest",
 						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
+					],
+					[
+						"alphaconne",
+						"alpha_access\\AlphaConnection.cpp"
+					],
+					[
+						"alpha_access/AlphaHttpDriver.cpp",
+						"alpha_access\\AlphaHttpDriver.cpp"
 					],
 					[
 						"alphacon",
 						"alpha_access\\AlphaConnection.cpp"
+					],
+					[
+						"DatabaseConnection.h",
+						"modules\\DatabaseConnection.h"
+					],
+					[
+						"sentin",
+						"Sentinel.cpp"
+					],
+					[
+						"modules/DatabaseConnection.cpp",
+						"modules\\DatabaseConnection.cpp"
+					],
+					[
+						"mock",
+						"commonTest\\mocks\\AlphaHttpDriverMock.cpp"
+					],
+					[
+						"alphaconnectionte",
+						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
+					],
+					[
+						"alphahtt",
+						"alpha_access\\AlphaHttpDriver.cpp"
+					],
+					[
+						"log",
+						"modules\\LogSender.h"
+					],
+					[
+						"unitTests/model/SpectrumTest.cpp",
+						"unitTests\\model\\SpectrumTest.cpp"
+					],
+					[
+						"model/Spectrum.cpp",
+						"model\\Spectrum.cpp"
+					],
+					[
+						"alpha",
+						"alpha_access\\AlphaConnection.cpp"
+					],
+					[
+						"modules/ComClient.cpp",
+						"modules\\ComClient.cpp"
+					],
+					[
+						"modules/DatabaseConnection.h",
+						"modules\\DatabaseConnection.h"
+					],
+					[
+						"",
+						"CMakeLists.txt"
+					],
+					[
+						"refresh_sentineldb_for_test.py",
+						"integrationTests\\databaseConnection\\scanfeld-db\\refresh_sentineldb_for_test.py"
+					],
+					[
+						"DatabaseConnection.h ",
+						"modules\\DatabaseConnection.h"
+					],
+					[
+						"scanareacont",
+						"model\\ScanAreaContainer.cpp"
+					],
+					[
+						"old",
+						"integrationTests\\databaseConnection\\TestDatabaseConnection_old.cpp"
+					],
+					[
+						"create",
+						"sentinelpylib\\development_tools\\db_scripts\\create_database.py"
+					],
+					[
+						"Timeseries_Analysis.ipynb ",
+						"sentinelpylib\\labtools\\Timeseries_Analysis.ipynb"
+					],
+					[
+						"histo",
+						"sentinelpylib\\labtools\\Histogram_Analysis.ipynb"
+					],
+					[
+						"times",
+						"sentinelpylib\\labtools\\Timeseries_Analysis.ipynb"
+					],
+					[
+						"i_test_sentineldb.py ",
+						"sentinelpylib\\integration_tests\\i_test_sentineldb.py"
+					],
+					[
+						"docker-compo",
+						"docker-compose.ci.yml"
+					],
+					[
+						"dockerfile",
+						"Dockerfile-alarmcreator"
+					],
+					[
+						"compose",
+						"docker-compose.ci.yml"
+					],
+					[
+						"dbclass",
+						"sentinelpylib\\sentineldb\\dbclasses.py"
+					],
+					[
+						"sentinelpylib/imagegeneration/compound_color_assignment.py",
+						"sentinelpylib\\imagegeneration\\compound_color_assignment.py"
+					],
+					[
+						"sentinelpylib/alarmgeneration/test.py",
+						"sentinelpylib\\alarmgeneration\\test.py"
+					],
+					[
+						"sentinelpylib/alarmgeneration/alarmcreator.py",
+						"sentinelpylib\\alarmgeneration\\alarmcreator.py"
+					],
+					[
+						"sentinelpylib/development_tools/db_copy_scan.py",
+						"sentinelpylib\\development_tools\\db_copy_scan.py"
 					],
 					[
 						"alphahtt test",
@@ -967,10 +1830,6 @@
 					],
 					[
 						"alphahttp",
-						"alpha_access\\AlphaHttpDriver.cpp"
-					],
-					[
-						"alphahtt",
 						"alpha_access\\AlphaHttpDriver.cpp"
 					],
 					[
@@ -986,8 +1845,16 @@
 						"model\\Toxel.cpp"
 					],
 					[
+						"gedete",
+						"modules\\GeDetekt.cpp"
+					],
+					[
 						"GeDetekt.cpp",
 						"modules\\GeDetekt.cpp"
+					],
+					[
+						"AlphaConnectionTests.cpp",
+						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
 					],
 					[
 						"unitTests/alpha_access/AlphaConnectionTests.cpp",
@@ -1000,10 +1867,6 @@
 					[
 						"unitTests/alpha_access/AlphaConnectionConfigTests.cpp",
 						"unitTests\\alpha_access\\AlphaConnectionConfigTests.cpp"
-					],
-					[
-						"modules/ComClient.cpp",
-						"modules\\ComClient.cpp"
 					],
 					[
 						"modules/AqTimestamper.cpp",
@@ -1028,6 +1891,10 @@
 					[
 						"NetworkAccessManagerMock.cpp",
 						"unitTests\\mocks\\NetworkAccessManagerMock.cpp"
+					],
+					[
+						"cam",
+						"modules\\GigECamera.cpp"
 					],
 					[
 						"test-main.cpp",
@@ -1090,10 +1957,6 @@
 						"alpha_access\\GeDetekt.cpp"
 					],
 					[
-						"camera",
-						"modules\\GigECamera.cpp"
-					],
-					[
 						"SafeArrayAccess.cpp",
 						"helpers\\SafeArrayAccess.cpp"
 					],
@@ -1116,10 +1979,6 @@
 					[
 						"iqnet",
 						"alpha_access\\IQNetworkAccessManagerWrapper.h"
-					],
-					[
-						"alpha_access\\AlphaConnection.cpp",
-						"alpha_access\\AlphaConnection.cpp"
 					]
 				],
 				"width": 0.0
@@ -1127,57 +1986,109 @@
 			"select_project":
 			{
 				"height": 500.0,
-				"last_filter": "rwm",
+				"last_filter": "pylib",
 				"selected_items":
 				[
 					[
-						"rwm",
-						"C:\\Users\\przem\\Projects\\sublime_projects\\rwm.sublime-project"
+						"pylib",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel-pylib.sublime-project"
+					],
+					[
+						"",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\AqTimestamper.sublime-project"
+					],
+					[
+						"aq",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\AqTimestamper.sublime-project"
+					],
+					[
+						"hello",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\hello_webhook.sublime-project"
+					],
+					[
+						"config",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\scanfeld-configuration.sublime-project"
+					],
+					[
+						"scan",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\scanfeld-pylib.sublime-project"
+					],
+					[
+						"scanfe",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\scanfeld-pylib.sublime-project"
 					],
 					[
 						"test",
 						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\testserver-configuration.sublime-project"
 					],
 					[
-						"pyli",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel-pylib.sublime-project"
+						"sen",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
 					],
 					[
-						"pylib",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel-pylib.sublime-project"
+						"sentine",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
+					],
+					[
+						"ardu",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\arduino_libraries.sublime-project"
+					],
+					[
+						"seneint",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
+					],
+					[
+						"sentin",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
+					],
+					[
+						"sent",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
 					]
 				],
 				"width": 380.0
 			},
 			"select_symbol":
 			{
-				"height": 91.0,
-				"last_filter": "savetodb",
+				"height": 354.0,
+				"last_filter": "ptuori",
 				"selected_items":
 				[
 					[
-						"savetodb",
+						"ptuori",
+						"moveToPTUOrigin"
+					],
+					[
+						"default",
+						"insert_default_data"
+					],
+					[
+						"sav",
 						"saveToDb"
 					],
 					[
-						"calibrateWithCollectedData",
-						"calibrateWithCollectedData"
+						"ondatabase",
+						"onDatabaseError"
 					],
 					[
-						"calibrationDataCollected ",
-						"calibrationDataCollected"
+						"refresh",
+						"runRefreshTestDatabase"
 					],
 					[
-						"calibrationDataCollected",
-						"calibrationDataCollected"
+						"ComponentState",
+						"componentState"
 					],
 					[
-						"dump",
-						"dumpMeasurementData"
+						"onconn",
+						"onConnect"
 					],
 					[
-						"isMeasurementFull",
-						"isMeasurementFull"
+						"Spectrum",
+						"Spectrum"
+					],
+					[
+						"is",
+						"isDoubleClose"
 					],
 					[
 						"blackbody",
@@ -1210,13 +2121,13 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 182.0,
+			"side_bar_width": 268.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 1600.0
+		"new_window_width": 1919.0
 	},
 	"windows":
 	[
@@ -1226,44 +2137,8 @@
 				"selected_items":
 				[
 					[
-						"please",
-						"please_stop\t⌬ tabnine"
-					],
-					[
-						"up",
-						"upload_url"
-					],
-					[
-						"uploa",
-						"upload-artifact"
-					],
-					[
-						"out",
-						"outputs"
-					],
-					[
-						"runs",
-						"runs-on"
-					],
-					[
-						"no",
-						"nospace\t?"
-					],
-					[
-						"las",
-						"lastRow"
-					],
-					[
-						"QSqlRe",
-						"QSqlRelationalTableModel"
-					],
-					[
-						"to",
-						"toList"
-					],
-					[
-						"CALIBRATION_HEATER_",
-						"CALIBRATION_HEATER_TURNED_OFF_SETUP"
+						"postgres",
+						"postgresql\t⌬ tabnine"
 					],
 					[
 						"Alpha",
@@ -1282,39 +2157,38 @@
 			"buffers":
 			[
 				{
-					"file": "/C/Users/przem/Projects/rust/wmm/src/main.rs",
+					"file": "/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/create_sentineldb.py",
 					"settings":
 					{
-						"buffer_size": 4024,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/C/Users/przem/Projects/rust/wmm/.gitignore",
-					"settings":
-					{
-						"buffer_size": 337,
-						"encoding": "UTF-8",
+						"buffer_size": 771,
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"file": "/C/Users/przem/Projects/rust/wmm/Cargo.toml",
+					"file": "/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/sentineldb/db_helpers.py",
 					"settings":
 					{
-						"buffer_size": 367,
-						"encoding": "UTF-8",
+						"buffer_size": 1987,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/alembic/env.py",
+					"settings":
+					{
+						"buffer_size": 2017,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/C/Users/przem/Projects/rust/wmm/src/tray_icon.rs",
+					"contents": "# A generic, single database configuration.\n\n[alembic]\n# path to migration scripts\nscript_location = alembic\n\n# template used to generate migration files\n# file_template = %%(rev)s_%%(slug)s\n\n# sys.path path, will be prepended to sys.path if present.\n# defaults to the current working directory.\nprepend_sys_path = .\n\n# timezone to use when rendering the date\n# within the migration file as well as the filename.\n# string value is passed to dateutil.tz.gettz()\n# leave blank for localtime\n# timezone =\n\n# max length of characters to apply to the\n# \"slug\" field\n# truncate_slug_length = 40\n\n# set to 'true' to run the environment during\n# the 'revision' command, regardless of autogenerate\n# revision_environment = false\n\n# set to 'true' to allow .pyc and .pyo files without\n# a source .py file to be detected as revisions in the\n# versions/ directory\n# sourceless = false\n\n# version location specification; this defaults\n# to alembic/versions.  When using multiple version\n# directories, initial revisions must be specified with --version-path\n# version_locations = %(here)s/bar %(here)s/bat alembic/versions\n\n# the output encoding used when revision files\n# are written from script.py.mako\n# output_encoding = utf-8\n\nsqlalchemy.url = postgresql://user:pass@localhost/dbname\n\n\n[post_write_hooks]\n# post_write_hooks defines scripts or Python functions that are run\n# on newly generated revision scripts.  See the documentation for further\n# detail and examples\n\n# format using \"black\" - use the console_scripts runner, against the \"black\" entrypoint\n# hooks=black\n# black.type=console_scripts\n# black.entrypoint=black\n# black.options=-l 79\n\n# Logging configuration\n[loggers]\nkeys = root,sqlalchemy,alembic\n\n[handlers]\nkeys = console\n\n[formatters]\nkeys = generic\n\n[logger_root]\nlevel = WARN\nhandlers = console\nqualname =\n\n[logger_sqlalchemy]\nlevel = WARN\nhandlers =\nqualname = sqlalchemy.engine\n\n[logger_alembic]\nlevel = INFO\nhandlers =\nqualname = alembic\n\n[handler_console]\nclass = StreamHandler\nargs = (sys.stderr,)\nlevel = NOTSET\nformatter = generic\n\n[formatter_generic]\nformat = %(levelname)-5.5s [%(name)s] %(message)s\ndatefmt = %H:%M:%S\n",
+					"file": "/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/alembic.ini",
+					"file_size": 2137,
+					"file_write_time": 132605391201516125,
 					"settings":
 					{
-						"buffer_size": 1103,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
+						"buffer_size": 2141,
+						"line_ending": "Unix"
 					}
 				}
 			],
@@ -1324,25 +2198,17 @@
 				[
 					[
 						[
-							"Packages/C++/C++ Single File.sublime-build",
+							"Packages/Python/Python.sublime-build",
 							""
 						],
 						[
-							"Packages/C++/C++ Single File.sublime-build",
-							"Run"
-						],
-						[
-							"Packages/C++11/C++11.sublime-build",
-							""
-						],
-						[
-							"Packages/C++11/C++11.sublime-build",
-							"Run"
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
 						]
 					],
 					[
-						"Packages/C++11/C++11.sublime-build",
-						"Run"
+						"Packages/Python/Python.sublime-build",
+						""
 					]
 				]
 			],
@@ -1354,71 +2220,23 @@
 				"selected_items":
 				[
 					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"open repos",
+						"open mer",
 						"Sublime Merge: Open Repository"
 					],
 					[
-						"packat upda",
-						"Package Control: Upgrade Package"
+						"copy filepat",
+						"File: Copy Path"
 					],
 					[
-						"clang",
-						"Clang Format: Select Style"
+						"copy path",
+						"File: Copy Path"
 					],
 					[
-						"previe",
-						"Markdown Preview: Preview in Browser"
-					],
-					[
-						"format",
-						"Clang Format: Select Style"
-					],
-					[
-						"set syn c++",
-						"Set Syntax: C++"
-					],
-					[
-						"new ",
-						"ANF: New File"
-					],
-					[
-						"install pac",
-						"Package Control: Install Package"
-					],
-					[
-						"merge",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"remove",
-						"Remove Selected Whitespace"
-					],
-					[
-						"install ",
-						"Package Control: Install Package"
-					],
-					[
-						"rename",
-						"Rename File"
-					],
-					[
-						"copy",
-						"Copy Filepath With Line Numbers"
-					],
-					[
-						"blame",
-						"Sublime Merge: Blame File"
+						"copyt path",
+						"File: Copy Path"
 					],
 					[
 						"open repo",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"open",
 						"Sublime Merge: Open Repository"
 					],
 					[
@@ -1426,35 +2244,35 @@
 						"Sublime Merge: Open Repository"
 					],
 					[
-						"json",
-						"Pretty JSON: Format (Pretty Print) JSON"
+						"neovi",
+						"Toggle NeoVintageous"
 					],
 					[
-						"set syntax json",
-						"Set Syntax: JSON Key-Value"
-					],
-					[
-						"isntall pac",
-						"Package Control: Install Package"
+						"package list",
+						"Package Control: List Packages"
 					],
 					[
 						"install pack",
 						"Package Control: Install Package"
 					],
 					[
-						"list",
-						"Package Control: List Packages"
+						"copy file",
+						"File: Copy Name"
 					],
 					[
-						"you",
-						"YouCompleteMe: Edit settings"
+						"repo",
+						"Sublime Merge: Open Repository"
 					],
 					[
 						"install pa",
 						"Package Control: Install Package"
 					],
 					[
-						"theme",
+						"material theme li",
+						"Material Theme: Configuration"
+					],
+					[
+						"config",
 						"Material Theme: Configuration"
 					],
 					[
@@ -1462,160 +2280,8 @@
 						"NeoVintageous: Toggle CTRL keys"
 					],
 					[
-						"syntac c++",
-						"Set Syntax: C++11"
-					],
-					[
-						"packages",
-						"Package Control: List Packages"
-					],
-					[
-						"set book",
-						"SublimeBookmarks: Toggle Current Line"
-					],
-					[
-						"repos",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"open rep",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"rena",
-						"Rename File"
-					],
-					[
-						"TabNine",
-						"TabNine: Open Configuration"
-					],
-					[
-						"tabnin",
-						"TabNine: Open Configuration"
-					],
-					[
-						"ocnifg",
-						"TabNine: Open Configuration"
-					],
-					[
-						"setting",
-						"Preferences: Settings"
-					],
-					[
-						"forma",
-						"Clang Format: Format Selection"
-					],
-					[
-						"remove paca",
-						"Package Control: Remove Package"
-					],
-					[
-						"install p",
-						"Package Control: Install Package"
-					],
-					[
-						"confi",
-						"Material Theme: Configuration"
-					],
-					[
-						"mat",
-						"Material Theme: Activate theme"
-					],
-					[
-						"rmeov",
-						"Package Control: Remove Package"
-					],
-					[
-						"intal",
-						"Package Control: Install Package"
-					],
-					[
-						"tab",
-						"TabNine: Open Configuration"
-					],
-					[
-						"list packa",
-						"Package Control: List Packages"
-					],
-					[
-						"neovin",
-						"Toggle NeoVintageous"
-					],
-					[
-						"renam",
-						"Rename File"
-					],
-					[
-						"copy r",
-						"Copy Reference"
-					],
-					[
-						"remo",
-						"Package Control: Remove Package"
-					],
-					[
-						"synta",
-						"Set Syntax: C++11"
-					],
-					[
-						"renamee",
-						"Rename File"
-					],
-					[
-						"remove packa",
-						"Package Control: Remove Package"
-					],
-					[
-						"neo",
-						"NeoVintageous: Changelog"
-					],
-					[
-						"toggl",
-						"NeoVintageous: Toggle CTRL keys"
-					],
-					[
-						"togg",
-						"NeoVintageous: Toggle CTRL keys"
-					],
-					[
-						"to",
-						"NeoVintageous: Toggle CTRL keys"
-					],
-					[
 						"open ",
 						"Sublime Merge: Open Repository"
-					],
-					[
-						"synta c",
-						"Set Syntax: C"
-					],
-					[
-						"tog",
-						"NeoVintageous: Toggle CTRL keys"
-					],
-					[
-						"packa",
-						"Package Control: Remove Package"
-					],
-					[
-						"synta power",
-						"Set Syntax: PowerShell"
-					],
-					[
-						"mer open",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"list ",
-						"Package Control: List Packages"
-					],
-					[
-						"isntall ",
-						"Package Control: Advanced Install Package"
-					],
-					[
-						"isntall pa",
-						"Package Control: Install Package"
 					],
 					[
 						"blame file",
@@ -1630,6 +2296,10 @@
 						"Set Syntax: C++"
 					],
 					[
+						"install pac",
+						"Package Control: Install Package"
+					],
+					[
 						"toggle ",
 						"NeoVintageous: Toggle CTRL keys"
 					],
@@ -1642,6 +2312,10 @@
 						"Package Control: Install Package"
 					],
 					[
+						"remove packa",
+						"Package Control: Remove Package"
+					],
+					[
 						"isntall pack",
 						"Package Control: Install Package"
 					],
@@ -1650,8 +2324,20 @@
 						"Package Control: Remove Package"
 					],
 					[
+						"rename",
+						"Rename File"
+					],
+					[
+						"renam",
+						"Rename File"
+					],
+					[
 						"ren",
 						"Rename File"
+					],
+					[
+						"copy",
+						"Copy Filepath With Line Numbers"
 					],
 					[
 						"keyb",
@@ -1686,11 +2372,19 @@
 						"Cscope: Rebuild database"
 					],
 					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
 						"toggle hex",
 						"HexViewer: Toggle Hex View"
 					],
 					[
 						"intall",
+						"Package Control: Install Package"
+					],
+					[
+						"install ",
 						"Package Control: Install Package"
 					],
 					[
@@ -1706,12 +2400,9 @@
 			},
 			"console":
 			{
-				"height": 457.0,
+				"height": 259.0,
 				"history":
 				[
-					"TabNine::version",
-					"TabNine:version",
-					"tabinene:version",
 					"import os; [(os.path.dirname(file)[len('Packages/'):], sublime.decode_value(sublime.load_resource(file))['url']) for file in sublime.find_resources('package-metadata.json')]"
 				]
 			},
@@ -1726,139 +2417,141 @@
 			},
 			"expanded_folders":
 			[
-				"/C/Users/przem/Projects/rust/wmm",
-				"/C/Users/przem/Projects/rust/wmm/src"
+				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib",
+				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/python",
+				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb",
+				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/alembic"
 			],
 			"file_history":
 			[
-				"/C/tools/msys64/home/przem/.config/fish/config.fish",
-				"/C/Users/przem/.rustup/toolchains/nightly-x86_64-pc-windows-msvc/lib/rustlib/src/rust/library/std/src/thread/mod.rs",
-				"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów_do_środy.txt",
-				"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów_od_środy.txt",
-				"/C/Users/przem/Projects/rust/wmm/Cargo.lock",
-				"/C/Users/przem/Projects/rust/wmm/Cargo.toml",
-				"/C/Users/przem/Projects/rust/wmm/bindings/build.rs",
-				"/C/Users/przem/Projects/rust/wmm/target/debug/build/bindings-b129f50866817650/out/windows.rs",
-				"/C/Users/przem/Projects/rust/rwm_windows/src/main.rs",
-				"/C/Users/przem/Projects/rust/rwm_windows/Cargo.toml",
-				"/C/Users/przem/Projects/rust/rwm_windows/src/build.rs",
-				"/C/Users/przem/AppData/Roaming/Mozilla/Firefox/Profiles/sueea553.default-release/chrome/userChrome.css",
-				"/C/Users/przem/Google Drive/documents/Firefox/OneTab.exported",
-				"/C/Users/przem/Projects/rwm/cpp/build/qml/main.qml",
-				"/C/Users/przem/Projects/rwm/src/main.rs",
-				"/C/Users/przem/Projects/rwm/cpp/main.cpp",
-				"/C/ProgramData/chocolatey/lib/gstreamer-devel/gstreamer-devel.nuspec",
-				"/C/ProgramData/chocolatey/logs/chocolatey.log",
-				"/C/Users/przem/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.clang-format",
+				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/sentineldb/db_schema_conversion/convert_v0.12_to_v0.13.py",
+				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/python/Lib/site-packages/sqlalchemy_utils/functions/database.py",
+				"/C/Users/PrzemyslawPorebski/AppData/Local/Grandperspective/Sentinel/sentinel.settings.json",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_scripts/convert_helpers.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/.github/workflows/continuous_integration.yml",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/helpers/configparser.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_scripts/create_database.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/todo.txt",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_scripts/create_tables.sql",
+				"/C/Users/PrzemyslawPorebski/Stuff/vpnuser_Porebski_grandperspective_de.cfg",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/test_path.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/labtools/Histogram_Analysis.ipynb",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/requirements_jupyter.txt",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/labtools/Timeseries_Analysis.ipynb",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/labtools/Spectral_Data_Access.ipynb",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/sentineldb/dbclasses.py",
+				"/C/Users/PrzemyslawPorebski/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/settings.json",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/integration_tests/i_test_sentineldb.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/docker-compose.ci.yml",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/Dockerfile-alarmcreator",
+				"/C/Users/PrzemyslawPorebski/Documents/RDP/cabinetPC-1.rdp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_conversion_scripts/convert_v0.7_to_v0.8.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/.env.ci",
+				"/C/Users/PrzemyslawPorebski/$env",
+				"/C/Users/PrzemyslawPorebski/Documents/RDP/cabinet_PC.rdp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_conversion_scripts/convert_v0.5_to_v0.6.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_conversion_scripts/convert_v0.4_to_v0.5.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/alarmgeneration/test.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/imagegeneration/generatereportimage.py",
+				"/C/Users/PrzemyslawPorebski/_vimrc",
+				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/windows/settings.json",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_conversion_scripts/convert_v0.6_to_v0.7.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/imagegeneration/compound_color_assignment.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/alarmgeneration/alarmcreator.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_copy_scan.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/python/Lib/site-packages/astropy/time/core.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/python/Lib/site-packages/sqlalchemy/orm/session.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnection.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/requirements.txt",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaHttpDriver.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaHttpPagesReplies.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaConnectionTests.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/Sentinel.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/Connection_DatabaseTest.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Toxel.cpp",
+				"/C/Users/PrzemyslawPorebski/Documents/paths_K53SV.txt",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/Toxel_DatabaseTest.cpp",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.github/workflows/continuous_integration.yml",
-				"/C/Users/PrzemyslawPorebski/Downloads/Program.txt",
-				"/C/Users/PrzemyslawPorebski/Downloads/Rozmowa.cmd",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/Sentinel.h",
+				"/C/Users/PrzemyslawPorebski/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient.cpp",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient-internal.h",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/Grandperspective/Sentinel/sentinel.settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaConnectionTests.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/gtags.files",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnection.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnection.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaStatemachine.scxml",
-				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/windows/build_gtags.cmd",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/vcpkg.txt",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/CTags/Default.sublime-keymap",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/Sentinel.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/main.qml",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaHttpDriver.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GigECamera.cpp",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/DatabaseConnection.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Scan.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Toxel.cpp",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/CMakeLists.txt",
-				"//wsl$/Ubuntu-20.04/home/przemo/Projects/26158053.1",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.gitignore",
-				"/C/Users/PrzemyslawPorebski/Projects/hello_github_action/.github/workflows/cmake.yml",
-				"/C/Users/PrzemyslawPorebski/Projects/HelloWorld/.github/workflows/build_cmake.yml",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Merge/Packages/User/Default (Windows).sublime-keymap",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanArea.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanArea.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanAreaContainer.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanAreaContainer.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/DatabaseConnection.h",
-				"/C/Users/PrzemyslawPorebski/Projects/builds/install/release/opusRsTimesFile.log",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/User/clang_format.sublime-settings",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/Clang Format/clang_format.sublime-settings",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/Clang Format/Default (Windows).sublime-keymap",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/CameraControl.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/CameraControl.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/builds/install/release/opusRsTimesFile",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl-internal.h",
-				"//wsl$/kali-linux/home/przemo/.vimrc",
-				"//wsl$/Ubuntu-20.04/home/przemo/.config/nvim/init.vim",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/modules/PtuControlTest.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuDriver.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/CMakeLists.txt.user",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/sentinel-fluent-bit-dev/Readme.md",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Spectrum.cpp",
-				"/C/Users/PrzemyslawPorebski/PycharmProjects/pythonProject/main.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/TimestampToxelCollator.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/AqTimestamper.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/AqTimestamper.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Spectrum.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/model/PtuPositionsContainerTest.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/PtuPositionsContainer.cpp",
-				"/C/Users/PrzemyslawPorebski/Documents/n53sv_Przemek.rdp",
-				"/C/Users/PrzemyslawPorebski/Documents/PowerShell/Microsoft.PowerShell_profile.ps1",
-				"/C/Users/PrzemyslawPorebski/_vimrc",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/PtuPositionsContainer.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/PtuControl.qml",
-				"/C/Users/PrzemyslawPorebski/Projects/mlcourse.ai/run_docker_jupyter_windows.cmd",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/jsonstruct/Timestamp.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ScanProxy.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ScanProxy.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanBackground.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanBackground.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Toxel.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Scan.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/MsTimestamp.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/MsTimestamp.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/SidebarDirectControl.qml",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/Sentinel_AlphaConnectino_coordination.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/helpers/TimeConversion.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/NordVPN_Polish_servers.txt",
-				"/C/Users/PrzemyslawPorebski/Stuff/LassPass.csv",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/SentinelTest.cpp",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/Grandperspective/Sentinel/subl",
-				"/C/Users/PrzemyslawPorebski/Projects/opus-rs-testclient/Unit1.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/opus-rs-alpha/OpagIFM.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/ProjectionTest.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaCalibrationData.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaCalibrationData.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/windows/choco_local.list",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Scan.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GigECamera.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/.github/workflows/continuous_integration.yml",
+				"/C/Program Files/STEMMER IMAGING/Common Vision Blox/Drivers/CVMock.ini",
+				"/C/Users/PrzemyslawPorebski/.ssh/known_hosts",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GeDetekt.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/vcpkg/buildtrees/opencv4/src/4.1.1-fb9e10326a/modules/core/src/matrix.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.gitbugtraq",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/sentinel.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr27.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr19.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr22.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr13.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_nr2.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_INTERFEROGRAM_nr18.log",
-				"/C/Users/PrzemyslawPorebski/Projects/builds/sentinel-Qt_5_14_2_msvc2017_64-Debug/compile_commands.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/commonTest/mocks/AlphaConnectionMock.h",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GeDetekt.h",
+				"/C/Users/PrzemyslawPorebski/Programs/testserver-win.rdp",
+				"/C/Users/PrzemyslawPorebski/Stuff/spectrum",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/Scan_DatabaseTest.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/helpers/SafeArrayAccess.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/data/GeDetektToxel.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ImageProvider.cpp",
+				"/C/Users/PrzemyslawPorebski/Stuff/database_testserver_addres.txt",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/AlphaConnectionComClient_Test.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/AqTimestamper.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaConnectionConfigTests.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaConnectionHttpPagesReplies.h",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AbstractAlphaConnection.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/SentinelStateMachine.scxml",
-				"/C/Users/PrzemyslawPorebski/Documents/firefox_oneTab_tabs.txt",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnection.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnectionConfig.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/commonTest/mocks/AlphaConnectionMock.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/commonTest/mocks/AlphaConnectionMock.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/commonTest/mocks/NetworkAccessManagerMock.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/launch.vs.json",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnectionStateMachine.scxml",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/CMakeLists.txt.user",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/flow.txt",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/CMakeSettings.json",
+				"/C/Users/PrzemyslawPorebski/Desktop/testserver-win.rdp",
+				"/C/Users/PrzemyslawPorebski/Projects/opus-rs-alpha/System/Gedetekt.ini",
+				"/C/Users/PrzemyslawPorebski/Desktop/home_page_http_192.168.0.10_.html",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/mocks/NetworkAccessManagerMock.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/mocks/NetworkAccessManagerMock.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/mocks/NetworkAccessManagerMock.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/mocks/NetworkAccessManagerMock.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/test-main.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/CameraControl.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/PtuControlTest.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/NetworkAccessManager.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/NetworkAccessManager.h",
+				"/C/Users/PrzemyslawPorebski/Stuff/GeDetekt.h",
+				"/C/Users/PrzemyslawPorebski/Stuff/GeDetekt.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/unitTests/mocks/NetworkAccessManagerMock.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/CMakeLists.txt",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/AlphaConnectionWorkerThread.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/AlphaConnectionWorkerThread.cpp",
+				"/C/Users/PrzemyslawPorebski/Grandperspective GmbH/Softwareentwicklung - Documents/Alpha/Firmware/Firmware neu-2020-02-17/pw_alpha.txt",
+				"/C/Users/PrzemyslawPorebski/Stuff/error.log",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AbstractNetworkAccessManager.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnectionConfig.h",
+				"/C/Users/PrzemyslawPorebski/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/profiles.json",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/ComClient_test.cpp",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/integrationTests/sentinel.settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/windows/NordVPN_reset_commands.log",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComponentState.h"
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/diff.diff",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/unitTests/mocks/NetworkAccessManagerMock.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/unitTests/mocks/NetworkReplyMock.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/qtTestHelper.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/unitTests/AlphaConnectionTests.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/uml/test.txt",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/SidebarDirectControl.qml",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AbstractNetworkReply.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/IQNetworkReplyWrapper.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/CompoundRef_DatabaseTest.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/GeDetekt.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/GeDetekt.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/DatabaseConnection.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/builds/build-sentinel-Qt_5_14_1_msvc2017_64_babe5d-Debug/ifg.log",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/SpherePosition.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/COMConnection/CMakeLists.txt",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GeDetekt/GeDetekt.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GeDetekt/GeDetektWrapper.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GeDetekt/GeDetektWrapper.h",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Merge/Packages/User/Preferences.sublime-settings",
+				"/C/Users/PrzemyslawPorebski/Stuff/make_capslock_ctrl.reg",
+				"/C/ProgramData/chocolatey/logs/chocolatey.log"
 			],
 			"find":
 			{
@@ -1869,7 +2562,19 @@
 				"height": 157.0,
 				"where_history":
 				[
-					""
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\scanfeld-pylib, -*\\python\\*",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\scanfeld-pylib, -*scanfeld-pylib\\python\\*",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\scanfeld-pylib, -*python/Lib/site-packages*",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\scanfeld-pylib, -*python/Lib/site-packages",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\scanfeld-pylib, -python/Lib/site-packages",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\scanfeld-pylib, -python/Lib/site-packages*",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\scanfeld-pylib, -python/Lib*",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\scanfeld-pylib, -python\\Lib\\*",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\scanfeld-pylib, -python\\Lib\\site-packages*",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\scanfeld-pylib",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\scanfeld-pylib, -python/Lib*",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\scanfeld-pylib",
+					"C:\\Users\\PrzemyslawPorebski\\Projects\\sentinel, *.cpp, *.h, *.qml, *.scxml, -*Test.cpp"
 				]
 			},
 			"find_state":
@@ -1877,8 +2582,8 @@
 				"case_sensitive": true,
 				"find_history":
 				[
-					"bindings",
-					"\n    "
+					"directory",
+					"ConfigParser"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1893,12 +2598,6 @@
 				"whole_word": true,
 				"wrap": true
 			},
-			"folders":
-			[
-				{
-					"path": "C:\\Users\\przem\\Projects\\rust\\wmm"
-				}
-			],
 			"groups":
 			[
 				{
@@ -1907,26 +2606,54 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/C/Users/przem/Projects/rust/wmm/src/main.rs",
+							"file": "/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/create_sentineldb.py",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 4024,
+								"buffer_size": 771,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										101,
+										101
 									]
 								],
 								"settings":
 								{
-									"_nv_visual_sel_mode": "mode_visual",
-									"highlight_line": false,
-									"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/sentineldb/db_helpers.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1987,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1155,
+										1155
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.sublime-syntax",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
@@ -1938,88 +2665,26 @@
 							"type": "text"
 						},
 						{
-							"buffer": 1,
-							"file": "/C/Users/przem/Projects/rust/wmm/.gitignore",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 337,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										81,
-										81
-									]
-								],
-								"settings":
-								{
-									"highlight_line": false,
-									"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
 							"buffer": 2,
-							"file": "/C/Users/przem/Projects/rust/wmm/Cargo.toml",
+							"file": "/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/alembic/env.py",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 367,
+								"buffer_size": 2017,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										367,
-										367
+										792,
+										792
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/TOML/TOML.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
-					]
-				},
-				{
-					"selected": 0,
-					"sheets":
-					[
-						{
-							"buffer": 3,
-							"file": "/C/Users/przem/Projects/rust/wmm/src/tray_icon.rs",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1103,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										863,
-										863
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+									"_nv_visual_sel_mode": "mode_visual",
+									"syntax": "Packages/Python/Python.sublime-syntax",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
@@ -2031,6 +2696,41 @@
 							"type": "text"
 						}
 					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 3,
+							"file": "/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/alembic.ini",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2141,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1244,
+										1244
+									]
+								],
+								"settings":
+								{
+									"_nv_visual_sel_mode": "mode_visual",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
 				}
 			],
 			"incremental_find":
@@ -2039,7 +2739,7 @@
 			},
 			"input":
 			{
-				"height": 55.0
+				"height": 65.0
 			},
 			"layout":
 			{
@@ -2061,7 +2761,7 @@
 				"cols":
 				[
 					0.0,
-					0.670886075949,
+					0.5,
 					1.0
 				],
 				"rows":
@@ -2071,17 +2771,13 @@
 				]
 			},
 			"menu_visible": true,
-			"output.ECC":
-			{
-				"height": 334.0
-			},
 			"output.exec":
 			{
-				"height": 98.0
+				"height": 189.0
 			},
 			"output.find_results":
 			{
-				"height": 0.0
+				"height": 98.0
 			},
 			"output.hex_viewer_inspector":
 			{
@@ -2092,1251 +2788,8 @@
 				"height": 324.0
 			},
 			"pinned_build_system": "",
-			"position": "0,2,2,-32000,-32000,-1,-1,1052,306,5,1922",
-			"project": "",
-			"replace":
-			{
-				"height": 92.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-					[
-						"",
-						".clang-format"
-					],
-					[
-						"comclien",
-						"modules\\ComClient.h"
-					],
-					[
-						"gitign",
-						".gitignore"
-					],
-					[
-						"client",
-						"modules\\ComClient.cpp"
-					],
-					[
-						"cam",
-						"modules\\GigECamera.cpp"
-					],
-					[
-						"readm",
-						"sentinel-fluent-bit-dev\\Readme.md"
-					],
-					[
-						"cmake",
-						"CMakeLists.txt"
-					],
-					[
-						"ptuconto",
-						"modules\\PtuControl.cpp"
-					],
-					[
-						"ptucontte",
-						"unitTests\\modules\\PtuControlTest.cpp"
-					],
-					[
-						"ptudriver",
-						"modules\\PtuDriver.cpp"
-					],
-					[
-						"comclient",
-						"modules\\ComClient.cpp"
-					],
-					[
-						"PtuControl",
-						"modules\\PtuControl.h"
-					],
-					[
-						"ptucon",
-						"modules\\PtuControl.h"
-					],
-					[
-						"unitTests/model/PtuPositionsContainerTest.cpp",
-						"unitTests\\model\\PtuPositionsContainerTest.cpp"
-					],
-					[
-						"ptu",
-						"modules\\PtuControl.h"
-					],
-					[
-						"alpha",
-						"alpha_access\\AlphaConnection.cpp"
-					],
-					[
-						"aqtim",
-						"modules\\AqTimestamper.cpp"
-					],
-					[
-						"aqtime",
-						"modules\\AqTimestamper.cpp"
-					],
-					[
-						"time",
-						"helpers\\TimeConversion.cpp"
-					],
-					[
-						"com",
-						"modules\\ComClient.cpp"
-					],
-					[
-						"sentinelTest",
-						"unitTests\\SentinelTest.cpp"
-					],
-					[
-						"comclie in",
-						"modules\\ComClient-internal.h"
-					],
-					[
-						"comclie",
-						"modules\\ComClient.cpp"
-					],
-					[
-						"alpha test",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
-					],
-					[
-						"alphatest",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
-					],
-					[
-						"http",
-						"alpha_access\\AlphaHttpDriver.cpp"
-					],
-					[
-						"gedete",
-						"modules\\GeDetekt.cpp"
-					],
-					[
-						"comclientin",
-						"modules\\ComClient-internal.h"
-					],
-					[
-						"comcli",
-						"modules\\ComClient.cpp"
-					],
-					[
-						"gede",
-						"modules\\GeDetekt.cpp"
-					],
-					[
-						"pha_access/AlphaConnectionTests.cpp ",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
-					],
-					[
-						"AlphaStatemachine.scxml",
-						"alpha_access\\AlphaStatemachine.scxml"
-					],
-					[
-						"sentine",
-						"Sentinel.cpp"
-					],
-					[
-						"comclient_te",
-						"integrationTests\\ComClient_test.cpp"
-					],
-					[
-						"AlphaConnection.cpp",
-						"alpha_access\\AlphaConnection.cpp"
-					],
-					[
-						"AlphaConnectionTe.",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
-					],
-					[
-						"AlphaStatemachine.scxml ",
-						"alpha_access\\AlphaStatemachine.scxml"
-					],
-					[
-						"comclien inte",
-						"modules\\ComClient-internal.h"
-					],
-					[
-						"alphacali",
-						"alpha_access\\AlphaCalibrationData.h"
-					],
-					[
-						"ab",
-						"alpha_access\\AbstractAlphaConnection.h"
-					],
-					[
-						"AlphaConnectionTests.cpp",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
-					],
-					[
-						"gigecam",
-						"modules\\GigECamera.cpp"
-					],
-					[
-						"ge",
-						"modules\\GeDetekt.cpp"
-					],
-					[
-						"drivermock",
-						"commonTest\\mocks\\AlphaHttpDriverMock.h"
-					],
-					[
-						"alphaconn test",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
-					],
-					[
-						"alphacon",
-						"alpha_access\\AlphaConnection.cpp"
-					],
-					[
-						"alphahtt test",
-						"unitTests\\alpha_access\\AlphaHttpDriverTests.cpp"
-					],
-					[
-						"alphahttp",
-						"alpha_access\\AlphaHttpDriver.cpp"
-					],
-					[
-						"alphahtt",
-						"alpha_access\\AlphaHttpDriver.cpp"
-					],
-					[
-						"Toxel_DatabaseTest.cpp",
-						"integrationTests\\Toxel_DatabaseTest.cpp"
-					],
-					[
-						"GeDetektToxel.h",
-						"data\\GeDetektToxel.h"
-					],
-					[
-						"model/toxe",
-						"model\\Toxel.cpp"
-					],
-					[
-						"GeDetekt.cpp",
-						"modules\\GeDetekt.cpp"
-					],
-					[
-						"unitTests/alpha_access/AlphaConnectionTests.cpp",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
-					],
-					[
-						"unitTests/alpha_access/AlphaConnectionHttpPagesReplies.h",
-						"unitTests\\alpha_access\\AlphaConnectionHttpPagesReplies.h"
-					],
-					[
-						"unitTests/alpha_access/AlphaConnectionConfigTests.cpp",
-						"unitTests\\alpha_access\\AlphaConnectionConfigTests.cpp"
-					],
-					[
-						"modules/ComClient.cpp",
-						"modules\\ComClient.cpp"
-					],
-					[
-						"modules/AqTimestamper.cpp",
-						"modules\\AqTimestamper.cpp"
-					],
-					[
-						"integrationTests/AlphaConnectionComClient_Test.cpp",
-						"integrationTests\\AlphaConnectionComClient_Test.cpp"
-					],
-					[
-						"commonTest/mocks/AlphaConnectionMock.h",
-						"commonTest\\mocks\\AlphaConnectionMock.h"
-					],
-					[
-						"alpha_access/AlphaConnectionConfig.cpp",
-						"alpha_access\\AlphaConnectionConfig.cpp"
-					],
-					[
-						"AlphaConnection",
-						"alpha_access\\AlphaConnection.h"
-					],
-					[
-						"NetworkAccessManagerMock.cpp",
-						"unitTests\\mocks\\NetworkAccessManagerMock.cpp"
-					],
-					[
-						"test-main.cpp",
-						"test-main.cpp"
-					],
-					[
-						"gie",
-						"modules\\GigECamera.cpp"
-					],
-					[
-						"AbstractNetworkAccessManager.h",
-						"alpha_access\\AbstractNetworkAccessManager.h"
-					],
-					[
-						"AlphaConnectionConfig.h",
-						"alpha_access\\AlphaConnectionConfig.h"
-					],
-					[
-						"comclient-inte",
-						"modules\\ComClient-internal.h"
-					],
-					[
-						"gicam",
-						"modules\\GigECamera.cpp"
-					],
-					[
-						"ComClient.cpp",
-						"modules\\ComClient.cpp"
-					],
-					[
-						"ComClient-internal.h",
-						"modules\\ComClient-internal.h"
-					],
-					[
-						"GeDetekt.h",
-						"modules\\GeDetekt.h"
-					],
-					[
-						"ComClient_test.cpp",
-						"integrationTests\\ComClient_test.cpp"
-					],
-					[
-						"alpha_access/IQNetworkReplyWrapper.h",
-						"alpha_access\\IQNetworkReplyWrapper.h"
-					],
-					[
-						"unitTests\\AlphaConnectionTests.cpp",
-						"alpha_access\\unitTests\\AlphaConnectionTests.cpp"
-					],
-					[
-						"ComClient.h",
-						"modules\\ComClient.h"
-					],
-					[
-						"DatabaseConnection.cpp",
-						"modules\\DatabaseConnection.cpp"
-					],
-					[
-						"gedetect",
-						"alpha_access\\GeDetekt.cpp"
-					],
-					[
-						"camera",
-						"modules\\GigECamera.cpp"
-					],
-					[
-						"SafeArrayAccess.cpp",
-						"helpers\\SafeArrayAccess.cpp"
-					],
-					[
-						"dedetekt",
-						"modules\\GeDetekt.h"
-					],
-					[
-						"SpherePosition.h",
-						"model\\SpherePosition.h"
-					],
-					[
-						"sentinelstatemachine",
-						"SentinelStateMachine.scxml"
-					],
-					[
-						"QNetworkAccessManagerDummyMock.h",
-						"alpha_access\\unitTests\\mocks\\QNetworkAccessManagerDummyMock.h"
-					],
-					[
-						"iqnet",
-						"alpha_access\\IQNetworkAccessManagerWrapper.h"
-					],
-					[
-						"alpha_access\\AlphaConnection.cpp",
-						"alpha_access\\AlphaConnection.cpp"
-					]
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 500.0,
-				"last_filter": "rwm",
-				"selected_items":
-				[
-					[
-						"rwm",
-						"C:\\Users\\przem\\Projects\\sublime_projects\\rwm.sublime-project"
-					],
-					[
-						"test",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\testserver-configuration.sublime-project"
-					],
-					[
-						"pyli",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel-pylib.sublime-project"
-					],
-					[
-						"pylib",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel-pylib.sublime-project"
-					]
-				],
-				"width": 380.0
-			},
-			"select_symbol":
-			{
-				"height": 91.0,
-				"last_filter": "savetodb",
-				"selected_items":
-				[
-					[
-						"savetodb",
-						"saveToDb"
-					],
-					[
-						"calibrateWithCollectedData",
-						"calibrateWithCollectedData"
-					],
-					[
-						"calibrationDataCollected ",
-						"calibrationDataCollected"
-					],
-					[
-						"calibrationDataCollected",
-						"calibrationDataCollected"
-					],
-					[
-						"dump",
-						"dumpMeasurementData"
-					],
-					[
-						"isMeasurementFull",
-						"isMeasurementFull"
-					],
-					[
-						"blackbody",
-						"requestReadBlackbodyPosition"
-					],
-					[
-						"isclo",
-						"isDoubleClose"
-					],
-					[
-						"startComClient",
-						"startComClient"
-					],
-					[
-						"startge",
-						"startGeDetekt"
-					],
-					[
-						"returnif",
-						"ReturnIfmIp"
-					],
-					[
-						"gedete",
-						"GeDetekt"
-					]
-				],
-				"width": 574.0
-			},
-			"selected_group": 0,
-			"settings":
-			{
-				"_vintageous_last_buffer_search": "listen_for_key_events",
-				"_vintageous_last_buffer_search_command": "nv_vi_star",
-				"_vintageous_last_char_search": "}",
-				"_vintageous_last_char_search_command": "vi_t",
-				"_vintageous_reset_during_init": true
-			},
-			"show_minimap": true,
-			"show_open_files": true,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 182.0,
-			"status_bar_visible": true,
-			"template_settings":
-			{
-			},
-			"window_id": 426,
-			"workspace_name": ""
-		},
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-					[
-						"gitign",
-						"gitignore\t⌬ tabnine"
-					],
-					[
-						"please",
-						"please_stop\t⌬ tabnine"
-					],
-					[
-						"up",
-						"upload_url"
-					],
-					[
-						"uploa",
-						"upload-artifact"
-					],
-					[
-						"out",
-						"outputs"
-					],
-					[
-						"runs",
-						"runs-on"
-					],
-					[
-						"no",
-						"nospace\t?"
-					],
-					[
-						"las",
-						"lastRow"
-					],
-					[
-						"QSqlRe",
-						"QSqlRelationalTableModel"
-					],
-					[
-						"to",
-						"toList"
-					],
-					[
-						"CALIBRATION_HEATER_",
-						"CALIBRATION_HEATER_TURNED_OFF_SETUP"
-					],
-					[
-						"Alpha",
-						"AlphaConnectionWorker"
-					],
-					[
-						"AlphaC",
-						"AlphaConnectionConfigTests"
-					],
-					[
-						"CMAKE_CURR",
-						"CMAKE_CURRENT_SOURCE_DIR"
-					]
-				]
-			},
-			"buffers":
-			[
-				{
-					"contents": "",
-					"settings":
-					{
-						"buffer_size": 0,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/C/Users/przem/AppData/Roaming/Sublime Text 3/.gitignore",
-					"settings":
-					{
-						"buffer_size": 17,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				}
-			],
-			"build_system": "",
-			"build_system_choices":
-			[
-				[
-					[
-						[
-							"Packages/C++/C++ Single File.sublime-build",
-							""
-						],
-						[
-							"Packages/C++/C++ Single File.sublime-build",
-							"Run"
-						],
-						[
-							"Packages/C++11/C++11.sublime-build",
-							""
-						],
-						[
-							"Packages/C++11/C++11.sublime-build",
-							"Run"
-						]
-					],
-					[
-						"Packages/C++11/C++11.sublime-build",
-						"Run"
-					]
-				]
-			],
-			"build_varint": "",
-			"command_palette":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"open repos",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"packat upda",
-						"Package Control: Upgrade Package"
-					],
-					[
-						"clang",
-						"Clang Format: Select Style"
-					],
-					[
-						"previe",
-						"Markdown Preview: Preview in Browser"
-					],
-					[
-						"format",
-						"Clang Format: Select Style"
-					],
-					[
-						"set syn c++",
-						"Set Syntax: C++"
-					],
-					[
-						"new ",
-						"ANF: New File"
-					],
-					[
-						"install pac",
-						"Package Control: Install Package"
-					],
-					[
-						"merge",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"remove",
-						"Remove Selected Whitespace"
-					],
-					[
-						"install ",
-						"Package Control: Install Package"
-					],
-					[
-						"rename",
-						"Rename File"
-					],
-					[
-						"copy",
-						"Copy Filepath With Line Numbers"
-					],
-					[
-						"blame",
-						"Sublime Merge: Blame File"
-					],
-					[
-						"open repo",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"open",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"sublime mer",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"json",
-						"Pretty JSON: Format (Pretty Print) JSON"
-					],
-					[
-						"set syntax json",
-						"Set Syntax: JSON Key-Value"
-					],
-					[
-						"isntall pac",
-						"Package Control: Install Package"
-					],
-					[
-						"install pack",
-						"Package Control: Install Package"
-					],
-					[
-						"list",
-						"Package Control: List Packages"
-					],
-					[
-						"you",
-						"YouCompleteMe: Edit settings"
-					],
-					[
-						"install pa",
-						"Package Control: Install Package"
-					],
-					[
-						"theme",
-						"Material Theme: Configuration"
-					],
-					[
-						"toggle",
-						"NeoVintageous: Toggle CTRL keys"
-					],
-					[
-						"syntac c++",
-						"Set Syntax: C++11"
-					],
-					[
-						"packages",
-						"Package Control: List Packages"
-					],
-					[
-						"set book",
-						"SublimeBookmarks: Toggle Current Line"
-					],
-					[
-						"repos",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"open rep",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"rena",
-						"Rename File"
-					],
-					[
-						"TabNine",
-						"TabNine: Open Configuration"
-					],
-					[
-						"tabnin",
-						"TabNine: Open Configuration"
-					],
-					[
-						"ocnifg",
-						"TabNine: Open Configuration"
-					],
-					[
-						"setting",
-						"Preferences: Settings"
-					],
-					[
-						"forma",
-						"Clang Format: Format Selection"
-					],
-					[
-						"remove paca",
-						"Package Control: Remove Package"
-					],
-					[
-						"install p",
-						"Package Control: Install Package"
-					],
-					[
-						"confi",
-						"Material Theme: Configuration"
-					],
-					[
-						"mat",
-						"Material Theme: Activate theme"
-					],
-					[
-						"rmeov",
-						"Package Control: Remove Package"
-					],
-					[
-						"intal",
-						"Package Control: Install Package"
-					],
-					[
-						"tab",
-						"TabNine: Open Configuration"
-					],
-					[
-						"list packa",
-						"Package Control: List Packages"
-					],
-					[
-						"neovin",
-						"Toggle NeoVintageous"
-					],
-					[
-						"renam",
-						"Rename File"
-					],
-					[
-						"copy r",
-						"Copy Reference"
-					],
-					[
-						"remo",
-						"Package Control: Remove Package"
-					],
-					[
-						"synta",
-						"Set Syntax: C++11"
-					],
-					[
-						"renamee",
-						"Rename File"
-					],
-					[
-						"remove packa",
-						"Package Control: Remove Package"
-					],
-					[
-						"neo",
-						"NeoVintageous: Changelog"
-					],
-					[
-						"toggl",
-						"NeoVintageous: Toggle CTRL keys"
-					],
-					[
-						"togg",
-						"NeoVintageous: Toggle CTRL keys"
-					],
-					[
-						"to",
-						"NeoVintageous: Toggle CTRL keys"
-					],
-					[
-						"open ",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"synta c",
-						"Set Syntax: C"
-					],
-					[
-						"tog",
-						"NeoVintageous: Toggle CTRL keys"
-					],
-					[
-						"packa",
-						"Package Control: Remove Package"
-					],
-					[
-						"synta power",
-						"Set Syntax: PowerShell"
-					],
-					[
-						"mer open",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"list ",
-						"Package Control: List Packages"
-					],
-					[
-						"isntall ",
-						"Package Control: Advanced Install Package"
-					],
-					[
-						"isntall pa",
-						"Package Control: Install Package"
-					],
-					[
-						"blame file",
-						"Sublime Merge: Blame File"
-					],
-					[
-						"toggle n",
-						"NeoVintageous: Toggle CTRL keys"
-					],
-					[
-						"synt c++",
-						"Set Syntax: C++"
-					],
-					[
-						"toggle ",
-						"NeoVintageous: Toggle CTRL keys"
-					],
-					[
-						"git blm",
-						"Git: Blame"
-					],
-					[
-						"install packa",
-						"Package Control: Install Package"
-					],
-					[
-						"isntall pack",
-						"Package Control: Install Package"
-					],
-					[
-						"rmeove packa",
-						"Package Control: Remove Package"
-					],
-					[
-						"ren",
-						"Rename File"
-					],
-					[
-						"keyb",
-						"Preferences: Key Bindings"
-					],
-					[
-						"copyname",
-						"Copy Filepath With Line Numbers"
-					],
-					[
-						"plan",
-						"PlantUmlDiagrams: Continually Generate Diagram"
-					],
-					[
-						"wra",
-						"Word Wrap: Toggle"
-					],
-					[
-						"wrap",
-						"Word Wrap: Toggle"
-					],
-					[
-						"package ",
-						"Package Control: Remove Package"
-					],
-					[
-						"remove ",
-						"Package Control: Remove Channel"
-					],
-					[
-						"cscop",
-						"Cscope: Rebuild database"
-					],
-					[
-						"toggle hex",
-						"HexViewer: Toggle Hex View"
-					],
-					[
-						"intall",
-						"Package Control: Install Package"
-					],
-					[
-						"inst",
-						"Package Control: Install Package"
-					],
-					[
-						"isntall",
-						"Install Package Control"
-					]
-				],
-				"width": 0.0
-			},
-			"console":
-			{
-				"height": 457.0,
-				"history":
-				[
-					"TabNine::version",
-					"TabNine:version",
-					"tabinene:version",
-					"import os; [(os.path.dirname(file)[len('Packages/'):], sublime.decode_value(sublime.load_resource(file))['url']) for file in sublime.find_resources('package-metadata.json')]"
-				]
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"expanded_folders":
-			[
-				"/C/Users/przem/AppData/Roaming/Sublime Text 3"
-			],
-			"file_history":
-			[
-				"/C/tools/msys64/home/przem/.config/fish/config.fish",
-				"/C/Users/przem/.rustup/toolchains/nightly-x86_64-pc-windows-msvc/lib/rustlib/src/rust/library/std/src/thread/mod.rs",
-				"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów_do_środy.txt",
-				"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów_od_środy.txt",
-				"/C/Users/przem/Projects/rust/wmm/Cargo.lock",
-				"/C/Users/przem/Projects/rust/wmm/Cargo.toml",
-				"/C/Users/przem/Projects/rust/wmm/bindings/build.rs",
-				"/C/Users/przem/Projects/rust/wmm/target/debug/build/bindings-b129f50866817650/out/windows.rs",
-				"/C/Users/przem/Projects/rust/rwm_windows/src/main.rs",
-				"/C/Users/przem/Projects/rust/rwm_windows/Cargo.toml",
-				"/C/Users/przem/Projects/rust/rwm_windows/src/build.rs",
-				"/C/Users/przem/AppData/Roaming/Mozilla/Firefox/Profiles/sueea553.default-release/chrome/userChrome.css",
-				"/C/Users/przem/Google Drive/documents/Firefox/OneTab.exported",
-				"/C/Users/przem/Projects/rwm/cpp/build/qml/main.qml",
-				"/C/Users/przem/Projects/rwm/src/main.rs",
-				"/C/Users/przem/Projects/rwm/cpp/main.cpp",
-				"/C/ProgramData/chocolatey/lib/gstreamer-devel/gstreamer-devel.nuspec",
-				"/C/ProgramData/chocolatey/logs/chocolatey.log",
-				"/C/Users/przem/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.clang-format",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.github/workflows/continuous_integration.yml",
-				"/C/Users/PrzemyslawPorebski/Downloads/Program.txt",
-				"/C/Users/PrzemyslawPorebski/Downloads/Rozmowa.cmd",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/Sentinel.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient-internal.h",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/Grandperspective/Sentinel/sentinel.settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaConnectionTests.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/gtags.files",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnection.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnection.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaStatemachine.scxml",
-				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/windows/build_gtags.cmd",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/vcpkg.txt",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/CTags/Default.sublime-keymap",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/Sentinel.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/main.qml",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaHttpDriver.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GigECamera.cpp",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/DatabaseConnection.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Scan.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Toxel.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/CMakeLists.txt",
-				"//wsl$/Ubuntu-20.04/home/przemo/Projects/26158053.1",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.gitignore",
-				"/C/Users/PrzemyslawPorebski/Projects/hello_github_action/.github/workflows/cmake.yml",
-				"/C/Users/PrzemyslawPorebski/Projects/HelloWorld/.github/workflows/build_cmake.yml",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Merge/Packages/User/Default (Windows).sublime-keymap",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanArea.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanArea.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanAreaContainer.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanAreaContainer.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/DatabaseConnection.h",
-				"/C/Users/PrzemyslawPorebski/Projects/builds/install/release/opusRsTimesFile.log",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/User/clang_format.sublime-settings",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/Clang Format/clang_format.sublime-settings",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/Clang Format/Default (Windows).sublime-keymap",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/CameraControl.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/CameraControl.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/builds/install/release/opusRsTimesFile",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl-internal.h",
-				"//wsl$/kali-linux/home/przemo/.vimrc",
-				"//wsl$/Ubuntu-20.04/home/przemo/.config/nvim/init.vim",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/modules/PtuControlTest.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuDriver.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/CMakeLists.txt.user",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/sentinel-fluent-bit-dev/Readme.md",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Spectrum.cpp",
-				"/C/Users/PrzemyslawPorebski/PycharmProjects/pythonProject/main.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/TimestampToxelCollator.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/AqTimestamper.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/AqTimestamper.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Spectrum.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/model/PtuPositionsContainerTest.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/PtuPositionsContainer.cpp",
-				"/C/Users/PrzemyslawPorebski/Documents/n53sv_Przemek.rdp",
-				"/C/Users/PrzemyslawPorebski/Documents/PowerShell/Microsoft.PowerShell_profile.ps1",
-				"/C/Users/PrzemyslawPorebski/_vimrc",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/PtuPositionsContainer.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/PtuControl.qml",
-				"/C/Users/PrzemyslawPorebski/Projects/mlcourse.ai/run_docker_jupyter_windows.cmd",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/jsonstruct/Timestamp.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ScanProxy.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ScanProxy.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanBackground.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanBackground.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Toxel.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Scan.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/MsTimestamp.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/MsTimestamp.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/SidebarDirectControl.qml",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/Sentinel_AlphaConnectino_coordination.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/helpers/TimeConversion.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/NordVPN_Polish_servers.txt",
-				"/C/Users/PrzemyslawPorebski/Stuff/LassPass.csv",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/SentinelTest.cpp",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/Grandperspective/Sentinel/subl",
-				"/C/Users/PrzemyslawPorebski/Projects/opus-rs-testclient/Unit1.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/opus-rs-alpha/OpagIFM.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/ProjectionTest.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaCalibrationData.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaCalibrationData.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/windows/choco_local.list",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GeDetekt.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/vcpkg/buildtrees/opencv4/src/4.1.1-fb9e10326a/modules/core/src/matrix.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.gitbugtraq",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/sentinel.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr27.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr19.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr22.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr13.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_nr2.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_INTERFEROGRAM_nr18.log",
-				"/C/Users/PrzemyslawPorebski/Projects/builds/sentinel-Qt_5_14_2_msvc2017_64-Debug/compile_commands.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/commonTest/mocks/AlphaConnectionMock.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GeDetekt.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AbstractAlphaConnection.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/SentinelStateMachine.scxml",
-				"/C/Users/PrzemyslawPorebski/Documents/firefox_oneTab_tabs.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/ComClient_test.cpp",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/integrationTests/sentinel.settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/windows/NordVPN_reset_commands.log",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComponentState.h"
-			],
-			"find":
-			{
-				"height": 24.0
-			},
-			"find_in_files":
-			{
-				"height": 157.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": true,
-				"find_history":
-				[
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": true,
-				"wrap": true
-			},
-			"folders":
-			[
-				{
-					"path": "C:\\Users\\przem\\AppData\\Roaming\\Sublime Text 3"
-				}
-			],
-			"groups":
-			[
-				{
-					"selected": 1,
-					"sheets":
-					[
-						{
-							"buffer": 0,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 0,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"auto_name": "",
-									"default_dir": "C:\\Users\\przem\\Projects\\rust\\wmm",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/C/Users/przem/AppData/Roaming/Sublime Text 3/.gitignore",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 17,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										16,
-										16
-									]
-								],
-								"settings":
-								{
-									"highlight_line": false,
-									"open_with_edit": true,
-									"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
-					]
-				}
-			],
-			"incremental_find":
-			{
-				"height": 24.0
-			},
-			"input":
-			{
-				"height": 55.0
-			},
-			"layout":
-			{
-				"cells":
-				[
-					[
-						0,
-						0,
-						1,
-						1
-					]
-				],
-				"cols":
-				[
-					0.0,
-					1.0
-				],
-				"rows":
-				[
-					0.0,
-					1.0
-				]
-			},
-			"menu_visible": true,
-			"output.ECC":
-			{
-				"height": 334.0
-			},
-			"output.exec":
-			{
-				"height": 98.0
-			},
-			"output.find_results":
-			{
-				"height": 0.0
-			},
-			"output.hex_viewer_inspector":
-			{
-				"height": 103.0
-			},
-			"output.unsaved_changes":
-			{
-				"height": 324.0
-			},
-			"pinned_build_system": "",
-			"position": "0,0,1,-1,-1,-1,-1,1073,26,26,1642",
-			"project": "",
+			"position": "0,0,1,-1,-1,-1,-1,1577,1017,0,2954",
+			"project": "scanfeld-pylib.sublime-project",
 			"replace":
 			{
 				"height": 44.0
@@ -3349,184 +2802,56 @@
 				"selected_items":
 				[
 					[
-						"",
-						".clang-format"
+						"create",
+						"sentinelpylib\\development_tools\\db_scripts\\create_database.py"
 					],
 					[
-						"comclien",
-						"modules\\ComClient.h"
+						"Timeseries_Analysis.ipynb ",
+						"sentinelpylib\\labtools\\Timeseries_Analysis.ipynb"
 					],
 					[
-						"gitign",
-						".gitignore"
+						"histo",
+						"sentinelpylib\\labtools\\Histogram_Analysis.ipynb"
 					],
 					[
-						"client",
-						"modules\\ComClient.cpp"
+						"times",
+						"sentinelpylib\\labtools\\Timeseries_Analysis.ipynb"
 					],
 					[
-						"cam",
-						"modules\\GigECamera.cpp"
+						"i_test_sentineldb.py ",
+						"sentinelpylib\\integration_tests\\i_test_sentineldb.py"
 					],
 					[
-						"readm",
-						"sentinel-fluent-bit-dev\\Readme.md"
+						"docker-compo",
+						"docker-compose.ci.yml"
 					],
 					[
-						"cmake",
-						"CMakeLists.txt"
+						"dockerfile",
+						"Dockerfile-alarmcreator"
 					],
 					[
-						"ptuconto",
-						"modules\\PtuControl.cpp"
+						"compose",
+						"docker-compose.ci.yml"
 					],
 					[
-						"ptucontte",
-						"unitTests\\modules\\PtuControlTest.cpp"
+						"dbclass",
+						"sentinelpylib\\sentineldb\\dbclasses.py"
 					],
 					[
-						"ptudriver",
-						"modules\\PtuDriver.cpp"
+						"sentinelpylib/imagegeneration/compound_color_assignment.py",
+						"sentinelpylib\\imagegeneration\\compound_color_assignment.py"
 					],
 					[
-						"comclient",
-						"modules\\ComClient.cpp"
+						"sentinelpylib/alarmgeneration/test.py",
+						"sentinelpylib\\alarmgeneration\\test.py"
 					],
 					[
-						"PtuControl",
-						"modules\\PtuControl.h"
+						"sentinelpylib/alarmgeneration/alarmcreator.py",
+						"sentinelpylib\\alarmgeneration\\alarmcreator.py"
 					],
 					[
-						"ptucon",
-						"modules\\PtuControl.h"
-					],
-					[
-						"unitTests/model/PtuPositionsContainerTest.cpp",
-						"unitTests\\model\\PtuPositionsContainerTest.cpp"
-					],
-					[
-						"ptu",
-						"modules\\PtuControl.h"
-					],
-					[
-						"alpha",
-						"alpha_access\\AlphaConnection.cpp"
-					],
-					[
-						"aqtim",
-						"modules\\AqTimestamper.cpp"
-					],
-					[
-						"aqtime",
-						"modules\\AqTimestamper.cpp"
-					],
-					[
-						"time",
-						"helpers\\TimeConversion.cpp"
-					],
-					[
-						"com",
-						"modules\\ComClient.cpp"
-					],
-					[
-						"sentinelTest",
-						"unitTests\\SentinelTest.cpp"
-					],
-					[
-						"comclie in",
-						"modules\\ComClient-internal.h"
-					],
-					[
-						"comclie",
-						"modules\\ComClient.cpp"
-					],
-					[
-						"alpha test",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
-					],
-					[
-						"alphatest",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
-					],
-					[
-						"http",
-						"alpha_access\\AlphaHttpDriver.cpp"
-					],
-					[
-						"gedete",
-						"modules\\GeDetekt.cpp"
-					],
-					[
-						"comclientin",
-						"modules\\ComClient-internal.h"
-					],
-					[
-						"comcli",
-						"modules\\ComClient.cpp"
-					],
-					[
-						"gede",
-						"modules\\GeDetekt.cpp"
-					],
-					[
-						"pha_access/AlphaConnectionTests.cpp ",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
-					],
-					[
-						"AlphaStatemachine.scxml",
-						"alpha_access\\AlphaStatemachine.scxml"
-					],
-					[
-						"sentine",
-						"Sentinel.cpp"
-					],
-					[
-						"comclient_te",
-						"integrationTests\\ComClient_test.cpp"
-					],
-					[
-						"AlphaConnection.cpp",
-						"alpha_access\\AlphaConnection.cpp"
-					],
-					[
-						"AlphaConnectionTe.",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
-					],
-					[
-						"AlphaStatemachine.scxml ",
-						"alpha_access\\AlphaStatemachine.scxml"
-					],
-					[
-						"comclien inte",
-						"modules\\ComClient-internal.h"
-					],
-					[
-						"alphacali",
-						"alpha_access\\AlphaCalibrationData.h"
-					],
-					[
-						"ab",
-						"alpha_access\\AbstractAlphaConnection.h"
-					],
-					[
-						"AlphaConnectionTests.cpp",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
-					],
-					[
-						"gigecam",
-						"modules\\GigECamera.cpp"
-					],
-					[
-						"ge",
-						"modules\\GeDetekt.cpp"
-					],
-					[
-						"drivermock",
-						"commonTest\\mocks\\AlphaHttpDriverMock.h"
-					],
-					[
-						"alphaconn test",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
+						"sentinelpylib/development_tools/db_copy_scan.py",
+						"sentinelpylib\\development_tools\\db_copy_scan.py"
 					],
 					[
 						"alphacon",
@@ -3557,8 +2882,16 @@
 						"model\\Toxel.cpp"
 					],
 					[
+						"gedete",
+						"modules\\GeDetekt.cpp"
+					],
+					[
 						"GeDetekt.cpp",
 						"modules\\GeDetekt.cpp"
+					],
+					[
+						"AlphaConnectionTests.cpp",
+						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
 					],
 					[
 						"unitTests/alpha_access/AlphaConnectionTests.cpp",
@@ -3599,6 +2932,14 @@
 					[
 						"NetworkAccessManagerMock.cpp",
 						"unitTests\\mocks\\NetworkAccessManagerMock.cpp"
+					],
+					[
+						"",
+						"integrationTests\\mocks\\NetworkAccessManagerMock.cpp"
+					],
+					[
+						"cam",
+						"modules\\GigECamera.cpp"
 					],
 					[
 						"test-main.cpp",
@@ -3677,8 +3018,16 @@
 						"model\\SpherePosition.h"
 					],
 					[
+						"comclient",
+						"modules\\ComClient.cpp"
+					],
+					[
 						"sentinelstatemachine",
 						"SentinelStateMachine.scxml"
+					],
+					[
+						"cmake",
+						"alpha_access\\CMakeLists.txt"
 					],
 					[
 						"QNetworkAccessManagerDummyMock.h",
@@ -3698,58 +3047,58 @@
 			"select_project":
 			{
 				"height": 500.0,
-				"last_filter": "rwm",
+				"last_filter": "sentine",
 				"selected_items":
 				[
 					[
-						"rwm",
-						"C:\\Users\\przem\\Projects\\sublime_projects\\rwm.sublime-project"
+						"sentine",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
+					],
+					[
+						"scna pyli",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\scanfeld-pylib.sublime-project"
+					],
+					[
+						"sen",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
+					],
+					[
+						"hello",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\HelloWorld_githubActions.sublime-project"
+					],
+					[
+						"",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
+					],
+					[
+						"ardu",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\arduino_libraries.sublime-project"
+					],
+					[
+						"seneint",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
+					],
+					[
+						"sentin",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
 					],
 					[
 						"test",
 						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\testserver-configuration.sublime-project"
 					],
 					[
-						"pyli",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel-pylib.sublime-project"
-					],
-					[
-						"pylib",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel-pylib.sublime-project"
+						"sent",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
 					]
 				],
 				"width": 380.0
 			},
 			"select_symbol":
 			{
-				"height": 91.0,
-				"last_filter": "savetodb",
+				"height": 357.0,
+				"last_filter": "blackbody",
 				"selected_items":
 				[
-					[
-						"savetodb",
-						"saveToDb"
-					],
-					[
-						"calibrateWithCollectedData",
-						"calibrateWithCollectedData"
-					],
-					[
-						"calibrationDataCollected ",
-						"calibrationDataCollected"
-					],
-					[
-						"calibrationDataCollected",
-						"calibrationDataCollected"
-					],
-					[
-						"dump",
-						"dumpMeasurementData"
-					],
-					[
-						"isMeasurementFull",
-						"isMeasurementFull"
-					],
 					[
 						"blackbody",
 						"requestReadBlackbodyPosition"
@@ -3775,38 +3124,41 @@
 						"GeDetekt"
 					]
 				],
-				"width": 574.0
+				"width": 592.0
 			},
-			"selected_group": 0,
+			"selected_group": 1,
 			"settings":
 			{
+				"_vintageous_last_buffer_search": "script_location",
+				"_vintageous_last_buffer_search_command": "nv_vi_slash",
 				"_vintageous_reset_during_init": true
 			},
 			"show_minimap": true,
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 182.0,
+			"side_bar_width": 294.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 432,
-			"workspace_name": ""
+			"window_id": 450,
+			"workspace_name": "/C/Users/PrzemyslawPorebski/Projects/sublime_projects/scanfeld-pylib.sublime-workspace"
 		}
 	],
 	"workspaces":
 	{
 		"recent_workspaces":
 		[
+			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/scanfeld-pylib.sublime-workspace",
+			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/sentinel.sublime-workspace",
+			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/sentinel-pylib.sublime-workspace",
 			"/C/Users/przem/Projects/sublime_projects/rwm.sublime-workspace",
 			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/dotfiles.sublime-workspace",
 			"/C/Users/przem/Projects/sublime_projects/switcheroo.sublime-workspace",
 			"/C/Users/przem/Projects/sublime_projects/PlotJuggler.sublime-workspace",
 			"/C/Users/przem/Projects/sublime_projects/servo.sublime-workspace",
 			"/C/Users/przem/Projects/sublime_projects/godot.sublime-workspace",
-			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/sentinel.sublime-workspace",
-			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/sentinel-pylib.sublime-workspace",
 			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/AqTimestamper.sublime-workspace",
 			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/arduino_libraries.sublime-workspace",
 			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/testserver-configuration.sublime-workspace",

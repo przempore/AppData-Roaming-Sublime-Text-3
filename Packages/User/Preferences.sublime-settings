@@ -1,7 +1,7 @@
 {
 	"ClangFormat":
 	{
-		"format_on_save": false
+		"format_on_save": true
 	},
 	"auto_complete": true,
 	"auto_complete_triggers":
