@@ -1,0 +1,4 @@
+{
+    //     ["--exclude=some/path", "--exclude=some/other/path", ...]
+    "opts" : ["--exclude=.git", "--exclude=vcpkg"]
+}

@@ -1,0 +1,1 @@
+{"platforms": ["*"], "url": "https://packagecontrol.io/packages/Python%20Improved", "description": "The best Python language definition for Sublime Text - ever. Includes full support for Unicode, as well as both Python 2 and Python 3 syntax. Check out the Neon Color Scheme for highlighting.", "version": "2.2.3", "dependencies": [], "sublime_text": "*"}

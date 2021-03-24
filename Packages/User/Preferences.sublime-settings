@@ -27,7 +27,8 @@
 		".git",
 		".idea",
 		".vscode",
-		".vs"
+		".vs",
+		"python"
 	],
 	"font_size": 8,
 	"ignored_packages":
@@ -48,7 +49,6 @@
 	"material_theme_tabs_autowidth": true,
 	"material_theme_tabs_separator": true,
 	"neovintageous_build_version": 11100,
-	"sublime-merge": "C:\\Users\\przem\\Programs\\sublime merge\\sublime_merge.exe",
 	"theme": "Material-Theme.sublime-theme",
 	"vintageous_use_ctrl_keys": true,
 	"vintageous_use_super_keys": null

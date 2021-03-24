@@ -32,22 +32,25 @@
 		"PowerShell",
 		"Pretty JSON",
 		"Python 3",
-		"Python Completions",
+		"Python Improved",
 		"QML",
+		"RainbowBrackets",
 		"REG",
+		"RemoteSubl",
+		"requirementstxt",
 		"rsub",
 		"Rust Enhanced",
 		"RustAutoComplete",
 		"RustFmt",
 		"SideBarEnhancements",
 		"Six",
+		"sublack",
 		"Sublime Bookmarks",
 		"Sublimerge 3",
 		"Tabnine",
 		"ToggleNeoVintageous",
 		"TOML",
 		"Whitespace Removal",
-		"x86 and x86_64 Assembly",
-		"YouCompleteMe"
+		"x86 and x86_64 Assembly"
 	]
 }
