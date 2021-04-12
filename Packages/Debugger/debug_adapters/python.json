@@ -1,0 +1,12 @@
+{
+	"command" : [
+		"python",
+		"${install_path}/extension/pythonFiles/lib/python/debugpy/adapter"
+	],
+	"dependencies": [],
+	"install": {
+		"name": "vscode-python",
+		"type": "vscode",
+		"url": "https://marketplace.visualstudio.com/_apis/public/gallery/publishers/ms-python/vsextensions/python/latest/vspackage"
+	}
+}

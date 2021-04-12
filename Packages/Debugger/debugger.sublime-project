@@ -1,0 +1,24 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"mypy",
+				"start.py"
+			],
+			"file_regex": "(.*):([0-9]+): error:(.*)",
+			"name": "mypy",
+			"working_dir": "${project_path}"
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings":
+	{
+	}
+}

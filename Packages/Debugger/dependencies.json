@@ -1,0 +1,28 @@
+{
+	"*": {
+		">=3124": [
+			"mdpopups",
+			"pygments",
+			"python-markdown",
+			"python-jinja2",
+			"markupsafe",
+			"pymdownx",
+			"pyyaml",
+
+			"ptyprocess"
+		]
+	},
+	"windows": {
+		">=3124": [
+			"mdpopups",
+			"pygments",
+			"python-markdown",
+			"python-jinja2",
+			"markupsafe",
+			"pymdownx",
+			"pyyaml",
+
+			"pywinpty"
+		]
+	}
+}

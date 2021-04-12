@@ -1,0 +1,35 @@
+[
+    {
+        "caption": "-"
+    },
+    {
+        "caption": "-"
+    },
+    {
+        "caption": "-"
+    },
+    {
+        "caption": "-"
+    },
+    {
+        "args": {
+            "action": "toggle_breakpoint"
+        },
+        "command": "debugger",
+        "caption": "Toggle Breakpoint"
+    },
+    {
+        "args": {
+            "action": "toggle_column_breakpoint"
+        },
+        "command": "debugger",
+        "caption": "Toggle Column Breakpoint"
+    },
+    {
+        "args": {
+            "action": "run_to_current_line"
+        },
+        "command": "debugger",
+        "caption": "Run To Selected Line"
+    }
+]
