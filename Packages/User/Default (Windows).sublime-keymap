@@ -38,5 +38,6 @@
         "keys": ["ctrl+k", "ctrl+p"]
     },
 
-    { "keys": ["ctrl+shift+r"], "command": "focus_file_on_sidebar"}
+    { "keys": ["ctrl+shift+r"], "command": "focus_file_on_sidebar" }
+
 ]
