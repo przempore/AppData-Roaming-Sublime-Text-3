@@ -104,6 +104,8 @@ changeable_setup_arguments = (
 )
 
 is_python2 = False
+is_less_than_python_38 = sys.version_info < (3,8)
+
 EMPTY_KWARG = -sys.maxsize
 
 if sys.version_info[0] < 3:
@@ -112,6 +114,7 @@ if sys.version_info[0] < 3:
 
 else:
     from collections.abc import MutableMapping
+
 
 if hasattr(sys, '_getframe'):
     currentframe = lambda level: sys._getframe(level)
@@ -160,7 +163,7 @@ class Debugger(Logger):
         # Enable debug messages: (bitwise)
         # 0 - Disabled debugging
         # 1 - Errors messages
-        self._frame_level = 4
+        self._frame_level = 3
         self._debugger_level = 127
         self._reset()
 
@@ -966,6 +969,7 @@ class Debugger(Logger):
 
         def _log(self, level, msg, args, exc_info=None, extra={}, stack_info=False, debug_level=0, **kwargs):
             self._current_tick = timeit.default_timer()
+            if is_less_than_python_38 and "stacklevel" in kwargs: kwargs.pop( "stacklevel" )
 
             debug_level = "(%d)" % debug_level if debug_level else ""
             extra.update( {"debugLevel": debug_level, "tickDifference": self._current_tick - self._last_tick} )
@@ -989,14 +993,14 @@ class Debugger(Logger):
                 finally:
                     _releaseLock()
 
-                super()._log( level, msg, args, exc_info, extra, stack_info )
+                super()._log( level, msg, args, exc_info, extra, stack_info, **kwargs )
                 self._last_tick = self._current_tick
 
                 for handler, formatter in old_formatters.items():
                     handler.formatter = formatter
 
             else:
-                super()._log( level, msg, args, exc_info, extra, stack_info )
+                super()._log( level, msg, args, exc_info, extra, stack_info, **kwargs )
                 self._last_tick = self._current_tick
 
     def _log_clean(self, msg, args, kwargs):
@@ -1308,8 +1312,9 @@ class Debugger(Logger):
     # and function name.
     if is_python2:
 
+        # Python 2.7.14
         def findCaller(self):
-            f = currentframe(self._frame_level)
+            f = currentframe(self._frame_level + 1)
             #On some versions of IronPython, currentframe() returns None if
             #IronPython isn't run with -X:Frames.
             if f is not None:
@@ -1325,10 +1330,44 @@ class Debugger(Logger):
                 break
             return rv
 
+    elif is_less_than_python_38:
+
+        # Python 3.6.3
+        def findCaller(self, stack_info=False):
+            f = currentframe(self._frame_level + 1)
+            #On some versions of IronPython, currentframe() returns None if
+            #IronPython isn't run with -X:Frames.
+            if f is not None:
+                f = f.f_back
+            rv = "(unknown file)", 0, "(unknown function)", None
+            while hasattr(f, "f_code"):
+                co = f.f_code
+                filename = os.path.normcase(co.co_filename)
+                if filename == _srcfile:
+                    f = f.f_back
+                    continue
+                sinfo = None
+                if stack_info:
+                    sio = io.StringIO()
+                    sio.write('Stack (most recent call last):\n')
+                    traceback.print_stack(f, file=sio)
+                    sinfo = sio.getvalue()
+                    if sinfo[-1] == '\n':
+                        sinfo = sinfo[:-1]
+                    sio.close()
+                rv = (co.co_filename, f.f_lineno, co.co_name, sinfo)
+                break
+            return rv
+
     else:
 
-        def findCaller(self, stack_info=False):
-            f = currentframe(self._frame_level)
+        # Python 3.8.0
+        def findCaller(self, stack_info=False, stacklevel=1):
+            """
+            Find the stack frame of the caller so that we can note the source
+            file name, line number and function name.
+            """
+            f = currentframe(self._frame_level + stacklevel)
             #On some versions of IronPython, currentframe() returns None if
             #IronPython isn't run with -X:Frames.
             if f is not None:
@@ -1587,6 +1626,14 @@ def _getLogger(debug_level=127, logger_name=None, **kwargs):
 
 def _get_debug_level(debug_level, logger_name):
 
+    if isinstance( debug_level, str ):
+
+        if len( debug_level ) == 0:
+            debug_level = 1;
+
+    if debug_level is None:
+        debug_level = 1;
+
     if logger_name:
 
         if isinstance( logger_name, int ):
@@ -1612,7 +1659,7 @@ def _get_debug_level(debug_level, logger_name):
 
         else:
             logger_name = debug_level
-            debug_level = 127
+            debug_level = 1
 
     return debug_level, logger_name
 

@@ -1,1 +1,1 @@
-{"url": "https://github.com/packagecontrol/sublime-pywin32/issues", "platforms": ["windows"], "sublime_text": ">=3000", "version": "0.0.220", "description": "Pywin32 module"}
+{"sublime_text": ">=3000", "version": "0.0.220", "url": "https://github.com/packagecontrol/pywin32/issues", "platforms": ["windows"], "description": "Pywin32 module"}

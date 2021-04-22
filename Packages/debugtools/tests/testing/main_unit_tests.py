@@ -65,13 +65,13 @@ try:
 
 except ImportError:
 
-    def assert_path(module):
-
+    def assert_path(*args):
+        module = os.path.realpath( os.path.join( *args ) )
         if module not in sys.path:
             sys.path.append( module )
 
     # Import the debug tools
-    assert_path( os.path.join( os.path.dirname( os.path.dirname( os.path.dirname( os.path.realpath( __file__ ) ) ) ), 'all' ) )
+    assert_path( os.path.dirname( os.path.dirname( os.path.dirname( os.path.realpath( __file__ ) ) ) ), 'all' )
 
     import debug_tools
     from debug_tools import utilities
@@ -127,7 +127,6 @@ class StdErrUnitTests(testing_utilities.MultipleAssertionFailures):
     """
 
     def setUp(self):
-        self.maxDiff = None
         super(StdErrUnitTests, self).setUp()
 
         sys.stderr.write("\n")
@@ -138,6 +137,49 @@ class StdErrUnitTests(testing_utilities.MultipleAssertionFailures):
 
         log.clear( True )
         log.reset()
+
+    @unittest.skipIf( sys.version_info < (3,8), "Feature only available in Python 3.8 or above..." )
+    def test_find_caller_with_stacklevel(self):
+        getLogger( 1, time=0, msecs=0, tick=0 )
+        the_level = 1
+
+        def innermost():
+            log( 'Something...', stacklevel=the_level )
+
+        def inner():
+            innermost()
+
+        def outer():
+            _stderr.clear( log )
+            inner()
+
+        outer()
+        the_level += 1
+        self.assertRegexpMatches( _stderr.contents(),
+                r"logger.innermost:\d+ - Something..." )
+
+        outer()
+        the_level += 1
+        self.assertRegexpMatches( _stderr.contents(),
+                r"logger.inner:\d+ - Something..." )
+
+        outer()
+        the_level += 1
+        self.assertRegexpMatches( _stderr.contents(),
+                r"logger.outer:\d+ - Something..." )
+
+        outer()
+        the_level += 1
+        self.assertRegexpMatches( _stderr.contents(),
+                r"logger.test_find_caller_with_stacklevel:\d+ - Something..." )
+
+    @unittest.skipIf( sys.version_info >= (3,8), "Feature only available in Python 3.8 or above..." )
+    def test_find_caller_with_stacklevel_on_older_versions(self):
+        getLogger( 1, time=0, msecs=0, tick=0 )
+        log( 'Something...', stacklevel=1 )
+
+        self.assertRegexpMatches( _stderr.contents(),
+                r"logger.test_find_caller_with_stacklevel_on_older_versions:\d+ - Something..." )
 
     def test_function_name(self):
         getLogger( 127, "testing.main_unit_tests", date=True )
@@ -355,7 +397,6 @@ class StdErrUnitTests(testing_utilities.MultipleAssertionFailures):
 class StdOutUnitTests(testing_utilities.MultipleAssertionFailures):
 
     def setUp(self):
-        self.maxDiff = None
         super(StdOutUnitTests, self).setUp()
 
         sys.stderr.write("\n")
@@ -420,11 +461,12 @@ class LogRecordUnitTests(testing_utilities.MultipleAssertionFailures):
     """
 
     def setUp(self):
-        self.maxDiff = None
+        super(LogRecordUnitTests, self).setUp()
         sys.stderr.write("\n")
         sys.stderr.write("\n")
 
     def tearDown(self):
+        super(LogRecordUnitTests, self).tearDown()
         log.clear( True )
         log.reset()
 
@@ -542,21 +584,14 @@ class LogRecordUnitTests(testing_utilities.MultipleAssertionFailures):
 class SetupFormattingSpacingUnitTests(testing_utilities.MultipleAssertionFailures):
 
     def setUp(self):
-        self.maxDiff = None
+        super(SetupFormattingSpacingUnitTests, self).setUp()
         sys.stderr.write("\n")
         sys.stderr.write("\n")
 
     def tearDown(self):
+        super(SetupFormattingSpacingUnitTests, self).tearDown()
         log.clear( True )
         log.reset()
-
-    def test_default_logger_creation(self):
-        getLogger( 1 )
-        log( 'Something...' )
-
-        output = _stderr.contents()
-        self.assertRegexpMatches( output,
-                r"\d\d:\d\d:\d\d:\d\d\d.\d\d\d\d\d\d \d.\d\de(\+|\-)\d\d - logger.test_default_logger_creation:\d\d\d - Something..." )
 
     def test_not_time(self):
         getLogger( 1, time=0 )
@@ -626,13 +661,93 @@ class SetupFormattingSpacingUnitTests(testing_utilities.MultipleAssertionFailure
 class DynamicSetupFormattingUnitTests(testing_utilities.MultipleAssertionFailures):
 
     def setUp(self):
-        self.maxDiff = None
+        super(DynamicSetupFormattingUnitTests, self).setUp()
         sys.stderr.write("\n")
         sys.stderr.write("\n")
 
     def tearDown(self):
+        super(DynamicSetupFormattingUnitTests, self).tearDown()
         log.clear( True )
         log.reset()
+
+    def test_default_logger_creation(self):
+        getLogger( 1 )
+        log( 'Something...' )
+
+        output = _stderr.contents()
+        self.assertRegexpMatches( output,
+                r"\d\d:\d\d:\d\d:\d\d\d.\d\d\d\d\d\d \d.\d\de(\+|\-)\d\d - logger.test_default_logger_creation:\d\d\d - Something..." )
+
+    def test_logger_name_string_string(self):
+        getLogger( "", "mylogger" )
+        log( 1, 'Something...' )
+
+        output = _stderr.contents()
+        self.assertRegexpMatches( output,
+                r"\d\d:\d\d:\d\d:\d\d\d.\d\d\d\d\d\d \d.\d\de(\+|\-)\d\d - mylogger.test_logger_name_string_string:\d\d\d - Something..." )
+
+    def test_logger_name_string_int(self):
+        getLogger( "", 3 )
+        log( 1, 'Something...' )
+        self.assertEqual( 127, log.debug_level )
+
+        output = _stderr.contents()
+        self.assertRegexpMatches( output,
+                r"\d\d:\d\d:\d\d:\d\d\d.\d\d\d\d\d\d \d.\d\de(\+|\-)\d\d - logger.test_logger_name_string_int:\d\d\d - Something..." )
+
+    def test_logger_name_string_empty(self):
+        getLogger( "", "" )
+        log( 1, 'Something...' )
+        self.assertEqual( 1, log.debug_level )
+
+        output = _stderr.contents()
+        self.assertRegexpMatches( output,
+                r"\d\d:\d\d:\d\d:\d\d\d.\d\d\d\d\d\d \d.\d\de(\+|\-)\d\d - logger.test_logger_name_string_empty:\d\d\d - Something..." )
+
+    def test_logger_name_int_empty(self):
+        getLogger( 3, "" )
+        log( 1, 'Something...' )
+        self.assertEqual( 3, log.debug_level )
+
+        output = _stderr.contents()
+        self.assertRegexpMatches( output,
+                r"\d\d:\d\d:\d\d:\d\d\d.\d\d\d\d\d\d \d.\d\de(\+|\-)\d\d - logger.test_logger_name_int_empty:\d\d\d - Something..." )
+
+    def test_logger_name_int_int(self):
+        getLogger( 3, "" )
+        log( 1, 'Something...' )
+        self.assertEqual( 3, log.debug_level )
+
+        output = _stderr.contents()
+        self.assertRegexpMatches( output,
+                r"\d\d:\d\d:\d\d:\d\d\d.\d\d\d\d\d\d \d.\d\de(\+|\-)\d\d - logger.test_logger_name_int_int:\d\d\d - Something..." )
+
+    def test_logger_name_none_int(self):
+        getLogger( None, "" )
+        log( 1, 'Something...' )
+        self.assertEqual( 1, log.debug_level )
+
+        output = _stderr.contents()
+        self.assertRegexpMatches( output,
+                r"\d\d:\d\d:\d\d:\d\d\d.\d\d\d\d\d\d \d.\d\de(\+|\-)\d\d - logger.test_logger_name_none_int:\d\d\d - Something..." )
+
+    def test_logger_name_empty_none(self):
+        getLogger( "", None )
+        log( 1, 'Something...' )
+        self.assertEqual( 1, log.debug_level )
+
+        output = _stderr.contents()
+        self.assertRegexpMatches( output,
+                r"\d\d:\d\d:\d\d:\d\d\d.\d\d\d\d\d\d \d.\d\de(\+|\-)\d\d - logger.test_logger_name_empty_none:\d\d\d - Something..." )
+
+    def test_logger_name_none_none(self):
+        getLogger( None, None )
+        log( 1, 'Something...' )
+        self.assertEqual( 1, log.debug_level )
+
+        output = _stderr.contents()
+        self.assertRegexpMatches( output,
+                r"\d\d:\d\d:\d\d:\d\d\d.\d\d\d\d\d\d \d.\d\de(\+|\-)\d\d - logger.test_logger_name_none_none:\d\d\d - Something..." )
 
     def test_not_msecs(self):
         getLogger( 1 )
