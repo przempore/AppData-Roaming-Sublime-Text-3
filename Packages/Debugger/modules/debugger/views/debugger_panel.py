@@ -1,66 +1,89 @@
 from ...typecheck import *
+from ..adapter import Adapters
 from ...import ui
 from . import css
+from ..import dap
+
+from .input_list_view import InputListView
 
 if TYPE_CHECKING:
 	from ..debugger import Debugger
 
-STOPPED = 0
-RUNNING = 1
-PAUSED = 2
-LOADING = 3
-
 
 class DebuggerPanel(ui.div):
-	def __init__(self, callbacks: 'Debugger', breakpoints: ui.div) -> None:
+	def __init__(self, debugger: 'Debugger', breakpoints: ui.div) -> None:
 		super().__init__()
-		self.state = STOPPED
-		self.callbacks = callbacks
+		self.debugger = debugger
 		self.name = ''
 		self.breakpoints = breakpoints
+		self.debugger.sessions.updated.add(lambda session, state: self.dirty())
+		self.debugger.sessions.on_selected.add(self.on_selected_session)
+		self.last_active_adapter = None
 
-	def setState(self, state: int) -> None:
-		self.state = state
+	def on_selected_session(self, session: dap.Session):
+		self.last_active_adapter = session.adapter_configuration
 		self.dirty()
 
 	def render(self) -> ui.div.Children:
 		buttons = [] #type: List[ui.span]
 
 		items = [
-			DebuggerCommandButton(self.callbacks.on_settings, ui.Images.shared.settings),
-			DebuggerCommandButton(self.callbacks.on_play, ui.Images.shared.play),
+			DebuggerCommandButton(self.debugger.on_settings, ui.Images.shared.settings),
+			DebuggerCommandButton(self.debugger.on_play, ui.Images.shared.play),
 		]
 
-		if self.callbacks.is_stoppable():
-			items.append(DebuggerCommandButton(self.callbacks.on_stop, ui.Images.shared.stop))
-		else:
-			items.append(DebuggerCommandButton(self.callbacks.on_stop, ui.Images.shared.stop_disable))
 
-		if self.state == STOPPED or self.state == LOADING:
-			items.append(DebuggerCommandButton(self.callbacks.on_pause, ui.Images.shared.pause_disable))
-		elif self.state == PAUSED:
-			items.append(DebuggerCommandButton(self.callbacks.on_resume, ui.Images.shared.resume))
+		if self.debugger.is_stoppable():
+			items.append(DebuggerCommandButton(self.debugger.on_stop, ui.Images.shared.stop))
 		else:
-			items.append(DebuggerCommandButton(self.callbacks.on_pause, ui.Images.shared.pause))
+			items.append(DebuggerCommandButton(self.debugger.on_stop, ui.Images.shared.stop_disable))
 
-		if self.callbacks.is_paused():
+		if self.debugger.is_running():
+			items.append(DebuggerCommandButton(self.debugger.on_pause, ui.Images.shared.pause))
+		elif self.debugger.is_paused():
+			items.append(DebuggerCommandButton(self.debugger.on_resume, ui.Images.shared.resume))
+		else:
+			items.append(DebuggerCommandButton(self.debugger.on_pause, ui.Images.shared.pause_disable))
+
+		if self.debugger.is_paused():
 			items.extend([
-				DebuggerCommandButton(self.callbacks.on_step_over, ui.Images.shared.down),
-				DebuggerCommandButton(self.callbacks.on_step_out, ui.Images.shared.left),
-				DebuggerCommandButton(self.callbacks.on_step_in, ui.Images.shared.right),
+				DebuggerCommandButton(self.debugger.on_step_over, ui.Images.shared.down),
+				DebuggerCommandButton(self.debugger.on_step_out, ui.Images.shared.left),
+				DebuggerCommandButton(self.debugger.on_step_in, ui.Images.shared.right),
 			])
 		else:
 			items.extend([
-				DebuggerCommandButton(self.callbacks.on_step_over, ui.Images.shared.down_disable),
-				DebuggerCommandButton(self.callbacks.on_step_out, ui.Images.shared.left_disable),
-				DebuggerCommandButton(self.callbacks.on_step_in, ui.Images.shared.right_disable),
+				DebuggerCommandButton(self.debugger.on_step_over, ui.Images.shared.down_disable),
+				DebuggerCommandButton(self.debugger.on_step_out, ui.Images.shared.left_disable),
+				DebuggerCommandButton(self.debugger.on_step_in, ui.Images.shared.right_disable),
 			])
+
+		# looks like
+		# current status
+		# breakpoints ...
+
+		panel_items = []
+		if self.debugger.sessions.has_active:
+			session = self.debugger.sessions.active
+			status = session.status
+			if status:
+				panel_items.append(ui.div(height=css.row_height)[
+					ui.text(status, css=css.label_secondary)
+				])
+
+		if self.last_active_adapter:
+			settings = self.last_active_adapter.settings(self.debugger.sessions)
+			for setting in settings:
+				panel_items.append(InputListView(setting))
+
+
+		panel_items.append(self.breakpoints)
 
 		return [
 			ui.div()[
-				ui.div(height=3.5)[items],
-				ui.div(width=30, height=100, css=css.rounded_panel)[
-					self.breakpoints,
+				ui.div(height=css.header_height)[items],
+				ui.div(width=27, height=1000, css=css.rounded_panel)[
+					panel_items
 				],
 			]
 		]

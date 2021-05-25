@@ -1,6 +1,7 @@
 from ..typecheck import *
 from .. import core
-from .. import dap
+
+from .dap import types as dap
 
 import sublime
 import sublime_plugin
@@ -21,7 +22,6 @@ class Autocomplete:
 		if id in Autocomplete._for_window:
 			return Autocomplete._for_window[id]
 		r = Autocomplete(id)
-		
 		return r
 
 	def __init__(self, id):
@@ -46,17 +46,14 @@ class AutocompleteEventListener(sublime_plugin.EventListener):
 		self.used_completions = False
 		self.ignore_next_modification = False
 
-	@core.coroutine
-	def get_completions(self, view: sublime.View, text: str) -> core.awaitable[None]:
+	async def get_completions(self, view: sublime.View, text: str) -> None:
 		from ..debugger.debugger import Debugger
-		window = view.window()
-		m = Debugger.for_window(window)
-		if not m:
+
+		debugger = Debugger.get(view.window())
+		if not debugger or not debugger.sessions.has_active:
 			return
-		adapter = m.debugger.adapter
-		if not adapter:
-			return
-		self.completions = yield from adapter.Completions(text, len(text) + 1, m.debugger.callstack.selected_frame)
+
+		self.completions = await debugger.sessions.active.completions(text, len(text) + 1)
 		view.run_command("hide_auto_complete")
 		view.run_command("auto_complete", {
 			'disable_auto_insert': True,
@@ -74,6 +71,7 @@ class AutocompleteEventListener(sublime_plugin.EventListener):
 		items = []
 		for completion in self.completions:
 			items.append([completion.label, completion.text or completion.label])
+
 		return items
 
 	def on_modified(self, view: sublime.View) -> None:

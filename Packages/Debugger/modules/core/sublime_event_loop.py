@@ -1,5 +1,4 @@
-from ..libs import asyncio
-
+import asyncio
 import sublime
 import threading
 
@@ -42,12 +41,12 @@ class SublimeEventLoop (asyncio.AbstractEventLoop):
 	def _timer_handle_cancelled(self, handle):
 		raise NotImplementedError
 
-	def call_soon(self, callback, *args):
+	def call_soon(self, callback, *args, context=None):
 		handle = Handle(callback, args)
 		sublime.set_timeout(handle, 0)
 		return handle
 
-	def call_later(self, delay, callback, *args):
+	def call_later(self, delay, callback, *args, context=None):
 		handle = Handle(callback, args)
 		sublime.set_timeout(handle, delay * 1000)
 		return handle
@@ -64,12 +63,11 @@ class SublimeEventLoop (asyncio.AbstractEventLoop):
 	# Method scheduling a coroutine object: create a task.
 	def create_task(self, coro):
 		task = asyncio.tasks.Task(coro, loop=self)
-		if task._source_traceback:
-			del task._source_traceback[-1]
+		if task._source_traceback: #type: ignore
+			del task._source_traceback[-1] #type: ignore
 		return task
 
 	# Methods for interacting with threads.
-
 	def call_soon_threadsafe(self, callback, *args):
 		return self.call_later(0, callback, *args)
 

@@ -1,11 +1,9 @@
 from ..typecheck import *
 
-from .core import call_soon_threadsafe
-
 T = TypeVar('T')
 
 class Handle (Generic[T]):
-	def __init__(self, event: 'Event[T]', callback: Callable[[T], None]) -> None:
+	def __init__(self, event: 'Event[T]', callback: Callable[[T], Any]) -> None:
 		self.callback = callback
 		self.event = event
 
@@ -18,14 +16,14 @@ class Event (Generic[T]):
 		self.handlers = [] # type: List[Handle[T]]
 
 	@overload
-	def add(self: 'Event[None]', callback: Callable[[], None]) -> Handle[None]:
+	def add(self: 'Event[None]', callback: Callable[[], Any]) -> Handle[None]:
 		...
 
 	@overload
-	def add(self, callback: Callable[[T], None]) -> Handle[T]:
+	def add(self, callback: Callable[[T], Any]) -> Handle[T]:
 		...
 
-	def add(self, callback: Callable[[T], None]) -> Handle[T]: #type: ignore
+	def add(self, callback: Callable[[T], Any]) -> Handle[T]: #type: ignore
 		handle = Handle(self, callback)
 		self.handlers.append(handle)
 		return handle
@@ -33,9 +31,14 @@ class Event (Generic[T]):
 	def add_handle(self, handle: Handle[T]) -> None:
 		self.handlers.append(handle)
 
-	def __call__(self, *data: T) -> None:
-		self.post(*data)
+	def __call__(self, *data: T) -> bool:
+		return self.post(*data)
 
-	def post(self, *data: T) -> None:
+	def __bool__(self) -> bool:
+		return bool(self.handlers)
+
+	def post(self, *data: T) -> bool:
+		r = False
 		for h in self.handlers:
-			h.callback(*data)
+			r = r or h.callback(*data)
+		return bool(r)

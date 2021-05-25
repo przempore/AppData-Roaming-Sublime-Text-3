@@ -1,8 +1,8 @@
 from ..typecheck import *
 from ..import core
 from . html import div, span, phantom_sizer, element
-from . layout import Layout, SyntaxHighlightedText
-from . css import css
+from . layout import Layout
+from . style import css
 from . image import view_background_lightness
 
 import os
@@ -15,9 +15,11 @@ class LayoutComponent (Layout):
 		assert item.layout is None, 'item is already added to a layout'
 		self.on_click_handlers = {} #type: Dict[int, Callable]
 		self.on_click_handlers_id = 0
+		self.requires_render = True
+		self._font_size = 12
+
 		self.item = phantom_sizer(div()[item])
 		self.add_component(self.item)
-		self.requires_render = True
 		self.dirty()
 
 	def __getitem__(self, values: 'div.Children'):
@@ -48,7 +50,13 @@ class LayoutComponent (Layout):
 		item.layout = None
 
 	def add_component_children(self, item: element) -> None:
+		if item._width is not None:
+			_parent_width = item._width
+		else:
+			_parent_width = item._max_allowed_width and item._max_allowed_width - item.padding_width
+
 		for item in item.children:
+			item._max_allowed_width = _parent_width
 			self.add_component(item)
 
 	def add_component(self, item: element) -> None:
@@ -89,15 +97,11 @@ class LayoutComponent (Layout):
 
 		if self.item:
 			self.render_component(self.item)
-			self.run_syntax_highlight()
-			self.html = '''<body id="debug"><style>{}</style>{}</body>'''.format(css.all, self.item.html(self))
+			self.html = f'''<body id="debug"><style>html{{font-size:{self._font_size}px}}{css.all}</style>{self.item.html(self)}</body>'''
 		else:
 			self.html = ""
 
 		return True
-
-	def syntax_highlight(self, text: str, language: str) -> SyntaxHighlightedText:
-		return SyntaxHighlightedText(text, language)
 
 	def dispose(self) -> None:
 		self.remove_component(self.item)
@@ -113,6 +117,7 @@ class LayoutComponent (Layout):
 		self.on_click_handlers[id] = callback
 		return str(id)
 
+
 class LayoutView (LayoutComponent):
 	def __init__(self, item: Union[div, span], view: sublime.View) -> None:
 		super().__init__(item)
@@ -120,20 +125,8 @@ class LayoutView (LayoutComponent):
 		self._width = 0.0
 		self._height = 0.0
 		self._lightness = 0.0
-		self._em_width = 1.0
+		self._rem_width_scale = 0.0
 		self.update()
-		self._highlighter = None
-		self._unhighlightedSyntaxHighlightedTexts = [] #type: List[SyntaxHighlightedText]
-		self._syntaxHighlightCache = {} #type: dict
-		try:
-			from mdpopups import SublimeHighlight #type: ignore
-			scheme = view.settings().get('color_scheme')
-			self._highlighter = SublimeHighlight(scheme)
-		except ImportError as e:
-			core.log_info('syntax highlighting disabled no mdpopups')
-
-	def em_width(self) -> float:
-		return self._em_width
 
 	def width(self) -> float:
 		return self._width
@@ -144,44 +137,37 @@ class LayoutView (LayoutComponent):
 	def luminocity(self) -> float:
 		return self._lightness
 
-	def syntax_highlight(self, text: str, language: str) -> SyntaxHighlightedText:
-		item = SyntaxHighlightedText(text, language)
-		self._unhighlightedSyntaxHighlightedTexts.append(item)
-		return item
-
-	# we run syntax highlighting in the main thread all at once before html is generated
-	# This speeds it up a ton since its interacting with sublime's views which seems
-	# we cache all the results because it is really really slow still...
-	def run_syntax_highlight(self) -> None:
-		if not self._highlighter:
-			return
-		for item in self._unhighlightedSyntaxHighlightedTexts:
-			cache = self._syntaxHighlightCache.setdefault(item.language, {})
-			if item.text in cache:
-				item.html = cache[item.text]
-			else:
-				try:
-					item.html = self._highlighter.syntax_highlight(item.text, item.language, inline=True)
-					cache[item.text] = item.html
-				except:
-					core.log_exception()
-
-		self._unhighlightedSyntaxHighlightedTexts.clear()
+	def rem_width_scale(self):
+		return self._rem_width_scale
 
 	def update(self) -> None:
-		font_size = self.view.settings().get('font_size') or 12
 		lightness = view_background_lightness(self.view)
+		em_width = (self.view.em_width() or 7)
+
+		# why is this calculation off on windows?
+		# hard code a reasonable (but low) approximation
+		# something is wrong but I do not know what? Or maybe there is a bug with the viewport_extent/rem_width/font_size in output panels on windows?
+		# calculating the width of the viewport above still works on windows...
+		if core.platform.windows:
+			font_size = em_width / 0.55
+		elif core.platform.linux:
+			font_size = em_width / 0.625
+		else:
+			font_size = self.view.settings().get('font_size') or 12
+
+		rem_width_scale = em_width/font_size
+
+
 		size = self.view.viewport_extent()
-		em_width = self.view.em_width() or 1
 		width = size[0] / em_width
 		height = size[1] / em_width
-		em_width = (self.view.em_width() or 12) / font_size
 
-		if em_width != self._em_width or self._width != width or self._height != height or self._lightness != lightness:
-			self._em_width = em_width
+		if self._width != width or self._height != height or self._lightness != lightness or self._rem_width_scale != rem_width_scale:
+			self._font_size = font_size
 			self._width = width
 			self._height = height
 			self._lightness = lightness
+			self._rem_width_scale = rem_width_scale
 			self.item.dirty()
 
 	def force_dirty(self) -> None:

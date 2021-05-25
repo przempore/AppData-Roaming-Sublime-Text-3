@@ -1,10 +1,12 @@
 {
 	"folder_history":
 	[
-		"/C/Users/przem/Projects/rust/wasm-game-of-life",
-		"/C/Users/przem/Projects/rust/wcolor",
-		"//wsl$/Ubuntu-20.04/home/przemo/Projects/car_crash",
 		"/C/Users/przem/Projects/rust/rwm",
+		"/?wsl$/Ubuntu-20.04/home/przemo/Projects/rust/orst",
+		"/C/tools/msys64/home/przem/.ssh",
+		"/C/Users/przem/Projects/rust/wcolor",
+		"/C/Users/przem/Projects/rust/wasm-game-of-life",
+		"//wsl$/Ubuntu-20.04/home/przemo/Projects/car_crash",
 		"/C/Users/przem/OneDrive/Dokumente/dieta",
 		"/C/Users/przem/Projects/rust/grpc-demo-tonic",
 		"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib",
@@ -107,18 +109,32 @@
 		"/C/Users/PrzemyslawPorebski/Projects/vcpkg/buildtrees/protobuf/x86-windows-dbg/share/protobuf",
 		"/C/Users/PrzemyslawPorebski/Projects/build-simple_widgee_app-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug"
 	],
-	"last_version": 3211,
-	"last_window_id": 480,
+	"last_version": 4107,
+	"last_window_id": 499,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 988.0,
+		"new_window_full_screen": false,
+		"new_window_height": 1002.0,
+		"new_window_maximized": false,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"return",
+						"return false;"
+					],
+					[
+						"is_icon",
+						"is_iconic(hw"
+					],
+					[
+						"Get",
+						"GetLastError"
+					],
 					[
 						"au",
 						"AutoReboot\t⌬ tabnine"
@@ -312,8 +328,24 @@
 				"selected_items":
 				[
 					[
-						"syntax js",
-						"Set Syntax: JavaScript (Rails)"
+						"remove pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"rust",
+						"Build With: RustEnhanced - Run"
+					],
+					[
+						"remove packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"origami des",
+						"Origami: Destroy Current Pane"
 					],
 					[
 						"open repo",
@@ -322,10 +354,6 @@
 					[
 						"right",
 						"Origami: Create Pane with File on the Right"
-					],
-					[
-						"remove packa",
-						"Package Control: Remove Package"
 					],
 					[
 						"list ",
@@ -358,10 +386,6 @@
 					[
 						"synta",
 						"Set Syntax: Python"
-					],
-					[
-						"rust",
-						"Build With: RustEnhanced - Run"
 					],
 					[
 						"clang",
@@ -708,21 +732,27 @@
 			},
 			"file_history":
 			[
-				"/C/Users/przem/Projects/rust/wasm-game-of-life/www/index.js",
-				"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów_od_środy.txt",
+				"/C/Users/przem/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1",
+				"/C/Users/przem/Projects/translate_path_to_linux.py",
+				"/C/Users/przem/Projects/rust/rwm/src/winapi_wrapper.rs",
+				"/C/Users/przem/Projects/rust/rwm/target/debug/build/bindings-d17650f45e4bd9cf/out/windows.rs",
+				"/C/Users/przem/Projects/rust/rwm/target/debug/build/bindings-13028fb91a5ee5fc/out/windows.rs",
+				"/C/Users/przem/Projects/rust/rwm/Cargo.toml",
+				"/C/Users/przem/Projects/rust/rwm/bindings/Cargo.toml",
+				"/C/Users/przem/Projects/rust/rwm/bindings/src/lib.rs",
+				"/C/Users/przem/Projects/rust/rwm/src/tray_icon.rs",
+				"/C/Users/przem/Projects/rust/rwm/src/main.rs",
+				"/C/Users/przem/Projects/rust/rwm/bindings/target/debug/build/bindings-a57180432aa194db/out/windows.rs",
 				"/C/Users/przem/Projects/dotfiles/windows/update.ps1",
 				"/C/Users/przem/Projects/rust/rwm/.github/workflows/rust.yml",
-				"/C/Users/przem/Projects/rust/rwm/bindings/target/debug/build/bindings-a57180432aa194db/out/windows.rs",
+				"/C/Users/przem/Projects/rust/rwm/bindings/build.rs",
+				"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów_do_środy.txt",
+				"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów_od_środy.txt",
 				"/c/Users/przem/Projects/rust/rwm/target/debug/build/bindings-0b5290a4e1d76f8e/out/windows.rs",
-				"/C/Users/przem/Projects/rust/rwm/src/tray_icon.rs",
 				"/C/Users/przem/.cargo/registry/src/github.com-1ecc6299db9ec823/windows-0.8.0/src/lib.rs",
 				"/C/Users/przem/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/src/rust/library/core/src/convert/mod.rs",
 				"/C/Users/przem/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/src/rust/library/core/src/mem/mod.rs",
-				"/C/Users/przem/Projects/rust/rwm/Cargo.toml",
 				"/C/Users/przem/Projects/rust/rwm/target/debug/build/bindings-0b5290a4e1d76f8e/out/windows.rs",
-				"/C/Users/przem/Projects/rust/rwm/bindings/build.rs",
-				"/C/Users/przem/Projects/rust/rwm/bindings/Cargo.toml",
-				"/C/Users/przem/Projects/rust/rwm/src/main.rs",
 				"/C/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um/dwmapi.h",
 				"/C/Users/przem/.neovintageousrc",
 				"/C/Users/przem/AppData/Roaming/Mozilla/Firefox/Profiles/sueea553.default-release/chrome/userChrome.css",
@@ -829,13 +859,7 @@
 				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr27.log",
 				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr19.log",
 				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr22.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr13.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_nr2.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_INTERFEROGRAM_nr18.log",
-				"/C/Users/PrzemyslawPorebski/Projects/builds/sentinel-Qt_5_14_2_msvc2017_64-Debug/compile_commands.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/commonTest/mocks/AlphaConnectionMock.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GeDetekt.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AbstractAlphaConnection.h"
+				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr13.log"
 			],
 			"find":
 			{
@@ -862,8 +886,10 @@
 				[
 				],
 				"reverse": false,
+				"scrollbar_highlights": true,
 				"show_context": true,
 				"use_buffer2": true,
+				"use_gitignore": true,
 				"whole_word": true,
 				"wrap": true
 			},
@@ -875,14 +901,14 @@
 			{
 				"height": 55.0
 			},
-			"menu_visible": true,
+			"menu_visible": false,
 			"output.ECC":
 			{
 				"height": 334.0
 			},
 			"output.exec":
 			{
-				"height": 184.0
+				"height": 390.0
 			},
 			"output.find_results":
 			{
@@ -909,8 +935,12 @@
 				"selected_items":
 				[
 					[
-						"inde",
-						"www\\index.js"
+						"windows.rs",
+						"target\\debug\\build\\bindings-d17650f45e4bd9cf\\out\\windows.rs"
+					],
+					[
+						"win",
+						"src\\winapi_wrapper.rs"
 					],
 					[
 						"tray",
@@ -1274,6 +1304,14 @@
 				"selected_items":
 				[
 					[
+						"sen",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
+					],
+					[
+						"entin",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
+					],
+					[
 						"rwm",
 						"C:\\Users\\przem\\Projects\\sublime_projects\\rwm.sublime-project"
 					],
@@ -1352,14 +1390,14 @@
 			"show_minimap": true,
 			"show_open_files": true,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 206.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 1003.0
+		"new_window_width": 1268.0
 	},
 	"windows":
 	[
@@ -1368,6 +1406,18 @@
 			{
 				"selected_items":
 				[
+					[
+						"return",
+						"return false;"
+					],
+					[
+						"is_icon",
+						"is_iconic(hw"
+					],
+					[
+						"Get",
+						"GetLastError"
+					],
 					[
 						"au",
 						"AutoReboot\t⌬ tabnine"
@@ -1529,12 +1579,153 @@
 			"buffers":
 			[
 				{
-					"file": "/C/Users/przem/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"file": "/C/Users/przem/Projects/rust/rwm/src/winapi_wrapper.rs",
 					"settings":
 					{
-						"buffer_size": 1283,
+						"buffer_size": 9402,
+						"encoding": "UTF-8",
 						"line_ending": "Windows"
-					}
+					},
+					"undo_stack":
+					[
+						[
+							32,
+							1,
+							"nv_vi_o",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal"
+							},
+							"AgAAAD8RAAAAAAAAQBEAAAAAAAAAAAAAQBEAAAAAAABEEQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAPhEAAAAAAAA+EQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							33,
+							1,
+							"nv_enter_normal_mode",
+							{
+								"mode": "mode_insert"
+							},
+							"AQAAAEARAAAAAAAAQBEAAAAAAAAEAAAAICAgIA",
+							"AQAAAAAAAAABAAAARBEAAAAAAABEEQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							44,
+							1,
+							"sequence",
+							{
+								"commands":
+								[
+									[
+										"nv_vi_o",
+										{
+											"count": 1,
+											"mode": "mode_internal_normal"
+										}
+									],
+									[
+										"insert",
+										{
+											"characters": "if"
+										}
+									],
+									[
+										"insert",
+										{
+											"characters": " "
+										}
+									],
+									[
+										"insert",
+										{
+											"characters": "is_"
+										}
+									],
+									[
+										"insert",
+										{
+											"characters": "icon"
+										}
+									],
+									[
+										"insert_completion",
+										{
+											"completion": "is_iconic(hw$0)",
+											"format": "snippet",
+											"keep_prefix": false,
+											"must_insert": false,
+											"trigger": "is_iconic(hw"
+										}
+									],
+									[
+										"insert_completion",
+										{
+											"completion": "hwnd$0",
+											"format": "snippet",
+											"keep_prefix": false,
+											"must_insert": false,
+											"trigger": "hwnd"
+										}
+									]
+								]
+							},
+							"EAAAAEARAAAAAAAAQREAAAAAAAAAAAAAQREAAAAAAABFEQAAAAAAAAAAAABFEQAAAAAAAEYRAAAAAAAAAAAAAEYRAAAAAAAARxEAAAAAAAAAAAAARxEAAAAAAABIEQAAAAAAAAAAAABIEQAAAAAAAEkRAAAAAAAAAAAAAEkRAAAAAAAAShEAAAAAAAAAAAAAShEAAAAAAABLEQAAAAAAAAAAAABLEQAAAAAAAEwRAAAAAAAAAAAAAEwRAAAAAAAATREAAAAAAAAAAAAATREAAAAAAABOEQAAAAAAAAAAAABOEQAAAAAAAE8RAAAAAAAAAAAAAEgRAAAAAAAASBEAAAAAAAAHAAAAaXNfaWNvbkgRAAAAAAAAVREAAAAAAAAAAAAAUhEAAAAAAABSEQAAAAAAAAIAAABod1IRAAAAAAAAVhEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAQBEAAAAAAABAEQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							53,
+							1,
+							"sequence",
+							{
+								"commands":
+								[
+									[
+										"nv_vi_a",
+										{
+											"count": 1,
+											"mode": "mode_internal_normal"
+										}
+									],
+									[
+										"insert",
+										{
+											"characters": " "
+										}
+									],
+									[
+										"insert_snippet",
+										{
+											"contents": "{$0}"
+										}
+									],
+									[
+										"run_macro_file",
+										{
+											"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+										}
+									],
+									[
+										"insert",
+										{
+											"characters": "return"
+										}
+									],
+									[
+										"insert_completion",
+										{
+											"completion": "return false;$0",
+											"format": "snippet",
+											"keep_prefix": false,
+											"must_insert": false,
+											"trigger": "return false;"
+										}
+									]
+								]
+							},
+							"EAAAAFcRAAAAAAAAWBEAAAAAAAAAAAAAWBEAAAAAAABaEQAAAAAAAAAAAABZEQAAAAAAAFoRAAAAAAAAAAAAAFoRAAAAAAAAXhEAAAAAAAAAAAAAXhEAAAAAAABfEQAAAAAAAAAAAABfEQAAAAAAAGMRAAAAAAAAAAAAAFoRAAAAAAAAWhEAAAAAAAAEAAAAICAgIFoRAAAAAAAAYhEAAAAAAAAAAAAAYhEAAAAAAABjEQAAAAAAAAAAAABjEQAAAAAAAGQRAAAAAAAAAAAAAGQRAAAAAAAAZREAAAAAAAAAAAAAZREAAAAAAABmEQAAAAAAAAAAAABmEQAAAAAAAGcRAAAAAAAAAAAAAGcRAAAAAAAAaBEAAAAAAAAAAAAAYhEAAAAAAABiEQAAAAAAAAYAAAByZXR1cm5iEQAAAAAAAG8RAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAVhEAAAAAAABWEQAAAAAAAAAAAAAAAPC/"
+						]
+					]
 				}
 			],
 			"build_system": "",
@@ -1573,8 +1764,24 @@
 				"selected_items":
 				[
 					[
-						"syntax js",
-						"Set Syntax: JavaScript (Rails)"
+						"remove pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"rust",
+						"Build With: RustEnhanced - Run"
+					],
+					[
+						"remove packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"origami des",
+						"Origami: Destroy Current Pane"
 					],
 					[
 						"open repo",
@@ -1583,10 +1790,6 @@
 					[
 						"right",
 						"Origami: Create Pane with File on the Right"
-					],
-					[
-						"remove packa",
-						"Package Control: Remove Package"
 					],
 					[
 						"list ",
@@ -1619,10 +1822,6 @@
 					[
 						"synta",
 						"Set Syntax: Python"
-					],
-					[
-						"rust",
-						"Build With: RustEnhanced - Run"
 					],
 					[
 						"clang",
@@ -1967,24 +2166,34 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
+			"expanded_folders":
+			[
+				"/C/Users/przem/Projects/rust/rwm",
+				"/C/Users/przem/Projects/rust/rwm/src"
+			],
 			"file_history":
 			[
-				"/C/Users/przem/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-				"/C/Users/przem/Projects/rust/wasm-game-of-life/www/index.js",
-				"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów_od_środy.txt",
+				"/C/Users/przem/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1",
+				"/C/Users/przem/Projects/translate_path_to_linux.py",
+				"/C/Users/przem/Projects/rust/rwm/src/winapi_wrapper.rs",
+				"/C/Users/przem/Projects/rust/rwm/target/debug/build/bindings-d17650f45e4bd9cf/out/windows.rs",
+				"/C/Users/przem/Projects/rust/rwm/target/debug/build/bindings-13028fb91a5ee5fc/out/windows.rs",
+				"/C/Users/przem/Projects/rust/rwm/Cargo.toml",
+				"/C/Users/przem/Projects/rust/rwm/bindings/Cargo.toml",
+				"/C/Users/przem/Projects/rust/rwm/bindings/src/lib.rs",
+				"/C/Users/przem/Projects/rust/rwm/src/tray_icon.rs",
+				"/C/Users/przem/Projects/rust/rwm/src/main.rs",
+				"/C/Users/przem/Projects/rust/rwm/bindings/target/debug/build/bindings-a57180432aa194db/out/windows.rs",
 				"/C/Users/przem/Projects/dotfiles/windows/update.ps1",
 				"/C/Users/przem/Projects/rust/rwm/.github/workflows/rust.yml",
-				"/C/Users/przem/Projects/rust/rwm/bindings/target/debug/build/bindings-a57180432aa194db/out/windows.rs",
+				"/C/Users/przem/Projects/rust/rwm/bindings/build.rs",
+				"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów_do_środy.txt",
+				"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów_od_środy.txt",
 				"/c/Users/przem/Projects/rust/rwm/target/debug/build/bindings-0b5290a4e1d76f8e/out/windows.rs",
-				"/C/Users/przem/Projects/rust/rwm/src/tray_icon.rs",
 				"/C/Users/przem/.cargo/registry/src/github.com-1ecc6299db9ec823/windows-0.8.0/src/lib.rs",
 				"/C/Users/przem/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/src/rust/library/core/src/convert/mod.rs",
 				"/C/Users/przem/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/src/rust/library/core/src/mem/mod.rs",
-				"/C/Users/przem/Projects/rust/rwm/Cargo.toml",
 				"/C/Users/przem/Projects/rust/rwm/target/debug/build/bindings-0b5290a4e1d76f8e/out/windows.rs",
-				"/C/Users/przem/Projects/rust/rwm/bindings/build.rs",
-				"/C/Users/przem/Projects/rust/rwm/bindings/Cargo.toml",
-				"/C/Users/przem/Projects/rust/rwm/src/main.rs",
 				"/C/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um/dwmapi.h",
 				"/C/Users/przem/.neovintageousrc",
 				"/C/Users/przem/AppData/Roaming/Mozilla/Firefox/Profiles/sueea553.default-release/chrome/userChrome.css",
@@ -2091,12 +2300,7 @@
 				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr27.log",
 				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr19.log",
 				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr22.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr13.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_nr2.log",
-				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_INTERFEROGRAM_nr18.log",
-				"/C/Users/PrzemyslawPorebski/Projects/builds/sentinel-Qt_5_14_2_msvc2017_64-Debug/compile_commands.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/commonTest/mocks/AlphaConnectionMock.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GeDetekt.h"
+				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr13.log"
 			],
 			"find":
 			{
@@ -2123,181 +2327,55 @@
 				[
 				],
 				"reverse": false,
+				"scrollbar_highlights": true,
 				"show_context": true,
 				"use_buffer2": true,
+				"use_gitignore": true,
 				"whole_word": true,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "C:\\Users\\przem\\Projects\\rust\\rwm"
+				}
+			],
 			"groups":
 			[
 				{
 					"sheets":
 					[
-					]
-				},
-				{
-					"selected": 0,
-					"sheets":
-					[
 						{
 							"buffer": 0,
-							"file": "/C/Users/przem/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+							"file": "/C/Users/przem/Projects/rust/rwm/src/winapi_wrapper.rs",
+							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1283,
+								"buffer_size": 9402,
 								"regions":
 								{
-									"rb_level0":
-									{
-										"flags": 272,
-										"regions":
-										[
-											[
-												0,
-												1
-											],
-											[
-												1281,
-												1282
-											]
-										],
-										"scope": "level0.rb"
-									},
-									"rb_level1":
-									{
-										"flags": 272,
-										"regions":
-										[
-											[
-												19,
-												20
-											],
-											[
-												47,
-												48
-											],
-											[
-												140,
-												141
-											],
-											[
-												458,
-												459
-											],
-											[
-												611,
-												612
-											],
-											[
-												679,
-												680
-											],
-											[
-												721,
-												722
-											],
-											[
-												805,
-												806
-											]
-										],
-										"scope": "level1.rb"
-									},
-									"rb_level2":
-									{
-										"flags": 272,
-										"regions":
-										[
-											[
-												144,
-												145
-											],
-											[
-												229,
-												230
-											],
-											[
-												234,
-												235
-											],
-											[
-												350,
-												351
-											],
-											[
-												355,
-												356
-											],
-											[
-												455,
-												456
-											]
-										],
-										"scope": "level2.rb"
-									},
-									"rb_level3":
-									{
-										"flags": 272,
-										"regions":
-										[
-											[
-												167,
-												168
-											],
-											[
-												168,
-												169
-											],
-											[
-												169,
-												170
-											],
-											[
-												170,
-												171
-											],
-											[
-												258,
-												259
-											],
-											[
-												259,
-												260
-											],
-											[
-												260,
-												261
-											],
-											[
-												261,
-												262
-											]
-										],
-										"scope": "level3.rb"
-									}
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										4462,
+										4462
 									]
 								],
 								"settings":
 								{
-									"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
-									"edit_settings_other_view_id": 52,
-									"edit_settings_view": "user",
-									"rb_syntax": "json",
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"translate_tabs_to_spaces": false
+									"_nv_visual_sel_mode": "mode_visual",
+									"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 1764.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
+							"stack_multiselect": false,
 							"type": "text"
 						}
 					]
@@ -2320,18 +2398,11 @@
 						0,
 						1,
 						1
-					],
-					[
-						1,
-						0,
-						2,
-						1
 					]
 				],
 				"cols":
 				[
 					0.0,
-					0.5,
 					1.0
 				],
 				"rows":
@@ -2340,14 +2411,14 @@
 					1.0
 				]
 			},
-			"menu_visible": true,
+			"menu_visible": false,
 			"output.ECC":
 			{
 				"height": 334.0
 			},
 			"output.exec":
 			{
-				"height": 184.0
+				"height": 390.0
 			},
 			"output.find_results":
 			{
@@ -2362,7 +2433,7 @@
 				"height": 324.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,1,-1,-1,-1,-1,1052,-1,5,1271",
+			"position": "0,0,1,-1,-1,-1,-1,1205,2104,144,3388,d8953c22d64d9a4eb996c041628c50f8",
 			"project": "",
 			"replace":
 			{
@@ -2376,8 +2447,12 @@
 				"selected_items":
 				[
 					[
-						"inde",
-						"www\\index.js"
+						"windows.rs",
+						"target\\debug\\build\\bindings-d17650f45e4bd9cf\\out\\windows.rs"
+					],
+					[
+						"win",
+						"src\\winapi_wrapper.rs"
 					],
 					[
 						"tray",
@@ -2741,6 +2816,14 @@
 				"selected_items":
 				[
 					[
+						"sen",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
+					],
+					[
+						"entin",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
+					],
+					[
 						"rwm",
 						"C:\\Users\\przem\\Projects\\sublime_projects\\rwm.sublime-project"
 					],
@@ -2819,6 +2902,9 @@
 			"selected_group": 0,
 			"settings":
 			{
+				"_vintageous_last_buffer_search": "is_iconic",
+				"_vintageous_last_buffer_search_command": "nv_vi_star",
+				"_vintageous_reset_during_init": true
 			},
 			"show_minimap": true,
 			"show_open_files": true,
@@ -2829,7 +2915,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 480,
+			"window_id": 499,
 			"workspace_name": ""
 		}
 	],
@@ -2838,9 +2924,10 @@
 		"recent_workspaces":
 		[
 			"/C/Users/przem/Projects/sublime_projects/rwm.sublime-workspace",
+			"/C/Users/przem/Projects/sublime_projects/orst_ubuntu.sublime-workspace",
+			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/sentinel.sublime-workspace",
 			"/C/Users/przem/Projects/sublime_projects/wmm.sublime-workspace",
 			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/scanfeld-pylib.sublime-workspace",
-			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/sentinel.sublime-workspace",
 			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/sentinel-pylib.sublime-workspace",
 			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/dotfiles.sublime-workspace",
 			"/C/Users/przem/Projects/sublime_projects/switcheroo.sublime-workspace",

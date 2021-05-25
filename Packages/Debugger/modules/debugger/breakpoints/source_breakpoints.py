@@ -1,7 +1,7 @@
 from ... typecheck import *
 from ... import core
 from ... import ui
-from ... import dap
+from ..dap import types as dap
 
 import sublime
 import os
@@ -31,8 +31,7 @@ class SourceBreakpoint:
 
 	@property
 	def name(self) -> str:
-		base, name = os.path.split(self._file)
-		return name
+		return os.path.basename(self._file)
 
 	@property
 	def file(self):
@@ -152,8 +151,8 @@ class SourceBreakpoints:
 		self.on_send = core.Event() #type: core.Event[SourceBreakpoint]
 
 		self.disposeables = [
-			ui.view_activated.add(self.on_view_activated),
-			ui.view_modified.add(self.view_modified)
+			core.on_view_activated.add(self.on_view_activated),
+			core.on_view_modified.add(self.view_modified)
 		] #type: List[Any]
 
 		self.sync_dirty_scheduled = False
@@ -317,7 +316,6 @@ class SourceBreakpoints:
 			identifier = b.region_name
 			regions = view.get_regions(identifier)
 			if len(regions) == 0:
-				print('Error: Failed to find breakpoint that should be set, re-adding')
 				b.add_to_view(view)
 				dirty = True
 			else:

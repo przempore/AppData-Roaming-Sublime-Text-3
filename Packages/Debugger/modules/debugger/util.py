@@ -6,58 +6,23 @@ import sublime
 import re
 
 
-class SettingsChangedCallbabck:
-	id = 0
+@core.schedule
+async def select_process():
+	from ..libs import psutil
 
-	def __init__(self, settings: List[sublime.Settings], on_changed: Callable[[], None]) -> None:
-		SettingsChangedCallbabck.id += 1
-		self.settings = settings
-		self.key = 'SettingsChangedCallbabck{}'.format(SettingsChangedCallbabck.id)
-		for setting in settings:
-			setting.add_on_change(self.key, on_changed)
+	list = []
+	selected_proc: Any = None
 
-	def dispose(self) -> None:
-		for setting in self.settings:
-			setting.clear_on_change(self.key)
+	def select(proc: Any):
+		nonlocal selected_proc
+		selected_proc = proc
 
+	for proc in psutil.process_iter(['pid', 'name', 'username']):
+		list.append(ui.InputListItem(lambda proc=proc: select(proc), proc.name() + f'\t{proc.pid}'+ f'\t{proc.username()}'))
 
-class WindowSettingsCallback:
-	def __init__(self, window: sublime.Window, on_changed: Callable[[], None]):
-		self.window = window
-		self.settings_changed_callback = None #type: Optional[SettingsChangedCallbabck]
-		self.on_changed = on_changed
-		self.on_view_updated = ui.view_activated.add(self.on_update_settings_view)
-		
-		view = window.active_view()
-		if view:
-			self.update(view)
+	await ui.InputList(list, "Select a process to start debugging").run()
 
-	def on_update_settings_view(self, view: sublime.View):
-		if view.window() == self.window:
-			self.update(view)
+	if selected_proc:
+		return selected_proc.pid
 
-	def update(self, view: sublime.View):
-		core.log_info("updating settings callback view")
-		if self.settings_changed_callback:
-			self.settings_changed_callback.dispose()
-			self.settings_changed_callback = None
-
-		plugin_settings = sublime.load_settings('debugger.sublime-settings')
-		view_settings = view.settings()
-		self.settings_changed_callback = SettingsChangedCallbabck([plugin_settings, view_settings], self.on_changed)
-
-	def dispose(self):
-		self.on_view_updated.dispose()
-		if self.settings_changed_callback:
-			self.settings_changed_callback.dispose()
-			self.settings_changed_callback = None
-
-
-def get_setting(view: Optional[sublime.View], setting: str, default: Any = None) -> Any:
-	plugin_settings = sublime.load_settings('debugger.sublime-settings')
-	plugin_setting = plugin_settings.get(setting, default)
-	if not view:
-		return plugin_setting
-
-	project_setting = view.settings().get("debug." + setting, plugin_setting)
-	return project_setting
+	raise core.Error("No process selected")

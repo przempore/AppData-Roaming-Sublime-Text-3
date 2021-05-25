@@ -1,7 +1,7 @@
 {
 	"ClangFormat":
 	{
-		"format_on_save": true
+		"format_on_save": true,
 	},
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
@@ -9,15 +9,15 @@
 	[
 		{
 			"characters": ".(){}[],'\"=<>/\\+-|&*%=$#@! ",
-			"selector": "source.python"
+			"selector": "source.python",
 		},
 		{
 			"characters": ":.(){}[],'\"=<>/\\+-|&*%=$#@! ",
-			"selector": "source & - source.python - constant.numeric"
+			"selector": "source & - source.python - constant.numeric",
 		},
 		{
 			"characters": " qazwsxedcrfvtgbyhnujmikolpQAZWSXEDCRFVTGBYHNUJMIKOLP",
-			"selector": "text"
+			"selector": "text",
 		}
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
@@ -39,7 +39,7 @@
 		"Six",
 		"Sublimerge 3",
 		"Vintage",
-		"Vintageous"
+		"Vintageous",
 	],
 	"material_theme_bullet_tree_indicator": true,
 	"material_theme_compact_panel": true,
@@ -52,5 +52,5 @@
 	"neovintageous_build_version": 11100,
 	"theme": "Material-Theme.sublime-theme",
 	"vintageous_use_ctrl_keys": true,
-	"vintageous_use_super_keys": null
+	"vintageous_use_super_keys": null,
 }

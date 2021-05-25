@@ -29,9 +29,7 @@
 		"Origami",
 		"Package Control",
 		"PanePane",
-		"PlantUmlDiagrams",
 		"PowerShell",
-		"Pretty JSON",
 		"Protobuf Syntax Hightlighting",
 		"Python 3",
 		"Python Completions",
@@ -50,9 +48,10 @@
 		"Sublime Bookmarks",
 		"Sublimerge 3",
 		"Tabnine",
+		"Todo",
 		"ToggleNeoVintageous",
 		"TOML",
 		"Whitespace Removal",
-		"x86 and x86_64 Assembly"
-	]
+		"x86 and x86_64 Assembly",
+	],
 }

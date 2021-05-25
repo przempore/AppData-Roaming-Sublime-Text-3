@@ -1,37 +1,34 @@
+from __future__ import annotations
 from ..typecheck import *
-from ..import dap
 from ..import core
 from ..import ui
-from .views import css
 
-from .variables import EvaluateReference, Variable, VariableComponent
+from . import dap
 
-if TYPE_CHECKING:
-	from .debugger_session import DebuggerSession
-
+import asyncio
 
 class Watch:
 	class Expression:
 		def __init__(self, value: str):
 			self.value = value
-			self.evaluate_response = None #type: Optional[Variable]
 			self.message = ""
-			self.on_updated = core.Event() #type: core.Event[None]
+			self.evaluate_response: Optional[dap.Variable] = None
+			self.on_updated: core.Event[None] = core.Event()
 
 		def into_json(self) -> dict:
 			return {
 				'value': self.value,
 			}
 		@staticmethod
-		def from_json(json: dict) -> 'Watch.Expression':
+		def from_json(json: dict) -> Watch.Expression:
 			return Watch.Expression(
 				json['value'],
 			)
 
 	def __init__(self):
-		self.expressions = [] #type: List[Watch.Expression]
-		self.on_updated = core.Event() #type: core.Event[None]
-		self.on_added = core.Event() #type: core.Event[Watch.Expression]
+		self.expressions: List[Watch.Expression] = []
+		self.on_updated: core.Event[None] = core.Event()
+		self.on_added: core.Event[Watch.Expression] = core.Event()
 
 	def load_json(self, json: list):
 		self.expressions = list(map(lambda j: Watch.Expression.from_json(j), json))
@@ -53,40 +50,37 @@ class Watch:
 
 		ui.InputText(add, "Expression to watch").run()
 
-	@core.coroutine
-	def evaluate(self, session: 'DebuggerSession', frame: dap.StackFrame) -> core.awaitable[None]:
-		results = [] #type: List[core.awaitable[dap.EvaluateResponse]]
+	async def evaluate(self, session: dap.Session, frame: dap.StackFrame) -> None:
+		results: List[Awaitable[dap.EvaluateResponse]] = []
 		for expression in self.expressions:
-			results.append(session.client.Evaluate(expression.value, frame, "watch"))
+			results.append(session.evaluate_expression(expression.value, "watch"))
 
-		from ..libs import asyncio
-		evaluations = yield from asyncio.gather(*results, return_exceptions=True)
+		evaluations = await asyncio.gather(*results, return_exceptions=True)
 		for expression, evaluation in zip(self.expressions, evaluations):
 			self.evaluated(session, expression, evaluation)
 		self.on_updated()
 
-	@core.coroutine
-	def evaluate_expression(self, session: 'DebuggerSession', frame: dap.StackFrame, expression: 'Watch.Expression') -> core.awaitable[None]:
+	async def evaluate_expression(self, session: dap.Session, frame: dap.StackFrame, expression: Watch.Expression) -> None:
 		try:
-			result = yield from session.client.Evaluate(expression.value, frame, "watch")
+			result = await session.evaluate_expression(expression.value, "watch")
 			self.evaluated(session, expression, result)
 		except dap.Error as result:
 			self.evaluated(session, expression, result)
 		self.on_updated()
 
-	def evaluated(self, session: 'DebuggerSession', expression: 'Watch.Expression', evaluation: Union[dap.Error, dap.EvaluateResponse]):
+	def evaluated(self, session: dap.Session, expression: Watch.Expression, evaluation: Union[dap.Error, dap.EvaluateResponse]):
 		if isinstance(evaluation, dap.Error):
 				expression.message = str(evaluation)
 		else:
-			expression.evaluate_response = Variable(session, EvaluateReference(expression.value, evaluation))
+			expression.evaluate_response = dap.Variable(session, dap.EvaluateReference(expression.value, evaluation))
 
-	def clear_session_data(self, session: 'DebuggerSession'):
+	def clear_session_data(self, session: dap.Session):
 		for expression in self.expressions:
 			expression.message = ''
 			expression.evaluate_response = None
 		self.on_updated()
 
-	def edit(self, expression: 'Watch.Expression') -> ui.InputList:
+	def edit(self, expression: Watch.Expression) -> ui.InputList:
 		def remove():
 			self.expressions.remove(expression)
 			self.on_updated()
@@ -95,52 +89,6 @@ class Watch:
 			ui.InputListItem(remove, "Remove"),
 		])
 
-	def edit_run(self, expression: 'Watch.Expression'):
+	def edit_run(self, expression: Watch.Expression):
 		self.edit(expression).run()
 
-class WatchView(ui.div):
-	def __init__(self, provider: Watch):
-		super().__init__()
-		self.provider = provider
-
-	def added(self, layout: ui.Layout):
-		self.on_updated_handle = self.provider.on_updated.add(self.dirty)
-
-	def removed(self):
-		self.on_updated_handle.dispose()
-
-	def render(self) -> ui.div.Children:
-		items = []
-		for expresion in self.provider.expressions:
-			items.append(WatchExpressionView(expresion, on_edit_not_available=self.provider.edit_run))
-		return [
-			ui.div()[
-				items
-			]
-		]
-
-class WatchExpressionView(ui.div):
-	def __init__(self, expression: Watch.Expression, on_edit_not_available: Callable[[Watch.Expression], None]):
-		super().__init__()
-		self.expression = expression
-		self.on_edit_not_available = on_edit_not_available
-
-	def added(self, layout: ui.Layout):
-		self.on_updated_handle = self.expression.on_updated.add(self.dirty)
-
-	def removed(self):
-		self.on_updated_handle.dispose()
-
-	def render(self) -> ui.div.Children:
-		if self.expression.evaluate_response:
-			component = VariableComponent(self.expression.evaluate_response)
-			return [component]
-
-		return [
-			ui.div(height=3)[
-				ui.click(lambda: self.on_edit_not_available(self.expression))[
-					ui.text(self.expression.value, css=css.label_secondary),
-					ui.text("not available", css=css.label_secondary_padding),
-				]
-			]
-		]

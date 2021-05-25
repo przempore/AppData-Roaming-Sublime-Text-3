@@ -1,139 +1,159 @@
 [
     {
+        "caption": "Debugger",
         "id": "debugger",
         "children": [
             {
+                "caption": "Open",
+                "command": "debugger",
                 "args": {
                     "action": "open"
-                },
-                "command": "debugger",
-                "caption": "Open"
+                }
             },
             {
+                "caption": "Quit",
+                "command": "debugger",
                 "args": {
                     "action": "quit"
-                },
-                "command": "debugger",
-                "caption": "Quit"
+                }
             },
             {
-                "args": {
-                    "action": "open_settings"
-                },
+                "caption": "Settings",
                 "command": "debugger",
-                "caption": "Settings"
+                "args": {
+                    "action": "settings"
+                }
             },
             {
                 "caption": "-"
             },
             {
+                "caption": "Install Adapters",
+                "command": "debugger",
                 "args": {
                     "action": "install_adapters"
-                },
-                "command": "debugger",
-                "caption": "Install Adapters"
+                }
             },
             {
+                "caption": "Add or Select Configuration",
+                "command": "debugger",
                 "args": {
                     "action": "change_configuration"
-                },
-                "command": "debugger",
-                "caption": "Add or Select Configuration"
+                }
             },
             {
                 "caption": "-"
             },
             {
-                "args": {
-                    "action": "on_play"
-                },
+                "caption": "Start",
                 "command": "debugger",
-                "caption": "Start"
+                "args": {
+                    "action": "start"
+                }
             },
             {
-                "args": {
-                    "action": "on_play_no_debug"
-                },
+                "caption": "Start (no debug)",
                 "command": "debugger",
-                "caption": "Start (no debug)"
+                "args": {
+                    "action": "start_no_debug"
+                }
             },
             {
-                "args": {
-                    "action": "on_stop"
-                },
+                "caption": "Stop",
                 "command": "debugger",
-                "caption": "Stop"
+                "args": {
+                    "action": "stop"
+                }
             },
             {
                 "caption": "-"
             },
             {
-                "args": {
-                    "action": "on_resume"
-                },
+                "caption": "Resume",
                 "command": "debugger",
-                "caption": "Resume"
+                "args": {
+                    "action": "resume"
+                }
             },
             {
-                "args": {
-                    "action": "on_pause"
-                },
+                "caption": "Pause",
                 "command": "debugger",
-                "caption": "Pause"
+                "args": {
+                    "action": "pause"
+                }
             },
             {
-                "args": {
-                    "action": "on_step_over"
-                },
+                "caption": "Step Over",
                 "command": "debugger",
-                "caption": "Step Over"
+                "args": {
+                    "action": "step_over"
+                }
             },
             {
-                "args": {
-                    "action": "on_step_in"
-                },
+                "caption": "Step In",
                 "command": "debugger",
-                "caption": "Step In"
+                "args": {
+                    "action": "step_in"
+                }
             },
             {
-                "args": {
-                    "action": "on_step_out"
-                },
+                "caption": "Step Out",
                 "command": "debugger",
-                "caption": "Step Out"
+                "args": {
+                    "action": "step_out"
+                }
             },
             {
                 "caption": "-"
             },
             {
-                "args": {
-                    "action": "on_input_command"
-                },
+                "caption": "Input Command",
                 "command": "debugger",
-                "caption": "Run Command"
+                "args": {
+                    "action": "input_command"
+                }
             },
             {
+                "caption": "Run Task",
+                "command": "debugger",
+                "args": {
+                    "action": "run_task"
+                }
+            },
+            {
+                "caption": "Run Last Task",
+                "command": "debugger",
+                "args": {
+                    "action": "run_last_task"
+                }
+            },
+            {
+                "caption": "Add Function Breakpoint",
+                "command": "debugger",
                 "args": {
                     "action": "add_function_breakpoint"
-                },
-                "command": "debugger",
-                "caption": "Add Function Breakpoint"
+                }
             },
             {
+                "caption": "Add Watch Expression",
+                "command": "debugger",
                 "args": {
                     "action": "add_watch_expression"
-                },
-                "command": "debugger",
-                "caption": "Add Watch Expression"
+                }
             },
             {
+                "caption": "Force Save",
+                "command": "debugger",
                 "args": {
                     "action": "save_data"
-                },
-                "command": "debugger",
-                "caption": "Force Save"
+                }
+            },
+            {
+                "caption": "-"
+            },
+            {
+                "caption": "-"
             }
-        ],
-        "caption": "Debugger"
+        ]
     }
 ]

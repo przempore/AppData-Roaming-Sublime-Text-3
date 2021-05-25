@@ -1,18 +1,17 @@
-{	
-	// Open the debugger automatically when a project that is set up for debugging has been opened 
-	// In otherwords it has configurations in the .sublime-project defined
-	// "settings" : {
-	//	"debug.configurations" : [...]
-	// }
+{
+	// Open the debugger automatically when a project that is set up for debugging
 	"open_at_startup" : true,
 
 	// Sets the entire scale of the UI
-	"ui_scale" : 11,
+	"ui_scale": 10,
+
+	// change at your own risk it may break the interface. Restart required to take effect
+	"font_face": "Monospace",
 
 	// Which external terminal should be used when an adapter requests an external terminal
 	// "platform" (default) uses Terminal on MacOS, CMD (Not tested) on Windows, (Unimplemented) on Linux
 	// "terminus" Opens a new terminal view using terminus. The terminus package must be installed https://github.com/randy3k/Terminus
-	"external_terminal": "platform",
+	"external_terminal": "terminus",
 
 	// hide the status bar of the window when the debugger panel is open
 	"hide_status_bar": false,
@@ -20,37 +19,26 @@
 	// keep the debugger panel open unless another panel is being displayed
 	"keep_panel_open": false,
 
-	// when the debugger hits a breakpoint bring the sublime window to the foreground
-	// NOTE: this runs the "subl" command to accomplish this so it must be in your PATH
+	// currently not implemented
 	"bring_window_to_front_on_pause" : false,
 
-
-	// info includes debug adapter commands send/recieved and other (possibly) useful things
 	"log_info": false,
-
-	// any uncaught exceptions in the main loop get logged
-	// some caught exceptions also get logged so might not actually be an issue
 	"log_exceptions": true,
 	"log_errors": true,
 
-	// This is the list of debug adapters.
-	// If you are having issues running one ensure you have the required dependencies to run the the command
-	// Look in the docs for more info: https://github.com/daveleroy/debugger/blob/master/docs/setup.md
-	"adapters_custom" : {
-		// "adapter_name": {
-		// 	"command":["p", "-arg"]
-		// }
-	},
-	"adapters" : {
-		"lldb" : "${package}/debug_adapters/lldb.json",
-		"gdb" : "${package}/debug_adapters/gdb.json",
-		"chrome" : "${package}/debug_adapters/chrome.json",
-		// "chrome-tcp" : "${package}/debug_adapters/chrome-tcp.json",
-		"firefox" : "${package}/debug_adapters/firefox.json",
-		"python" : "${package}/debug_adapters/python.json",
-		"go" : "${package}/debug_adapters/go.json",
-		"php" : "${package}/debug_adapters/php.json",
-		"node" : "${package}/debug_adapters/node.json",
-	}
+	// sets a specific path for node if not set adapters that require node to run will use whatever is in your path
+	"node": null,
+
+	// sets a specific path for dlv if not set go will use whatever is in your path
+	"go.dlv": null,
+
+	// "auto", "always", "never"
+	"lldb.show_disassembly": "auto",
+	// "auto", "hex", "decimal", "binary"
+	"lldb.display_format": "auto",
+	"lldb.dereference_pointers": true,
+	// probably shouldn't set these
+	"lldb.library": null, // which lldb library to use
+	"lldb.python": null // path to python (3.5 or greater?) that lldb will use
 }
 

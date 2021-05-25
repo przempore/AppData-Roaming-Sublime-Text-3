@@ -1,38 +1,38 @@
 from .. typecheck import *
-from .. import core, ui, dap
+from .. import core, ui
 
-from .debugger_session import DebuggerSession
-from .debugger_project import DebuggerProject
+from . import dap
+from .project import Project
 from .breakpoints import Breakpoints
 
 import sublime
 
 class BreakpointCommandsProvider(core.Disposables):
-	def __init__(self, project: DebuggerProject, debugger: DebuggerSession, breakpoints: Breakpoints):
+	def __init__(self, project: Project, sessions: dap.Sessions, breakpoints: Breakpoints):
 		super().__init__()
 
 		self.run_to_line_breakpoint = None
 		self.breakpoints = breakpoints
-		self.debugger = debugger
+		self.sessions = sessions
 		self.project = project
 
-		self += ui.view_gutter_clicked.add(self.view_gutter_clicked)
-		self += self.debugger.state_changed.add(self.on_debugger_state_change)
+		self += core.on_view_gutter_clicked.add(self.view_gutter_clicked)
+		#self += self.debugger.state_changed.add(self.on_debugger_state_change)
 
-	def view_gutter_clicked(self, event: ui.GutterEvent):
-		file = self.project.source_file(event.view)
+	def view_gutter_clicked(self, event: Tuple[sublime.View, int, int]):
+		(view, line, button) = event
+
+		file = self.project.source_file(view)
 		if not file:
 			return
-		line = event.line + 1
 
-		if event.button == 1:
-			self.toggle_file_line(file, line)
-			return
+		if button == 1:
+			self.toggle_file_line(file, line + 1)
+			return True
 
-		if event.button == 2:
-			line = event.line + 1
-			self.edit_breakpoints_at_line(file, line)
-			return
+		if button == 2:
+			self.edit_breakpoints_at_line(file, line + 1)
+			return True
 
 	def clear_run_to_line(self):
 		if self.run_to_line_breakpoint:
@@ -40,17 +40,19 @@ class BreakpointCommandsProvider(core.Disposables):
 			self.run_to_line_breakpoint = None
 
 	def run_to_current_line(self):
-		file, line = self.project.current_file_line()
-		self.clear_run_to_line()
-		if self.debugger.state != DebuggerSession.paused:
-			raise core.Error("Debugger not paused")
+		...
+		# fix me for multiple sessions
+		# file, line = self.project.current_file_line()
+		# self.clear_run_to_line()
+		# if self.debugger.state != DebuggerSession.paused:
+		# 	raise core.Error("Debugger not paused")
 
-		self.run_to_line_breakpoint = self.breakpoints.source.add_breakpoint(file, line)
-		core.run(self.debugger.resume())
+		# self.run_to_line_breakpoint = self.breakpoints.source.add_breakpoint(file, line)
+		# core.run(self.debugger.resume())
 
-	def on_debugger_state_change(self):
-		if self.debugger.state != DebuggerSession.running:
-			self.clear_run_to_line()
+	#def on_debugger_state_change(self):
+		# if self.debugger.state != DebuggerSession.running:
+		# 	self.clear_run_to_line()
 
 	def toggle_file_line(self, file: str, line: int):
 		bps = self.breakpoints.source.get_breakpoints_on_line(file, line)

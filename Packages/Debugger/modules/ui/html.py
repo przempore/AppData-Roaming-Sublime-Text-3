@@ -1,15 +1,25 @@
 from ..typecheck import *
 from . layout import Layout
 from . image import Image
-from . css import css, div_inline_css, icon_css, none_css
+from . style import css, div_inline_css, icon_css, none_css
+from . import style
+import re
+
+class alignable(Protocol):
+	align_required: int
+	align_desired: int
+
+	def align(self, width: int):
+		...
 
 
 class element:
-	def __init__(self, is_inline: bool, width: Optional[float], height: Optional[float], css: Optional[css]) -> None:
+	def __init__(self, is_inline: bool, width: Optional[float], height: Optional[float], css: Optional[style.css]) -> None:
 		super().__init__()
 		self.layout = None #type: Optional[Layout]
 		self.children = [] #type: Sequence[element]
 		self.requires_render = True
+		self._max_allowed_width: Optional[float] = None
 		self._height = height
 		self._width = width
 		self.is_inline = is_inline
@@ -42,6 +52,9 @@ class element:
 	def width(self, layout: Layout) -> float:
 		if self._width is not None:
 			return self._width + self.padding_width
+
+		if self._max_allowed_width:
+			return self._max_allowed_width
 
 		width = 0.0
 		width_max = 0.0
@@ -98,9 +111,7 @@ class span (element):
 
 	def html(self, layout: Layout) -> str:
 		inner = self.html_inner(layout)
-		h = self.height(layout)
-		w = self.width(layout)
-		html = '<span class="{}" style="line-height:{}rem;">{}</span>'.format(self.className, h, inner)
+		html = f'<s class="{self.className}">{inner}</s>'
 		return html
 
 
@@ -120,13 +131,13 @@ class div (element):
 
 	def html(self, layout: Layout) -> str:
 		inner = self.html_inner(layout)
-		h = self.height(layout) - self.padding_height
-		w = self.width(layout) - self.padding_width
+		h = (self.height(layout) - self.padding_height) * layout.rem_width_scale()
+		w = (self.width(layout) - self.padding_width) * layout.rem_width_scale()
 
 		if self.children and self.children[0].is_inline:
-			html = '<div class= "{} {}" style="height:{}rem;width:{}rem;line-height:{}rem"><img style="height:2.5rem;">{}</div>'.format(div_inline_css.class_name, self.className, h, w, h, inner)
+			html = f'<div class="{div_inline_css.class_name} {self.className}" style="height:{h}rem;width:{w}rem;line-height:{h}rem"><img style="height:1.6rem;">{inner}</div>'
 		else:
-			html = '<div class="{}" style="height:{}rem;width:{}rem;">{}</div>'.format(self.className, h, w, inner)
+			html = f'<div class="{self.className}" style="height:{h}rem;width:{w}rem;">{inner}</div>'
 		return html
 
 
@@ -139,13 +150,6 @@ class phantom_sizer (div):
 	def render(self) -> div.Children:
 		return self.item
 
-	def html(self, layout: Layout) -> str:
-		inner = self.html_inner(layout)
-		h = self.height(layout)
-		w = self.width(layout)
-		html = '<div class="{}" style="height:{}rem;"><img style="width:{}rem;">{}</div>'.format(self.className, h, w, inner)
-		return html
-
 
 html_escape_table = {
 	"&": "&amp;",
@@ -154,30 +158,35 @@ html_escape_table = {
 	" ": "\u00A0" # HACK spaces inside <a> tags are not clickable. We replaces spaces with no break spaces
 }
 
-def html_escape(text: str) -> str:
-	return "".join(html_escape_table.get(c, c) for c in text)
 
-class text (span):
-	def __init__(self, text: str, width: Optional[float] = None, height: Optional[float] = None, css: Optional[css] = None) -> None:
+def html_escape(text: str) -> str:
+	return text.replace(" ", "\u00A0").replace('&', '&amp;').replace(">", "&gt;").replace("<", "&lt;")
+
+
+class text (span, alignable):
+	def __init__(self, text: str, width: Optional[float] = None, height: Optional[float] = 1, css: Optional[css] = None) -> None:
 		super().__init__(width, height, css)
-		self.text = text.replace("\u0000", "\\u0000")
+		self.text = text
+		self.align_required: int = 0
+		self.align_desired: int = len(self.text)
 
 	@property
 	def text(self) -> str:
 		return self._text
 
+	def align(self, width: int):
+		self.text = self.text[0:width]
+
 	@text.setter
 	def text(self, text: str):
 		self._text = text.replace("\u0000", "\\u0000")
-		self.text_html = html_escape(self._text)
 
 	def width(self, layout: Layout) -> float:
 		return len(self.text) + self.padding_width
 
 	def html(self, layout: Layout) -> str:
-		h = self.height(layout)
-		html = '<span class="{}" style="line-height:{}rem;">{}</span>'.format(self.className, h, self.text_html)
-		return html
+		self.text_html = html_escape(self._text)
+		return f'<s class="{self.className}">{self.text_html}</s>'
 
 
 class click (span):
@@ -187,32 +196,53 @@ class click (span):
 
 	def html(self, layout: Layout) -> str:
 		href = layout.register_on_click_handler(self.on_click)
-		html = '<a href={}>{}</a>'.format(href, self.html_inner(layout))
+		html = f'<a href={href}>{self.html_inner(layout)}</a>'
 		return html
+
 
 class icon (span):
 	def __init__(self, image: Image) -> None:
-		super().__init__(width=2.5, height=2.5, css=icon_css)
+		super().__init__(width=3, height=1, css=icon_css)
 		self.image = image
 
 	def html(self, layout: Layout) -> str:
-		return '''<span class="{}"><img style="width:2.5rem;height:2.5rem;" src="{}"></span>'''.format(self.className, self.image.data(layout))
+		width = 2.5 * layout.rem_width_scale()
+		required_padding = 0.5 * layout.rem_width_scale()
+		return f'<s class="{self.className}" style="padding-right:{required_padding:.2f}rem;"><img style="width:{width:.2f}rem;height:{width:.2f}rem;" src="{self.image.data(layout)}"></s>'
 
-class code(span):
-	def __init__(self, text: str, language: str = 'c++') -> None:
+
+tokenize_re = re.compile(
+	r'(0x[0-9A-Fa-f]+)' #matches hex
+	r'|([-.0-9]+)' #matches number
+	r"|('[^']*')" #matches string '' no escape
+	r'|("[^"]*")' #matches string "" no escape
+	r'|(.*?)' #other
+)
+
+
+class code(span, alignable):
+	def __init__(self, text: str) -> None:
 		super().__init__()
-		self.text = text.replace("\n", "")
-		self.text_html = html_escape(self.text)
-		self.language = language
-
-	def added(self, layout: Layout) -> None:
-		self.highlight = layout.syntax_highlight(self.text, self.language)
+		self.text = text.replace("\n", "\\n")
+		self.align_required: int = 0
+		self.align_desired: int = len(self.text)
 
 	def width(self, layout: Layout) -> float:
 		return len(self.text) + self.padding_width
 
+	def align(self, width: int):
+		self.text = self.text[0:width]
+
 	def html(self, layout: Layout) -> str:
-		h = self.height(layout)
-		text_html = self.highlight.html or self.text_html
-		html = '<span class="{}" style="line-height:{}rem;">{}</span>'.format(self.className, h, text_html)
-		return html
+		self.text_html = ''
+		for number, number_hex, string, string_double, other in tokenize_re.findall(self.text):
+			string = string_double or string
+			number = number or number_hex
+			if number:
+				self.text_html += f'<s style="color:var(--yellowish);">{number}</s>'
+			if string:
+				self.text_html += f'<s style="color:var(--greenish);">{html_escape(string)}</s>'
+			if other:
+				self.text_html += html_escape(other)
+
+		return f'<s style="color:var(--foreground);">{self.text_html}</s>'

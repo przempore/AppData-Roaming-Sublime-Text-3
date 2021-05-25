@@ -1,5 +1,0 @@
-include CHANGELOG
-include README.rst
-include LICENSE
-recursive-include all/portalocker *.py
-recursive-include tests *.py

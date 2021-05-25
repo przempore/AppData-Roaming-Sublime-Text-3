@@ -1,5 +1,0 @@
-
-@startuml
-a --> b
-a <-- b
-@enduml
