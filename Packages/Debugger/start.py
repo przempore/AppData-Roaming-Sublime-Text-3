@@ -10,18 +10,20 @@ modules_to_remove = list(filter(lambda m: m.startswith(module_starts_with) and m
 for m in modules_to_remove:
 	del sys.modules[m]
 
+
 # import all the commands so that sublime sees them
-from .modules.debugger.commands import DebuggerCommand
+from .modules.commands import DebuggerCommand, DebuggerExecCommand
 
 from .modules.ui.input import DebuggerInputCommand
 from .modules.core.sublime import DebuggerAsyncTextCommand, DebuggerEventsListener
-from .modules.debugger.autocomplete import AutocompleteEventListener
-from .modules.debugger.debugger_exec import DebuggerExec
+from .modules.listener import Listener
+
+from .modules.autocomplete import AutocompleteEventListener
 
 def plugin_loaded():
-	from .modules.debugger.main import startup
+	from .modules.main import startup
 	startup()
 
 def plugin_unloaded():
-	from .modules.debugger.main import shutdown
+	from .modules.main import shutdown
 	shutdown()

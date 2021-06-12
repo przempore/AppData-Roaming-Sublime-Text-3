@@ -1,4 +1,6 @@
+from __future__ import annotations
 from ..typecheck import *
+
 from ..import core
 from . html import div, span, phantom_sizer, element
 from . layout import Layout
@@ -7,7 +9,6 @@ from . image import view_background_lightness
 
 import os
 import sublime
-import threading
 
 
 class LayoutComponent (Layout):

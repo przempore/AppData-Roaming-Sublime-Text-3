@@ -1,13 +1,7 @@
 {
 	"folder_history":
 	[
-		"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib",
-		"/?wsl$/Ubuntu-20.04/home/przemo/Projects/scanfeld-configuration",
-		"/C/Users/PrzemyslawPorebski/Projects/teleportation",
-		"/C/Users/PrzemyslawPorebski/Projects/scanfeld-configuration/Connection_to_servers_via_sshd",
-		"/C/Users/PrzemyslawPorebski/Projects/test_env",
-		"/C/Users/PrzemyslawPorebski/Projects/test_configuration",
-		"/C/Users/PrzemyslawPorebski/Projects/test_deploy",
+		"/C/Users/przem/Projects/Double-Pendulum",
 		"/C/Users/przem/Projects/rust/rwm",
 		"/?wsl$/Ubuntu-20.04/home/przemo/Projects/rust/orst",
 		"/C/tools/msys64/home/przem/.ssh",
@@ -16,6 +10,7 @@
 		"//wsl$/Ubuntu-20.04/home/przemo/Projects/car_crash",
 		"/C/Users/przem/OneDrive/Dokumente/dieta",
 		"/C/Users/przem/Projects/rust/grpc-demo-tonic",
+		"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib",
 		"/C/Users/PrzemyslawPorebski/Projects/sentinel",
 		"/C/Users/przem/Projects/rust/InputBot",
 		"/C/Users/przem/Projects/rust/wmm",
@@ -116,7 +111,7 @@
 		"/C/Users/PrzemyslawPorebski/Projects/build-simple_widgee_app-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug"
 	],
 	"last_version": 4107,
-	"last_window_id": 524,
+	"last_window_id": 506,
 	"log_indexing": false,
 	"settings":
 	{
@@ -130,80 +125,156 @@
 				"selected_items":
 				[
 					[
-						"pyt",
-						"pytest-coverage.txt\t⌬ tabnine"
+						"EventInter",
+						"EventInterceptor"
 					],
 					[
-						"ass",
-						"assertTrue\t⌬ tabnine"
+						"Get",
+						"GetLastError"
 					],
 					[
-						"exit",
-						"exit 0\t⌬ tabnine"
+						"au",
+						"AutoReboot\t⌬ tabnine"
 					],
 					[
-						"inside",
-						"inside PyCharm\t⌬ tabnine"
+						"pv",
+						"pv_attribute\t⌬ tabnine"
 					],
 					[
-						"run",
-						"running tests\t⌬ tabnine"
+						"prin",
+						"println!(\"\t⌬ tabnine"
 					],
 					[
-						"PyCh",
-						"PyCharm to generate coverage\t⌬ tabnine"
+						"HRESULT",
+						"HRESULT,\t⌬ tabnine"
 					],
 					[
-						"con",
-						"contains\t⌬ tabnine"
+						"is_",
+						"is_hresult(\t⌬ tabnine"
 					],
 					[
-						"requi",
-						"requirements\t⌬ tabnine"
+						"Typ",
+						"TypeId\t⌬ tabnine"
 					],
 					[
-						"cov",
-						"coverage can be\t⌬ tabnine"
+						"H",
+						"HRESULT\t⌬ tabnine"
 					],
 					[
-						"repo",
-						"report\t⌬ tabnine"
+						"print",
+						"println!(\"{:?}\", ret\t⌬ tabnine"
 					],
 					[
-						"colle",
-						"collected\t⌬ tabnine"
+						"as_mut",
+						"as_mut_ptr\t⌬ tabnine"
 					],
 					[
-						"integra",
-						"integration tests\t⌬ tabnine"
+						"as_",
+						"as_bytes());\t⌬ tabnine"
 					],
 					[
-						"coverage",
-						"coverage==\t⌬ tabnine"
+						"Parti",
+						"PartialEq\t⌬ tabnine"
 					],
 					[
-						"ignore",
-						"ignore=tracker\t⌬ tabnine"
+						"un",
+						"unwrap"
 					],
 					[
-						"update",
-						"update script\t⌬ tabnine"
+						"into_",
+						"into_owned\t⌬ tabnine"
 					],
 					[
-						"alem",
-						"alembic_cfg_path\t⌬ tabnine"
+						"str",
+						"str =\t⌬ tabnine"
 					],
 					[
-						"ameb",
-						"Alembic\t⌬ tabnine"
+						"into",
+						"into_raw\t⌬ tabnine"
 					],
 					[
-						"down",
-						"downgrade\t⌬ tabnine"
+						"title",
+						"title_name_len\t⌬ tabnine"
 					],
 					[
-						"postgres",
-						"postgresql\t⌬ tabnine"
+						"er",
+						"error\t⌬ tabnine"
+					],
+					[
+						"unwrap_",
+						"unwrap_or_else\t⌬ tabnine"
+					],
+					[
+						"fr",
+						"from_utf8(txt\t⌬ tabnine"
+					],
+					[
+						"translate_pa",
+						"translate_path_to_linux(sys.\t⌬ tabnine"
+					],
+					[
+						"__",
+						"__main__':\t⌬ tabnine"
+					],
+					[
+						"replac",
+						"replace(\"\\\\\", \"/\")\t⌬ tabnine"
+					],
+					[
+						"initi",
+						"initial_path = os.\t⌬ tabnine"
+					],
+					[
+						"nul",
+						"null_mut Function (mod.rs) : pub const fn null_mut<T>() -> *mut T"
+					],
+					[
+						"siz",
+						"size_of\t⌬ tabnine"
+					],
+					[
+						"LPV",
+						"LPVOID\t⌬ tabnine"
+					],
+					[
+						"DWMWA_CLOAKED",
+						"DWMWA_CLOAKED\t⌬ tabnine"
+					],
+					[
+						"up",
+						"upload_url"
+					],
+					[
+						"uploa",
+						"upload-artifact"
+					],
+					[
+						"out",
+						"outputs"
+					],
+					[
+						"runs",
+						"runs-on"
+					],
+					[
+						"no",
+						"nospace\t?"
+					],
+					[
+						"las",
+						"lastRow"
+					],
+					[
+						"QSqlRe",
+						"QSqlRelationalTableModel"
+					],
+					[
+						"to",
+						"toList"
+					],
+					[
+						"CALIBRATION_HEATER_",
+						"CALIBRATION_HEATER_TURNED_OFF_SETUP"
 					],
 					[
 						"Alpha",
@@ -224,17 +295,25 @@
 				[
 					[
 						[
-							"Packages/Python/Python.sublime-build",
+							"Packages/C++/C++ Single File.sublime-build",
 							""
 						],
 						[
-							"Packages/Python/Python.sublime-build",
-							"Syntax Check"
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/C++11/C++11.sublime-build",
+							""
+						],
+						[
+							"Packages/C++11/C++11.sublime-build",
+							"Run"
 						]
 					],
 					[
-						"Packages/Python/Python.sublime-build",
-						""
+						"Packages/C++11/C++11.sublime-build",
+						"Run"
 					]
 				]
 			],
@@ -246,43 +325,103 @@
 				"selected_items":
 				[
 					[
-						"packa remo",
-						"Package Control: Remove Package"
+						"package up",
+						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
-						"packa list",
-						"Package Control: List Packages"
+						"rust run",
+						"Build With: RustEnhanced - Run"
 					],
 					[
-						"open repo",
-						"Sublime Merge: Open Repository"
+						"rust",
+						"Build With: RustEnhanced - Run"
 					],
 					[
 						"remove packa",
 						"Package Control: Remove Package"
 					],
 					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"origami des",
+						"Origami: Destroy Current Pane"
+					],
+					[
+						"open repo",
+						"Sublime Merge: Open Repository"
+					],
+					[
+						"right",
+						"Origami: Create Pane with File on the Right"
+					],
+					[
 						"list ",
 						"Package Control: List Packages"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
 					],
 					[
 						"remove ",
 						"Package Control: Remove Package"
 					],
 					[
-						"open",
+						"rain",
+						"RainbowBrackets: make rainbow"
+					],
+					[
+						"fmt",
+						"RustFmt: Format Buffer"
+					],
+					[
+						"below",
+						"Origami: Create Pane Below"
+					],
+					[
+						"neovi",
+						"NeoVintageous: Toggle CTRL keys"
+					],
+					[
+						"synta",
+						"Set Syntax: Python"
+					],
+					[
+						"clang",
+						"Clang Format: Select Style"
+					],
+					[
+						"previe",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"format",
+						"Clang Format: Select Style"
+					],
+					[
+						"set syn c++",
+						"Set Syntax: C++"
+					],
+					[
+						"new ",
+						"ANF: New File"
+					],
+					[
+						"install pac",
+						"Package Control: Install Package"
+					],
+					[
+						"merge",
 						"Sublime Merge: Open Repository"
 					],
 					[
-						"open re",
-						"Sublime Merge: Open Repository"
+						"remove",
+						"Remove Selected Whitespace"
 					],
 					[
-						"debug",
-						"Debugger: Open"
-					],
-					[
-						"install",
+						"install ",
 						"Package Control: Install Package"
 					],
 					[
@@ -290,100 +429,204 @@
 						"Rename File"
 					],
 					[
-						"copy filenam",
-						"File: Copy Name"
+						"copy",
+						"Copy Filepath With Line Numbers"
 					],
 					[
-						"preview ",
-						"Markdown Preview: Preview in Browser"
+						"blame",
+						"Sublime Merge: Blame File"
 					],
 					[
-						"origami belo",
-						"Origami: Create Pane Below"
-					],
-					[
-						"origa belo",
-						"Origami: Create Pane Below"
-					],
-					[
-						"open ",
+						"open repos",
 						"Sublime Merge: Open Repository"
 					],
 					[
-						"black file",
-						"Sublack: Format file"
-					],
-					[
-						"black",
-						"Sublack: Format file"
-					],
-					[
-						"install pac",
-						"Package Control: Install Package"
-					],
-					[
-						"oper repo",
+						"open",
 						"Sublime Merge: Open Repository"
-					],
-					[
-						"update",
-						"Package Control: Upgrade/Overwrite All Packages"
-					],
-					[
-						"open mer",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"copy filepat",
-						"File: Copy Path"
-					],
-					[
-						"copy path",
-						"File: Copy Path"
-					],
-					[
-						"copyt path",
-						"File: Copy Path"
 					],
 					[
 						"sublime mer",
 						"Sublime Merge: Open Repository"
 					],
 					[
-						"neovi",
-						"Toggle NeoVintageous"
+						"json",
+						"Pretty JSON: Format (Pretty Print) JSON"
 					],
 					[
-						"package list",
-						"Package Control: List Packages"
+						"set syntax json",
+						"Set Syntax: JSON Key-Value"
+					],
+					[
+						"isntall pac",
+						"Package Control: Install Package"
 					],
 					[
 						"install pack",
 						"Package Control: Install Package"
 					],
 					[
-						"copy file",
-						"File: Copy Name"
+						"list",
+						"Package Control: List Packages"
 					],
 					[
-						"repo",
-						"Sublime Merge: Open Repository"
+						"you",
+						"YouCompleteMe: Edit settings"
 					],
 					[
 						"install pa",
 						"Package Control: Install Package"
 					],
 					[
-						"material theme li",
-						"Material Theme: Configuration"
-					],
-					[
-						"config",
+						"theme",
 						"Material Theme: Configuration"
 					],
 					[
 						"toggle",
 						"NeoVintageous: Toggle CTRL keys"
+					],
+					[
+						"syntac c++",
+						"Set Syntax: C++11"
+					],
+					[
+						"packages",
+						"Package Control: List Packages"
+					],
+					[
+						"set book",
+						"SublimeBookmarks: Toggle Current Line"
+					],
+					[
+						"repos",
+						"Sublime Merge: Open Repository"
+					],
+					[
+						"open rep",
+						"Sublime Merge: Open Repository"
+					],
+					[
+						"rena",
+						"Rename File"
+					],
+					[
+						"TabNine",
+						"TabNine: Open Configuration"
+					],
+					[
+						"tabnin",
+						"TabNine: Open Configuration"
+					],
+					[
+						"ocnifg",
+						"TabNine: Open Configuration"
+					],
+					[
+						"setting",
+						"Preferences: Settings"
+					],
+					[
+						"forma",
+						"Clang Format: Format Selection"
+					],
+					[
+						"remove paca",
+						"Package Control: Remove Package"
+					],
+					[
+						"install p",
+						"Package Control: Install Package"
+					],
+					[
+						"confi",
+						"Material Theme: Configuration"
+					],
+					[
+						"mat",
+						"Material Theme: Activate theme"
+					],
+					[
+						"rmeov",
+						"Package Control: Remove Package"
+					],
+					[
+						"intal",
+						"Package Control: Install Package"
+					],
+					[
+						"tab",
+						"TabNine: Open Configuration"
+					],
+					[
+						"list packa",
+						"Package Control: List Packages"
+					],
+					[
+						"neovin",
+						"Toggle NeoVintageous"
+					],
+					[
+						"renam",
+						"Rename File"
+					],
+					[
+						"copy r",
+						"Copy Reference"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"renamee",
+						"Rename File"
+					],
+					[
+						"neo",
+						"NeoVintageous: Changelog"
+					],
+					[
+						"toggl",
+						"NeoVintageous: Toggle CTRL keys"
+					],
+					[
+						"togg",
+						"NeoVintageous: Toggle CTRL keys"
+					],
+					[
+						"to",
+						"NeoVintageous: Toggle CTRL keys"
+					],
+					[
+						"open ",
+						"Sublime Merge: Open Repository"
+					],
+					[
+						"synta c",
+						"Set Syntax: C"
+					],
+					[
+						"tog",
+						"NeoVintageous: Toggle CTRL keys"
+					],
+					[
+						"packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"synta power",
+						"Set Syntax: PowerShell"
+					],
+					[
+						"mer open",
+						"Sublime Merge: Open Repository"
+					],
+					[
+						"isntall ",
+						"Package Control: Advanced Install Package"
+					],
+					[
+						"isntall pa",
+						"Package Control: Install Package"
 					],
 					[
 						"blame file",
@@ -418,16 +661,8 @@
 						"Package Control: Remove Package"
 					],
 					[
-						"renam",
-						"Rename File"
-					],
-					[
 						"ren",
 						"Rename File"
-					],
-					[
-						"copy",
-						"Copy Filepath With Line Numbers"
 					],
 					[
 						"keyb",
@@ -466,10 +701,6 @@
 						"Package Control: Install Package"
 					],
 					[
-						"install ",
-						"Package Control: Install Package"
-					],
-					[
 						"inst",
 						"Package Control: Install Package"
 					],
@@ -482,9 +713,12 @@
 			},
 			"console":
 			{
-				"height": 520.0,
+				"height": 368.0,
 				"history":
 				[
+					"TabNine::version",
+					"TabNine:version",
+					"tabinene:version",
 					"import os; [(os.path.dirname(file)[len('Packages/'):], sublime.decode_value(sublime.load_resource(file))['url']) for file in sublime.find_resources('package-metadata.json')]"
 				]
 			},
@@ -499,134 +733,134 @@
 			},
 			"file_history":
 			[
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/docker-compose.yml",
-				"/?wsl$/Ubuntu-20.04/home/przemo/Projects/github_actions/github_actions.pem",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/requirements.txt",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/Temp/Temp1_Sentinel.zip/sentinel/Version.git_hash",
-				"/C/tools/msys64/home/PrzemyslawPorebski/.ssh/config",
-				"/C/Users/PrzemyslawPorebski/.ssh/config",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/docker-compose.prod.yml",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/.github/workflows/continuous_integration.yml",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/development_tools/init_sentineldb.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/.github/pull_request_template.md",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/integration_tests/i_test_celery.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/alarmgeneration/dbnotifylistener.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/r2d2.env",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/.env",
-				"/C/Users/PrzemyslawPorebski/.ssh/known_hosts",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/integration_tests/i_test_plantui_notifications.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/messaging/README.md",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/alarmgeneration/notifyplantui.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/development_tools/init_rabbitmq.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/messaging/utils.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/messaging/schemas.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/alarmgeneration/test_notifications.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/messaging/main.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/alarmgeneration/alarmcreator.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/integration_tests/i_test_scandataapi.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/.coveragerc",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/alarmgeneration/test_criterias.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/messaging/tests/test_utils.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/log.log",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/integration_tests/i_test_sentineldb.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/sentineldb/db_helpers.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/refresh_sentineldb_for_test.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/README.md",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/imagegeneration/test_report_image_generation.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/imagegeneration/test.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/requirements_tracker.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/requirements.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/Dockerfile-profiler",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/pytest-coverage.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/pytest-coverage_from_docker.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/coverage_html_report/index.html",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/.run/Integrationtest  for celery.run.xml",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/alembic/examples/65fcd70876d3_create_heading_elevation.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/sentineldb/dbclasses.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/alembic.ini",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/alembic/versions/674af69a893e_create_account_table.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/docker-compose.dev.yml",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/create_sentineldb.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/alembic/env.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/.run/Unittests in alarmgeneration.run.xml",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Merge/Packages/User/Default (Windows).sublime-keymap",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Merge/Packages/User/Preferences.sublime-settings",
-				"/C/Users/przem/OneDrive/Dokumente/Kurs niemiecki - Goethe/link.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/sentineldb/db_schema_conversion/convert_v0.12_to_v0.13.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/python/Lib/site-packages/sqlalchemy_utils/functions/database.py",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/Grandperspective/Sentinel/sentinel.settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_scripts/convert_helpers.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/.github/workflows/continuous_integration.yml",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/helpers/configparser.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_scripts/create_database.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/todo.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_scripts/create_tables.sql",
-				"/C/Users/PrzemyslawPorebski/Stuff/vpnuser_Porebski_grandperspective_de.cfg",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/test_path.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/labtools/Histogram_Analysis.ipynb",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/requirements_jupyter.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/labtools/Timeseries_Analysis.ipynb",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/labtools/Spectral_Data_Access.ipynb",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/sentineldb/dbclasses.py",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/integration_tests/i_test_sentineldb.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/docker-compose.ci.yml",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/Dockerfile-alarmcreator",
-				"/C/Users/PrzemyslawPorebski/Documents/RDP/cabinetPC-1.rdp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_conversion_scripts/convert_v0.7_to_v0.8.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/.env.ci",
-				"/C/Users/PrzemyslawPorebski/$env",
-				"/C/Users/PrzemyslawPorebski/Documents/RDP/cabinet_PC.rdp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_conversion_scripts/convert_v0.5_to_v0.6.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_conversion_scripts/convert_v0.4_to_v0.5.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/alarmgeneration/test.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/imagegeneration/generatereportimage.py",
-				"/C/Users/PrzemyslawPorebski/_vimrc",
-				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/windows/settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_conversion_scripts/convert_v0.6_to_v0.7.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/imagegeneration/compound_color_assignment.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/alarmgeneration/alarmcreator.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_copy_scan.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/python/Lib/site-packages/astropy/time/core.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/python/Lib/site-packages/sqlalchemy/orm/session.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnection.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/requirements.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaHttpDriver.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaHttpPagesReplies.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaConnectionTests.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/Sentinel.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/Connection_DatabaseTest.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Toxel.cpp",
-				"/C/Users/PrzemyslawPorebski/Documents/paths_K53SV.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/Toxel_DatabaseTest.cpp",
+				"/C/Users/przem/Projects/rust/rwm/target/debug/build/bindings-d17650f45e4bd9cf/out/windows.rs",
+				"/C/Users/przem/Projects/rust/rwm/bindings/build.rs",
+				"/C/Users/przem/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/settings.json",
+				"/C/Users/przem/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1",
+				"/C/Users/przem/Desktop/New Text Document.json",
+				"/C/Users/przem/Projects/rust/rwm/src/winapi_wrapper.rs",
+				"/C/Users/przem/Projects/rust/rwm/target/debug/build/bindings-13028fb91a5ee5fc/out/windows.rs",
+				"/C/Users/przem/Projects/rust/rwm/Cargo.toml",
+				"/C/Users/przem/Projects/rust/rwm/bindings/Cargo.toml",
+				"/C/Users/przem/Projects/rust/rwm/bindings/src/lib.rs",
+				"/C/Users/przem/Projects/rust/rwm/src/tray_icon.rs",
+				"/C/Users/przem/Projects/rust/rwm/src/main.rs",
+				"/C/Users/przem/Projects/rust/rwm/bindings/target/debug/build/bindings-a57180432aa194db/out/windows.rs",
+				"/C/Users/przem/Projects/dotfiles/windows/update.ps1",
+				"/C/Users/przem/Projects/rust/rwm/.github/workflows/rust.yml",
+				"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów_do_środy.txt",
+				"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów_od_środy.txt",
+				"/c/Users/przem/Projects/rust/rwm/target/debug/build/bindings-0b5290a4e1d76f8e/out/windows.rs",
+				"/C/Users/przem/.cargo/registry/src/github.com-1ecc6299db9ec823/windows-0.8.0/src/lib.rs",
+				"/C/Users/przem/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/src/rust/library/core/src/convert/mod.rs",
+				"/C/Users/przem/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/src/rust/library/core/src/mem/mod.rs",
+				"/C/Users/przem/Projects/rust/rwm/target/debug/build/bindings-0b5290a4e1d76f8e/out/windows.rs",
+				"/C/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um/dwmapi.h",
+				"/C/Users/przem/.neovintageousrc",
+				"/C/Users/przem/AppData/Roaming/Mozilla/Firefox/Profiles/sueea553.default-release/chrome/userChrome.css",
+				"/C/Users/przem/Google Drive/documents/Firefox/OneTab.exported",
+				"/C/Users/przem/Projects/rwm/cpp/build/qml/main.qml",
+				"/C/Users/przem/Projects/rwm/src/main.rs",
+				"/C/Users/przem/Projects/rwm/cpp/main.cpp",
+				"/C/ProgramData/chocolatey/lib/gstreamer-devel/gstreamer-devel.nuspec",
+				"/C/ProgramData/chocolatey/logs/chocolatey.log",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.clang-format",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.github/workflows/continuous_integration.yml",
+				"/C/Users/PrzemyslawPorebski/Downloads/Program.txt",
+				"/C/Users/PrzemyslawPorebski/Downloads/Rozmowa.cmd",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient.h",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/Sentinel.h",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient.cpp",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient-internal.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/CMakeLists.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Scan.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GigECamera.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/.github/workflows/continuous_integration.yml",
-				"/C/Program Files/STEMMER IMAGING/Common Vision Blox/Drivers/CVMock.ini",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GeDetekt.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GeDetekt.h",
-				"/C/Users/PrzemyslawPorebski/Programs/testserver-win.rdp",
-				"/C/Users/PrzemyslawPorebski/Stuff/spectrum",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/Scan_DatabaseTest.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/helpers/SafeArrayAccess.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/data/GeDetektToxel.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ImageProvider.cpp",
-				"/C/Users/PrzemyslawPorebski/Stuff/database_testserver_addres.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/AlphaConnectionComClient_Test.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/AqTimestamper.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaConnectionConfigTests.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaConnectionHttpPagesReplies.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AbstractAlphaConnection.h",
+				"/C/Users/PrzemyslawPorebski/AppData/Local/Grandperspective/Sentinel/sentinel.settings.json",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaConnectionTests.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/gtags.files",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnection.cpp",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnection.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnectionConfig.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/commonTest/mocks/AlphaConnectionMock.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/commonTest/mocks/AlphaConnectionMock.cpp"
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaStatemachine.scxml",
+				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/windows/build_gtags.cmd",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/vcpkg.txt",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/CTags/Default.sublime-keymap",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/Sentinel.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/main.qml",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaHttpDriver.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GigECamera.cpp",
+				"/C/Users/PrzemyslawPorebski/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/settings.json",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/DatabaseConnection.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Scan.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Toxel.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/CMakeLists.txt",
+				"//wsl$/Ubuntu-20.04/home/przemo/Projects/26158053.1",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.gitignore",
+				"/C/Users/PrzemyslawPorebski/Projects/hello_github_action/.github/workflows/cmake.yml",
+				"/C/Users/PrzemyslawPorebski/Projects/HelloWorld/.github/workflows/build_cmake.yml",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Merge/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanArea.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanArea.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanAreaContainer.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanAreaContainer.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/DatabaseConnection.h",
+				"/C/Users/PrzemyslawPorebski/Projects/builds/install/release/opusRsTimesFile.log",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/User/clang_format.sublime-settings",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/Clang Format/clang_format.sublime-settings",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/Clang Format/Default (Windows).sublime-keymap",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/CameraControl.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/CameraControl.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/builds/install/release/opusRsTimesFile",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl-internal.h",
+				"//wsl$/kali-linux/home/przemo/.vimrc",
+				"//wsl$/Ubuntu-20.04/home/przemo/.config/nvim/init.vim",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/modules/PtuControlTest.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuDriver.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/CMakeLists.txt.user",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/sentinel-fluent-bit-dev/Readme.md",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Spectrum.cpp",
+				"/C/Users/PrzemyslawPorebski/PycharmProjects/pythonProject/main.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/TimestampToxelCollator.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/AqTimestamper.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/AqTimestamper.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Spectrum.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/model/PtuPositionsContainerTest.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/PtuPositionsContainer.cpp",
+				"/C/Users/PrzemyslawPorebski/Documents/n53sv_Przemek.rdp",
+				"/C/Users/PrzemyslawPorebski/Documents/PowerShell/Microsoft.PowerShell_profile.ps1",
+				"/C/Users/PrzemyslawPorebski/_vimrc",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/PtuPositionsContainer.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/PtuControl.qml",
+				"/C/Users/PrzemyslawPorebski/Projects/mlcourse.ai/run_docker_jupyter_windows.cmd",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/jsonstruct/Timestamp.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ScanProxy.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ScanProxy.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanBackground.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanBackground.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Toxel.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Scan.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/MsTimestamp.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/MsTimestamp.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/SidebarDirectControl.qml",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/Sentinel_AlphaConnectino_coordination.txt",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/helpers/TimeConversion.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/NordVPN_Polish_servers.txt",
+				"/C/Users/PrzemyslawPorebski/Stuff/LassPass.csv",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/SentinelTest.cpp",
+				"/C/Users/PrzemyslawPorebski/AppData/Local/Grandperspective/Sentinel/subl",
+				"/C/Users/PrzemyslawPorebski/Projects/opus-rs-testclient/Unit1.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/opus-rs-alpha/OpagIFM.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/ProjectionTest.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaCalibrationData.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaCalibrationData.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/windows/choco_local.list",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GeDetekt.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/vcpkg/buildtrees/opencv4/src/4.1.1-fb9e10326a/modules/core/src/matrix.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.gitbugtraq",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/sentinel.log",
+				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr27.log",
+				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr19.log",
+				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr22.log",
+				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr13.log"
 			],
 			"find":
 			{
@@ -637,13 +871,27 @@
 				"height": 136.0,
 				"where_history":
 				[
+					"C:\\Users\\przem\\Projects\\rust\\rwm",
+					""
 				]
 			},
 			"find_state":
 			{
-				"case_sensitive": false,
+				"case_sensitive": true,
 				"find_history":
 				[
+					"C:\\\\Users\\\\%USERNAME%",
+					"register_keyboard_clicks",
+					"buf1",
+					"HRESULT",
+					"Windows::Win32::",
+					"Waiting on message",
+					"Waiting on message!",
+					"Waiting on message!\nerror: process",
+					"buf",
+					"MA_NOACTIVATE",
+					"        ",
+					"GetClassNameA"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -657,7 +905,7 @@
 				"show_context": true,
 				"use_buffer2": true,
 				"use_gitignore": true,
-				"whole_word": false,
+				"whole_word": true,
 				"wrap": true
 			},
 			"incremental_find":
@@ -666,20 +914,20 @@
 			},
 			"input":
 			{
-				"height": 65.0
+				"height": 55.0
 			},
 			"menu_visible": false,
-			"output.Debugger":
+			"output.ECC":
 			{
-				"height": 104.0
+				"height": 334.0
 			},
 			"output.exec":
 			{
-				"height": 189.0
+				"height": 390.0
 			},
 			"output.find_results":
 			{
-				"height": 98.0
+				"height": 0.0
 			},
 			"output.hex_viewer_inspector":
 			{
@@ -702,168 +950,208 @@
 				"selected_items":
 				[
 					[
-						".github/workflows/continuous_integration.yml",
-						".github\\workflows\\continuous_integration.yml"
+						"winap",
+						"src\\winapi_wrapper.rs"
 					],
 					[
-						"profiler/integration_tests/i_test_celery.py",
-						"profiler\\integration_tests\\i_test_celery.py"
+						"window",
+						"target\\debug\\build\\bindings-d17650f45e4bd9cf\\out\\windows.rs"
 					],
 					[
-						"profiler/alarmgeneration/dbnotifylistener.py",
-						"profiler\\alarmgeneration\\dbnotifylistener.py"
+						"windows.rs",
+						"target\\debug\\build\\bindings-d17650f45e4bd9cf\\out\\windows.rs"
 					],
 					[
-						"docker-compose.yml",
-						"docker-compose.yml"
+						"win",
+						"src\\winapi_wrapper.rs"
 					],
 					[
-						"env",
-						".env"
+						"tray",
+						"src\\tray_icon.rs"
 					],
 					[
-						"profiler/integration_tests/i_test_plantui_notifications.py",
-						"profiler\\integration_tests\\i_test_plantui_notifications.py"
+						"main.rs",
+						"src\\main.rs"
 					],
 					[
-						"profiler/messaging/utils.py",
-						"profiler\\messaging\\utils.py"
+						"",
+						".clang-format"
 					],
 					[
-						"profiler/development_tools/init_rabbitmq.py",
-						"profiler\\development_tools\\init_rabbitmq.py"
+						"comclien",
+						"modules\\ComClient.h"
 					],
 					[
-						"test_notifications.py",
-						"profiler\\alarmgeneration\\test_notifications.py"
+						"gitign",
+						".gitignore"
 					],
 					[
-						"profiler/alarmgeneration/test_notifications.py",
-						"profiler\\alarmgeneration\\test_notifications.py"
+						"client",
+						"modules\\ComClient.cpp"
 					],
 					[
-						"profiler/alarmgeneration/notifyplantui.py",
-						"profiler\\alarmgeneration\\notifyplantui.py"
+						"cam",
+						"modules\\GigECamera.cpp"
 					],
 					[
-						"profiler/alarmgeneration/alarmcreator.py",
-						"profiler\\alarmgeneration\\alarmcreator.py"
+						"readm",
+						"sentinel-fluent-bit-dev\\Readme.md"
 					],
 					[
-						"db_helpers.py",
-						"scanfelddb\\sentineldb\\db_helpers.py"
+						"cmake",
+						"CMakeLists.txt"
 					],
 					[
-						"db_helpers",
-						"scanfelddb\\sentineldb\\db_helpers.py"
+						"ptuconto",
+						"modules\\PtuControl.cpp"
 					],
 					[
-						"imagegeneration/test.py",
-						"profiler\\imagegeneration\\test.py"
+						"ptucontte",
+						"unitTests\\modules\\PtuControlTest.cpp"
 					],
 					[
-						"refresh_sentineldb_for_test.py",
-						"scanfelddb\\refresh_sentineldb_for_test.py"
+						"ptudriver",
+						"modules\\PtuDriver.cpp"
 					],
 					[
-						"test.py",
-						"scanfelddb\\refresh_sentineldb_for_test.py"
+						"comclient",
+						"modules\\ComClient.cpp"
 					],
 					[
-						"profiler/imagegeneration/test.py",
-						"profiler\\imagegeneration\\test.py"
+						"PtuControl",
+						"modules\\PtuControl.h"
 					],
 					[
-						"readme",
-						"README.md"
+						"ptucon",
+						"modules\\PtuControl.h"
 					],
 					[
-						"test_",
-						"profiler\\alarmgeneration\\test_notifications.py"
+						"unitTests/model/PtuPositionsContainerTest.cpp",
+						"unitTests\\model\\PtuPositionsContainerTest.cpp"
 					],
 					[
-						".env",
-						".env"
+						"ptu",
+						"modules\\PtuControl.h"
 					],
 					[
-						"from_docker",
-						"pytest-coverage_from_docker.txt"
+						"alpha",
+						"alpha_access\\AlphaConnection.cpp"
 					],
 					[
-						"inter",
-						".run\\Integrationtest  for celery.run.xml"
+						"aqtim",
+						"modules\\AqTimestamper.cpp"
 					],
 					[
-						"profiler/development_tools/init_sentineldb.py",
-						"profiler\\development_tools\\init_sentineldb.py"
+						"aqtime",
+						"modules\\AqTimestamper.cpp"
 					],
 					[
-						"dbclass",
-						"scanfelddb\\sentineldb\\dbclasses.py"
+						"time",
+						"helpers\\TimeConversion.cpp"
 					],
 					[
-						"alem",
-						"scanfelddb\\alembic.ini"
+						"com",
+						"modules\\ComClient.cpp"
 					],
 					[
-						"init",
-						"profiler\\development_tools\\init_sentineldb.py"
+						"sentinelTest",
+						"unitTests\\SentinelTest.cpp"
 					],
 					[
-						"development_tools/init_sentineldb.py",
-						"profiler\\development_tools\\init_sentineldb.py"
+						"comclie in",
+						"modules\\ComClient-internal.h"
 					],
 					[
-						"re",
-						"requirements.txt"
+						"comclie",
+						"modules\\ComClient.cpp"
 					],
 					[
-						"create",
-						"sentinelpylib\\development_tools\\db_scripts\\create_database.py"
+						"alpha test",
+						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
 					],
 					[
-						"Timeseries_Analysis.ipynb ",
-						"sentinelpylib\\labtools\\Timeseries_Analysis.ipynb"
+						"alphatest",
+						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
 					],
 					[
-						"histo",
-						"sentinelpylib\\labtools\\Histogram_Analysis.ipynb"
+						"http",
+						"alpha_access\\AlphaHttpDriver.cpp"
 					],
 					[
-						"times",
-						"sentinelpylib\\labtools\\Timeseries_Analysis.ipynb"
+						"gedete",
+						"modules\\GeDetekt.cpp"
 					],
 					[
-						"i_test_sentineldb.py ",
-						"sentinelpylib\\integration_tests\\i_test_sentineldb.py"
+						"comclientin",
+						"modules\\ComClient-internal.h"
 					],
 					[
-						"docker-compo",
-						"docker-compose.ci.yml"
+						"comcli",
+						"modules\\ComClient.cpp"
 					],
 					[
-						"dockerfile",
-						"Dockerfile-alarmcreator"
+						"gede",
+						"modules\\GeDetekt.cpp"
 					],
 					[
-						"compose",
-						"docker-compose.ci.yml"
+						"pha_access/AlphaConnectionTests.cpp ",
+						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
 					],
 					[
-						"sentinelpylib/imagegeneration/compound_color_assignment.py",
-						"sentinelpylib\\imagegeneration\\compound_color_assignment.py"
+						"AlphaStatemachine.scxml",
+						"alpha_access\\AlphaStatemachine.scxml"
 					],
 					[
-						"sentinelpylib/alarmgeneration/test.py",
-						"sentinelpylib\\alarmgeneration\\test.py"
+						"sentine",
+						"Sentinel.cpp"
 					],
 					[
-						"sentinelpylib/alarmgeneration/alarmcreator.py",
-						"sentinelpylib\\alarmgeneration\\alarmcreator.py"
+						"comclient_te",
+						"integrationTests\\ComClient_test.cpp"
 					],
 					[
-						"sentinelpylib/development_tools/db_copy_scan.py",
-						"sentinelpylib\\development_tools\\db_copy_scan.py"
+						"AlphaConnection.cpp",
+						"alpha_access\\AlphaConnection.cpp"
+					],
+					[
+						"AlphaConnectionTe.",
+						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
+					],
+					[
+						"AlphaStatemachine.scxml ",
+						"alpha_access\\AlphaStatemachine.scxml"
+					],
+					[
+						"comclien inte",
+						"modules\\ComClient-internal.h"
+					],
+					[
+						"alphacali",
+						"alpha_access\\AlphaCalibrationData.h"
+					],
+					[
+						"ab",
+						"alpha_access\\AbstractAlphaConnection.h"
+					],
+					[
+						"AlphaConnectionTests.cpp",
+						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
+					],
+					[
+						"gigecam",
+						"modules\\GigECamera.cpp"
+					],
+					[
+						"ge",
+						"modules\\GeDetekt.cpp"
+					],
+					[
+						"drivermock",
+						"commonTest\\mocks\\AlphaHttpDriverMock.h"
+					],
+					[
+						"alphaconn test",
+						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
 					],
 					[
 						"alphacon",
@@ -894,16 +1182,8 @@
 						"model\\Toxel.cpp"
 					],
 					[
-						"gedete",
-						"modules\\GeDetekt.cpp"
-					],
-					[
 						"GeDetekt.cpp",
 						"modules\\GeDetekt.cpp"
-					],
-					[
-						"AlphaConnectionTests.cpp",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
 					],
 					[
 						"unitTests/alpha_access/AlphaConnectionTests.cpp",
@@ -944,14 +1224,6 @@
 					[
 						"NetworkAccessManagerMock.cpp",
 						"unitTests\\mocks\\NetworkAccessManagerMock.cpp"
-					],
-					[
-						"",
-						"integrationTests\\mocks\\NetworkAccessManagerMock.cpp"
-					],
-					[
-						"cam",
-						"modules\\GigECamera.cpp"
 					],
 					[
 						"test-main.cpp",
@@ -1030,16 +1302,8 @@
 						"model\\SpherePosition.h"
 					],
 					[
-						"comclient",
-						"modules\\ComClient.cpp"
-					],
-					[
 						"sentinelstatemachine",
 						"SentinelStateMachine.scxml"
-					],
-					[
-						"cmake",
-						"alpha_access\\CMakeLists.txt"
 					],
 					[
 						"QNetworkAccessManagerDummyMock.h",
@@ -1064,76 +1328,64 @@
 				[
 					[
 						"",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
-					],
-					[
-						"sentine",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
-					],
-					[
-						"confi",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\scanfeld-configuration.sublime-project"
-					],
-					[
-						"sent",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
+						"C:\\Users\\przem\\OneDrive\\Dokumente\\dieta\\lista_zakupów.sublime-project"
 					],
 					[
 						"sen",
 						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
 					],
 					[
-						"sentin",
+						"entin",
 						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
 					],
 					[
-						"config",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\scanfeld-configuration.sublime-project"
-					],
-					[
-						"setnine",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
-					],
-					[
-						"scna pyli",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\scanfeld-pylib.sublime-project"
-					],
-					[
-						"hello",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\HelloWorld_githubActions.sublime-project"
-					],
-					[
-						"ardu",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\arduino_libraries.sublime-project"
-					],
-					[
-						"seneint",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
+						"rwm",
+						"C:\\Users\\przem\\Projects\\sublime_projects\\rwm.sublime-project"
 					],
 					[
 						"test",
 						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\testserver-configuration.sublime-project"
+					],
+					[
+						"pyli",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel-pylib.sublime-project"
+					],
+					[
+						"pylib",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel-pylib.sublime-project"
 					]
 				],
 				"width": 380.0
 			},
 			"select_symbol":
 			{
-				"height": 311.0,
-				"last_filter": "test_error_no_qp",
+				"height": 91.0,
+				"last_filter": "savetodb",
 				"selected_items":
 				[
 					[
-						"test_error_no_qp",
-						"test_error_no_qp"
+						"savetodb",
+						"saveToDb"
 					],
 					[
-						"test_create_message_new",
-						"test_create_message_new_alert"
+						"calibrateWithCollectedData",
+						"calibrateWithCollectedData"
 					],
 					[
-						"comment",
-						"getDatabaseComment"
+						"calibrationDataCollected ",
+						"calibrationDataCollected"
+					],
+					[
+						"calibrationDataCollected",
+						"calibrationDataCollected"
+					],
+					[
+						"dump",
+						"dumpMeasurementData"
+					],
+					[
+						"isMeasurementFull",
+						"isMeasurementFull"
 					],
 					[
 						"blackbody",
@@ -1160,19 +1412,19 @@
 						"GeDetekt"
 					]
 				],
-				"width": 584.0
+				"width": 574.0
 			},
 			"show_minimap": true,
 			"show_open_files": true,
 			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 251.0,
+			"side_bar_visible": false,
+			"side_bar_width": 206.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 1767.0
+		"new_window_width": 1918.0
 	},
 	"windows":
 	[
@@ -1182,80 +1434,156 @@
 				"selected_items":
 				[
 					[
-						"pyt",
-						"pytest-coverage.txt\t⌬ tabnine"
+						"EventInter",
+						"EventInterceptor"
 					],
 					[
-						"ass",
-						"assertTrue\t⌬ tabnine"
+						"Get",
+						"GetLastError"
 					],
 					[
-						"exit",
-						"exit 0\t⌬ tabnine"
+						"au",
+						"AutoReboot\t⌬ tabnine"
 					],
 					[
-						"inside",
-						"inside PyCharm\t⌬ tabnine"
+						"pv",
+						"pv_attribute\t⌬ tabnine"
 					],
 					[
-						"run",
-						"running tests\t⌬ tabnine"
+						"prin",
+						"println!(\"\t⌬ tabnine"
 					],
 					[
-						"PyCh",
-						"PyCharm to generate coverage\t⌬ tabnine"
+						"HRESULT",
+						"HRESULT,\t⌬ tabnine"
 					],
 					[
-						"con",
-						"contains\t⌬ tabnine"
+						"is_",
+						"is_hresult(\t⌬ tabnine"
 					],
 					[
-						"requi",
-						"requirements\t⌬ tabnine"
+						"Typ",
+						"TypeId\t⌬ tabnine"
 					],
 					[
-						"cov",
-						"coverage can be\t⌬ tabnine"
+						"H",
+						"HRESULT\t⌬ tabnine"
 					],
 					[
-						"repo",
-						"report\t⌬ tabnine"
+						"print",
+						"println!(\"{:?}\", ret\t⌬ tabnine"
 					],
 					[
-						"colle",
-						"collected\t⌬ tabnine"
+						"as_mut",
+						"as_mut_ptr\t⌬ tabnine"
 					],
 					[
-						"integra",
-						"integration tests\t⌬ tabnine"
+						"as_",
+						"as_bytes());\t⌬ tabnine"
 					],
 					[
-						"coverage",
-						"coverage==\t⌬ tabnine"
+						"Parti",
+						"PartialEq\t⌬ tabnine"
 					],
 					[
-						"ignore",
-						"ignore=tracker\t⌬ tabnine"
+						"un",
+						"unwrap"
 					],
 					[
-						"update",
-						"update script\t⌬ tabnine"
+						"into_",
+						"into_owned\t⌬ tabnine"
 					],
 					[
-						"alem",
-						"alembic_cfg_path\t⌬ tabnine"
+						"str",
+						"str =\t⌬ tabnine"
 					],
 					[
-						"ameb",
-						"Alembic\t⌬ tabnine"
+						"into",
+						"into_raw\t⌬ tabnine"
 					],
 					[
-						"down",
-						"downgrade\t⌬ tabnine"
+						"title",
+						"title_name_len\t⌬ tabnine"
 					],
 					[
-						"postgres",
-						"postgresql\t⌬ tabnine"
+						"er",
+						"error\t⌬ tabnine"
+					],
+					[
+						"unwrap_",
+						"unwrap_or_else\t⌬ tabnine"
+					],
+					[
+						"fr",
+						"from_utf8(txt\t⌬ tabnine"
+					],
+					[
+						"translate_pa",
+						"translate_path_to_linux(sys.\t⌬ tabnine"
+					],
+					[
+						"__",
+						"__main__':\t⌬ tabnine"
+					],
+					[
+						"replac",
+						"replace(\"\\\\\", \"/\")\t⌬ tabnine"
+					],
+					[
+						"initi",
+						"initial_path = os.\t⌬ tabnine"
+					],
+					[
+						"nul",
+						"null_mut Function (mod.rs) : pub const fn null_mut<T>() -> *mut T"
+					],
+					[
+						"siz",
+						"size_of\t⌬ tabnine"
+					],
+					[
+						"LPV",
+						"LPVOID\t⌬ tabnine"
+					],
+					[
+						"DWMWA_CLOAKED",
+						"DWMWA_CLOAKED\t⌬ tabnine"
+					],
+					[
+						"up",
+						"upload_url"
+					],
+					[
+						"uploa",
+						"upload-artifact"
+					],
+					[
+						"out",
+						"outputs"
+					],
+					[
+						"runs",
+						"runs-on"
+					],
+					[
+						"no",
+						"nospace\t?"
+					],
+					[
+						"las",
+						"lastRow"
+					],
+					[
+						"QSqlRe",
+						"QSqlRelationalTableModel"
+					],
+					[
+						"to",
+						"toList"
+					],
+					[
+						"CALIBRATION_HEATER_",
+						"CALIBRATION_HEATER_TURNED_OFF_SETUP"
 					],
 					[
 						"Alpha",
@@ -1274,14 +1602,823 @@
 			"buffers":
 			[
 				{
-					"file": "/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/.pre-commit-config.yaml",
+					"file": "/C/Users/przem/Projects/rust/rwm/src/main.rs",
 					"settings":
 					{
-						"buffer_size": 374,
+						"buffer_size": 228,
+						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					},
 					"undo_stack":
 					[
+						[
+							11,
+							1,
+							"toggle_comment",
+							{
+								"block": false
+							},
+							"AQAAAOgAAAAAAAAA6wAAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA5AAAAAAAAADkAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							25,
+							1,
+							"nv_vi_d",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal",
+								"motion":
+								{
+									"motion": "nv_vi_e",
+									"motion_args":
+									{
+										"count": 1,
+										"mode": "mode_internal_normal"
+									}
+								},
+								"register": "\""
+							},
+							"AQAAANQAAAAAAAAA1AAAAAAAAAAMAAAAbW91c2VfY2xpY2tz",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA1AAAAAAAAADUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							27,
+							1,
+							"insert",
+							{
+								"characters": "events"
+							},
+							"BgAAANQAAAAAAAAA1QAAAAAAAAAAAAAA1QAAAAAAAADWAAAAAAAAAAAAAADWAAAAAAAAANcAAAAAAAAAAAAAANcAAAAAAAAA2AAAAAAAAAAAAAAA2AAAAAAAAADZAAAAAAAAAAAAAADZAAAAAAAAANoAAAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA1AAAAAAAAADUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							32,
+							1,
+							"nv_vi_d",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal",
+								"motion":
+								{
+									"motion": "nv_vi_e",
+									"motion_args":
+									{
+										"count": 1,
+										"mode": "mode_internal_normal"
+									}
+								},
+								"register": "\""
+							},
+							"AQAAAFcAAAAAAAAAVwAAAAAAAAAYAAAAcmVnaXN0ZXJfa2V5Ym9hcmRfY2xpY2tz",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAVwAAAAAAAABXAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							40,
+							1,
+							"sequence",
+							{
+								"commands":
+								[
+									[
+										"insert",
+										{
+											"characters": "reti"
+										}
+									],
+									[
+										"left_delete",
+										null
+									],
+									[
+										"left_delete",
+										null
+									],
+									[
+										"insert",
+										{
+											"characters": "gi"
+										}
+									],
+									[
+										"insert_completion",
+										{
+											"completion": "register_mouse_clicks$0",
+											"format": "snippet",
+											"keep_prefix": false,
+											"must_insert": false,
+											"trigger": "register_mouse_clicks"
+										}
+									],
+									[
+										"left_delete",
+										null
+									],
+									[
+										"left_delete",
+										null
+									],
+									[
+										"left_delete",
+										null
+									],
+									[
+										"left_delete",
+										null
+									],
+									[
+										"left_delete",
+										null
+									],
+									[
+										"left_delete",
+										null
+									],
+									[
+										"left_delete",
+										null
+									],
+									[
+										"left_delete",
+										null
+									],
+									[
+										"left_delete",
+										null
+									],
+									[
+										"left_delete",
+										null
+									],
+									[
+										"left_delete",
+										null
+									],
+									[
+										"left_delete",
+										null
+									],
+									[
+										"insert",
+										{
+											"characters": "eve"
+										}
+									],
+									[
+										"insert_completion",
+										{
+											"completion": "register_events$0",
+											"format": "snippet",
+											"keep_prefix": false,
+											"must_insert": false,
+											"trigger": "register_events"
+										}
+									]
+								]
+							},
+							"GwAAAFcAAAAAAAAAWAAAAAAAAAAAAAAAWAAAAAAAAABZAAAAAAAAAAAAAABZAAAAAAAAAFoAAAAAAAAAAAAAAFoAAAAAAAAAWwAAAAAAAAAAAAAAWgAAAAAAAABaAAAAAAAAAAEAAABpWQAAAAAAAABZAAAAAAAAAAEAAAB0WQAAAAAAAABaAAAAAAAAAAAAAABaAAAAAAAAAFsAAAAAAAAAAAAAAFcAAAAAAAAAVwAAAAAAAAAEAAAAcmVnaVcAAAAAAAAAbAAAAAAAAAAAAAAAawAAAAAAAABrAAAAAAAAAAEAAABzagAAAAAAAABqAAAAAAAAAAEAAABraQAAAAAAAABpAAAAAAAAAAEAAABjaAAAAAAAAABoAAAAAAAAAAEAAABpZwAAAAAAAABnAAAAAAAAAAEAAABsZgAAAAAAAABmAAAAAAAAAAEAAABjZQAAAAAAAABlAAAAAAAAAAEAAABfZAAAAAAAAABkAAAAAAAAAAEAAABlYwAAAAAAAABjAAAAAAAAAAEAAABzYgAAAAAAAABiAAAAAAAAAAEAAAB1YQAAAAAAAABhAAAAAAAAAAEAAABvYAAAAAAAAABgAAAAAAAAAAEAAABtYAAAAAAAAABhAAAAAAAAAAAAAABhAAAAAAAAAGIAAAAAAAAAAAAAAGIAAAAAAAAAYwAAAAAAAAAAAAAAVwAAAAAAAABXAAAAAAAAAAwAAAByZWdpc3Rlcl9ldmVXAAAAAAAAAGYAAAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAVwAAAAAAAABXAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							53,
+							1,
+							"nv_vi_dd",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal",
+								"register": "\""
+							},
+							"AQAAAGgAAAAAAAAAaAAAAAAAAAArAAAAdXNlIHdpbmFwaV93cmFwcGVyOjpyZWdpc3Rlcl9tb3VzZV9jbGlja3M7Cg",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAigAAAAAAAACKAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				},
+				{
+					"contents": "use std::mem;\nuse std::{sync::{Arc, atomic::{AtomicBool, Ordering}}, thread};\n\nuse windows::HRESULT;\n\nuse bindings::Windows::Win32::{\n    Graphics::Dwm::DwmGetWindowAttribute,\n    System::Diagnostics::Debug::{GetLastError, WIN32_ERROR},\n    System::StationsAndDesktops::{EnumDesktopWindows, GetThreadDesktop},\n    System::SystemServices::{BOOL, FALSE, HINSTANCE, LRESULT, PSTR, PWSTR, TRUE},\n    System::Threading::GetCurrentThreadId,\n    UI::DisplayDevices::{POINT, RECT},\n    UI::KeyboardAndMouseInput::GetAsyncKeyState,\n    UI::WindowsAndMessaging::*,\n};\n\nuse core::ffi::c_void;\n\nstruct EventInterceptor {\n\n}\n\n// static KEY_PRESSED: Arc<AtomicBool> = Arc::new(AtomicBool::new(false));\n\n\nextern \"system\" fn on_mouse_event(code: i32, w_param: WPARAM, l_param: LPARAM) -> LRESULT {\n    if code < 0 {\n        return unsafe { CallNextHookEx(HHOOK::default(), code, w_param, l_param) };\n    }\n\n    fn get_cursor_position() -> Result<(i32, i32), WIN32_ERROR> {\n        let mut p = POINT::default();\n        if unsafe { GetCursorPos(&mut p) == FALSE } {\n            return Err(unsafe { GetLastError() });\n        }\n\n        Ok((p.x, p.y))\n    }\n\n    match get_cursor_position() {\n        Ok((x, y)) => {\n            if w_param == WPARAM(WM_LBUTTONDOWN as usize) {\n                println!(\"Left mouse button pressed at position: <{},{}>\", x, y);\n\n                if unsafe { GetAsyncKeyState(VK_LCONTROL as i32) != 0 } {\n                    println!(\"Left control button pressed!\");\n                }\n\n                // let is_key_pressed = KEY_PRESSED.clone();\n\n               //   if is_key_pressed.load(Ordering::Relaxed) {\n               //       println!(\"Key pressed and button pressed!\");\n               //   }\n                // std::thread::sleep(Duration::from_millis(150));\n                // let hwnd = unsafe { GetForegroundWindow() };\n                // let title = get_window_title(hwnd);\n                // println!(\"{:?}\", title);\n            } else if w_param == WPARAM(WM_RBUTTONDOWN as usize) {\n                println!(\"Right mouse button pressed at position: <{},{}>\", x, y);\n                // } else if w_param == WPARAM(WM_MBUTTONDOWN) {\n                //     list_all_windows();\n            }\n        }\n        Err(err) => println!(\"Can't get mouse position. Error: {:?}\", err),\n    };\n\n    unsafe { CallNextHookEx(HHOOK::default(), code, w_param, l_param) }\n}\n\npub fn register_events() {\n    thread::spawn(move || {\n        let h_instance = HINSTANCE::default();\n        let hook = unsafe { SetWindowsHookExW(WH_MOUSE_LL, Some(on_mouse_event), h_instance, 0) };\n\n        println!(\"hook: {:?}\", hook);\n\n        if hook.is_null() {\n            println!(\"Can't set windows hook. Error: {:?}\", unsafe {\n                GetLastError()\n            });\n        }\n\n        unsafe { GetMessageW(&mut MSG::default(), HWND::default(), 0, 0) };\n\n        unsafe {\n            UnhookWindowsHookEx(hook);\n        }\n    });\n\n    thread::spawn(move || {\n        let h_instance = HINSTANCE::default();\n        let hook =\n            unsafe { SetWindowsHookExW(WH_KEYBOARD_LL, Some(on_keyboard_event), h_instance, 0) };\n\n        if hook.is_null() {\n            println!(\"Can't set windows hook. Error: {:?}\", unsafe {\n                GetLastError()\n            });\n        }\n\n        let mut msg = MSG::default();\n        let hwnd = HWND::default();\n        unsafe { GetMessageW(&mut msg, hwnd, 0, 0) };\n        println!(\"msg: {:?}\", msg);\n        println!(\"hwnd: {:?}\", hwnd);\n\n        unsafe {\n            UnhookWindowsHookEx(hook);\n        }\n    });\n}\n\nextern \"system\" fn on_keyboard_event(code: i32, w_param: WPARAM, l_param: LPARAM) -> LRESULT {\n    if code < 0 {\n        return unsafe { CallNextHookEx(HHOOK::default(), code, w_param, l_param) };\n    }\n\n    // let is_key_pressed = KEY_PRESSED.clone();\n\n    if w_param == WPARAM(WM_KEYDOWN as usize) {\n        println!(\"Key pressed! code={:?}, l_param={:?}\", code, l_param);\n        // todo: get key code\n        // let st = l_param.as_ptr() KBDLLHOOKSTRUCT;\n        // is_key_pressed.store(true, Ordering::Relaxed);\n    } else if w_param == WPARAM(WM_KEYUP as usize) {\n        // is_key_pressed.store(false, Ordering::Relaxed);\n        println!(\"Key up! code={:?}, l_param={:?}\", code, l_param);\n    } \n    unsafe { CallNextHookEx(HHOOK::default(), code, w_param, l_param) }\n}\n\n// todo: figure out how to catch keyboard events and mouse events to catch event: Win key + Left mouse button pressed.\n// pub fn register_keyboard_clicks() {\n//     thread::spawn(move || {\n//         let h_instance = HINSTANCE::default();\n//         let hook =\n//             unsafe { SetWindowsHookExW(WH_KEYBOARD_LL, Some(on_keyboard_event), h_instance, 0) };\n\n//         if hook.is_null() {\n//             println!(\"Can't set windows hook. Error: {:?}\", unsafe {\n//                 GetLastError()\n//             });\n//         }\n\n//         unsafe { GetMessageW(&mut MSG::default(), HWND::default(), 0, 0) };\n\n//         unsafe {\n//             UnhookWindowsHookEx(hook);\n//         }\n//     });\n// }\n\npub fn list_all_windows() {\n    unsafe {\n        EnumDesktopWindows(\n            GetThreadDesktop(GetCurrentThreadId()),\n            Some(enum_proc),\n            LPARAM(0),\n        );\n    }\n}\n\n#[derive(Clone, Copy, Debug, Eq, Hash, Ord, PartialEq, PartialOrd)]\nstruct Rect {\n    pub left: i32,\n    pub top: i32,\n    pub right: i32,\n    pub bottom: i32,\n}\n\nfn get_window_rect(hwnd: HWND) -> Result<Rect, String> {\n    let mut rect = RECT::default();\n    let got_rect = unsafe { GetWindowRect(hwnd, &mut rect) == TRUE };\n\n    if !got_rect {\n        return Err(format!(\"Can't get rect.\"));\n    }\n\n    Ok(Rect {\n        left: rect.left,\n        top: rect.top,\n        right: rect.right,\n        bottom: rect.bottom,\n    })\n}\n\nfn is_alt_tab_window(hwnd: HWND) -> bool {\n    if !is_visible(hwnd) {\n        return false;\n    }\n\n    if is_iconic(hwnd) {\n        return false;\n    }\n\n    let window_title = get_window_title(hwnd);\n    if let Err(_) = window_title {\n        return false;\n    }\n\n    if is_core_window(hwnd) {\n        return false;\n    }\n\n    if is_app_window(hwnd) {\n        return true;\n    }\n\n    if is_tool_window(hwnd) {\n        return false;\n    }\n\n    if is_no_activate(hwnd) {\n        return false;\n    }\n\n    if has_i_task_list_deleted_property(hwnd) {\n        return false;\n    }\n\n    if is_application_frame_window(hwnd) {\n        if !has_appropriate_application_view_cloak_type(hwnd) {\n            return false;\n        };\n        if let Ok(_) = window_title {\n            return true;\n        }\n\n        return false;\n    }\n\n    let window_owner = get_window_owner(hwnd);\n    if let Some(wo) = window_owner {\n        if !is_visible(wo) {\n            return false;\n        }\n    }\n\n    true\n}\n\nfn is_visible(hwnd: HWND) -> bool {\n    unsafe { IsWindowVisible(hwnd) == TRUE }\n}\n\n#[derive(Clone, Copy, Debug, Eq, Hash, Ord, PartialEq, PartialOrd)]\nenum WindowError {\n    NotFound,\n}\n\nfn get_window_title(hwnd: HWND) -> Result<String, WindowError> {\n    const SIZE: usize = 128;\n    let mut buf = [0u16; SIZE];\n\n    let title_name_len = unsafe { GetWindowTextW(hwnd, PWSTR(buf.as_mut_ptr()), SIZE as i32) };\n    if title_name_len == 0 {\n        return Err(WindowError::NotFound);\n    }\n\n    let txt: Vec<u8> = buf.iter().map(|&c| c as u8).collect();\n    match String::from_utf8(txt.clone()) {\n        Ok(name) => Ok(format!(\"{}\", truncate(&name, title_name_len as usize))),\n        Err(_) => Ok(String::from_utf8_lossy(&txt).into_owned()),\n    }\n}\n\nfn is_core_window(hwnd: HWND) -> bool {\n    get_class_name(hwnd) == \"Windows.UI.Core.CoreWindow\".to_string()\n}\n\nfn is_application_frame_window(hwnd: HWND) -> bool {\n    get_class_name(hwnd) == \"ApplicationFrameWindow\".to_string()\n}\n\nfn has_appropriate_application_view_cloak_type(hwnd: HWND) -> bool {\n    match is_cloaked(hwnd) {\n        Ok(ok) => ok == 0,\n        Err(_) => false,\n    }\n}\n\nfn get_window_owner(hwnd: HWND) -> Option<HWND> {\n    let handle = unsafe { GetWindow(hwnd, GW_OWNER) };\n\n    if handle.is_null() {\n        return None;\n    }\n\n    Some(handle)\n}\n\nfn is_iconic(hwnd: HWND) -> bool {\n    unsafe { IsIconic(hwnd) == TRUE }\n}\n\nfn truncate(s: &str, max_chars: usize) -> &str {\n    match s.char_indices().nth(max_chars) {\n        None => s,\n        Some((idx, _)) => &s[..idx],\n    }\n}\n\nfn get_class_name(hwnd: HWND) -> String {\n    let mut class_name = String::new();\n    const SIZE: usize = 128;\n    let mut buf = [0u8; SIZE];\n    let class_name_len = unsafe { GetClassNameA(hwnd, PSTR(buf.as_mut_ptr()), SIZE as i32) };\n    if class_name_len > 0 {\n        let txt = buf.iter().map(|&c| c).collect();\n        class_name = String::from_utf8(txt).unwrap_or_else(|error| {\n            println!(\"Windows title error: {}\", error);\n            \"Incorrect window title!\".to_string()\n        });\n        class_name = String::from(truncate(&class_name, class_name_len as usize));\n    }\n    return class_name;\n}\n\nfn is_app_window(hwnd: HWND) -> bool {\n    let flag = unsafe { GetWindowLongPtrA(hwnd, GWL_EXSTYLE) };\n    let flag = WINDOW_EX_STYLE::from(flag as u32);\n    WS_EX_APPWINDOW == flag\n}\n\nfn is_tool_window(hwnd: HWND) -> bool {\n    let ex_style_flag = unsafe { GetWindowLongPtrA(hwnd, GWL_EXSTYLE) as u32 };\n    let mut ret = WINDOW_EX_STYLE::from(ex_style_flag) == WS_EX_TOOLWINDOW;\n    let style_flag = unsafe { GetWindowLongPtrA(hwnd, GWL_STYLE) as u32 };\n    ret |= WINDOW_EX_STYLE::from(style_flag) == WS_EX_TOOLWINDOW;\n\n    ret\n}\n\nfn is_no_activate(hwnd: HWND) -> bool {\n    let ex_style_flag = unsafe { GetWindowLongPtrA(hwnd, GWL_EXSTYLE) as u32 };\n    WINDOW_EX_STYLE::from(ex_style_flag) == WS_EX_NOACTIVATE\n}\n\nfn has_i_task_list_deleted_property(hwnd: HWND) -> bool {\n    let mut c_to_print = String::from(\"ITaskList_Deleted\");\n    let buf = PSTR(c_to_print.as_mut_ptr());\n    unsafe { !GetPropA(hwnd, buf).is_null() }\n}\n\nfn is_cloaked(hwnd: HWND) -> Result<i32, String> {\n    let mut pv_attribute = unsafe { mem::MaybeUninit::<i32>::zeroed().assume_init() };\n    let (ret, pv_attribute) = unsafe {\n        let ret = DwmGetWindowAttribute(\n            hwnd,\n            14u32,\n            &mut pv_attribute as *mut _ as *mut c_void,\n            mem::size_of::<u32>() as u32,\n        );\n        (ret, pv_attribute)\n    };\n\n    match ret {\n        HRESULT(0) => Ok(pv_attribute),\n        _ => Err(format!(\"Returned HRESULT: {:?}\", ret)), // an invalid handle, or type size for the given attribute?\n    }\n}\n\nextern \"system\" fn enum_proc(hwnd: HWND, _l_param: LPARAM) -> BOOL {\n    if is_alt_tab_window(hwnd) {\n        match get_window_title(hwnd) {\n            Ok(title) => {\n                let rect = get_window_rect(hwnd);\n                println!(\"-> {}, rect: {:?}\", title, rect)\n            }\n            Err(err) => {\n                println!(\"error: {:?}\", err)\n            }\n        };\n    }\n\n    TRUE\n}\n",
+					"file": "/C/Users/przem/Projects/rust/rwm/src/winapi_wrapper.rs",
+					"file_size": 11197,
+					"file_write_time": 132679821390954215,
+					"settings":
+					{
+						"buffer_size": 10851,
+						"line_ending": "Windows"
+					},
+					"undo_stack":
+					[
+						[
+							55,
+							1,
+							"nv_vi_o",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal"
+							},
+							"AgAAAPoKAAAAAAAA+woAAAAAAAAAAAAA+woAAAAAAAD/CgAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA9woAAAAAAAD3CgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							56,
+							1,
+							"nv_enter_normal_mode",
+							{
+								"mode": "mode_insert"
+							},
+							"AQAAAPsKAAAAAAAA+woAAAAAAAAEAAAAICAgIA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA/woAAAAAAAD/CgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							57,
+							1,
+							"nv_vi_o",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal"
+							},
+							"AgAAAPsKAAAAAAAA/AoAAAAAAAAAAAAA/AoAAAAAAAAACwAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA+woAAAAAAAD7CgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							58,
+							1,
+							"nv_enter_normal_mode",
+							{
+								"mode": "mode_insert"
+							},
+							"AQAAAPwKAAAAAAAA/AoAAAAAAAAEAAAAICAgIA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAsAAAAAAAAACwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							59,
+							1,
+							"nv_vi_paste",
+							{
+								"before_cursor": false,
+								"count": 1,
+								"mode": "mode_internal_normal",
+								"register": "\""
+							},
+							"AQAAAP0KAAAAAAAA8AwAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA/AoAAAAAAAD8CgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							61,
+							1,
+							"nv_vi_dd",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal",
+								"register": "\""
+							},
+							"AQAAAPwKAAAAAAAA/AoAAAAAAAABAAAACg",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA/AoAAAAAAAD8CgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							71,
+							1,
+							"toggle_comment",
+							{
+								"block": false
+							},
+							"EAAAACMSAAAAAAAAJhIAAAAAAAAAAAAAGxIAAAAAAAAeEgAAAAAAAAAAAAAREgAAAAAAABQSAAAAAAAAAAAAAOoRAAAAAAAA7REAAAAAAAAAAAAA2REAAAAAAADcEQAAAAAAAAAAAACMEQAAAAAAAI8RAAAAAAAAAAAAAIERAAAAAAAAhBEAAAAAAAAAAAAAcREAAAAAAAB0EQAAAAAAAAAAAABSEQAAAAAAAFURAAAAAAAAAAAAAA0RAAAAAAAAEBEAAAAAAAAAAAAA8RAAAAAAAAD0EAAAAAAAAAAAAACOEAAAAAAAAJEQAAAAAAAAAAAAAHsQAAAAAAAAfhAAAAAAAAAAAAAATBAAAAAAAABPEAAAAAAAAAAAAAAwEAAAAAAAADMQAAAAAAAAAAAAAAwQAAAAAAAADxAAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAADBAAAAAAAAAmEgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							114,
+							1,
+							"rust_fmt_format_buffer",
+							null,
+							"CQAAABcAAAAAAAAAFwAAAAAAAAAGAAAAdGhyZWFkFwAAAAAAAAAjAAAAAAAAAAAAAAAuAAAAAAAAAC4AAAAAAAAADAAAAHN5bmM6OmF0b21pYy4AAAAAAAAANAAAAAAAAAAAAAAAyAUAAAAAAADdBQAAAAAAAAAAAADkBQAAAAAAAPkFAAAAAAAAAAAAAAIGAAAAAAAAFwYAAAAAAAAAAAAAIwYAAAAAAAA4BgAAAAAAAAAAAABYBgAAAAAAAGgGAAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAFhAAAAAAAAAuEAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							124,
+							1,
+							"nv_vi_d",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal",
+								"motion":
+								{
+									"motion": "nv_vi_e",
+									"motion_args":
+									{
+										"count": 1,
+										"mode": "mode_internal_normal"
+									}
+								},
+								"register": "\""
+							},
+							"AQAAAG0JAAAAAAAAbQkAAAAAAAAMAAAAbW91c2VfY2xpY2tz",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAbQkAAAAAAABtCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							127,
+							1,
+							"sequence",
+							{
+								"commands":
+								[
+									[
+										"insert",
+										{
+											"characters": "eve"
+										}
+									],
+									[
+										"insert_completion",
+										{
+											"completion": "register_events$0",
+											"format": "snippet",
+											"keep_prefix": false,
+											"must_insert": false,
+											"trigger": "register_events"
+										}
+									]
+								]
+							},
+							"BQAAAG0JAAAAAAAAbgkAAAAAAAAAAAAAbgkAAAAAAABvCQAAAAAAAAAAAABvCQAAAAAAAHAJAAAAAAAAAAAAAGQJAAAAAAAAZAkAAAAAAAAMAAAAcmVnaXN0ZXJfZXZlZAkAAAAAAABzCQAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAbQkAAAAAAABtCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							148,
+							1,
+							"nv_vi_d",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal",
+								"motion":
+								{
+									"motion": "nv_vi_j",
+									"motion_args":
+									{
+										"count": 1,
+										"mode": "mode_internal_normal",
+										"xpos": 0
+									}
+								},
+								"register": "\""
+							},
+							"AQAAAC8CAAAAAAAALwIAAAAAAABRAAAAc3RhdGljIG11dCBpc19rZXlfcHJlc3NlZDogYXRvbWljOjpBdG9taWNCb29sID0gYXRvbWljOjpBdG9taWNCb29sOjpuZXcoZmFsc2UpOwoK",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAALwIAAAAAAAAvAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							151,
+							1,
+							"nv_vi_o",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal"
+							},
+							"AgAAACYJAAAAAAAAJwkAAAAAAAAAAAAAJwkAAAAAAAArCQAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAHAkAAAAAAAAcCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							152,
+							1,
+							"nv_enter_normal_mode",
+							{
+								"mode": "mode_insert"
+							},
+							"AQAAACcJAAAAAAAAJwkAAAAAAAAEAAAAICAgIA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAKwkAAAAAAAArCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							153,
+							1,
+							"nv_vi_o",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal"
+							},
+							"AgAAACcJAAAAAAAAKAkAAAAAAAAAAAAAKAkAAAAAAAAsCQAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAJwkAAAAAAAAnCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							154,
+							1,
+							"nv_enter_normal_mode",
+							{
+								"mode": "mode_insert"
+							},
+							"AQAAACgJAAAAAAAAKAkAAAAAAAAEAAAAICAgIA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAALAkAAAAAAAAsCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							156,
+							1,
+							"nv_vi_o",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal"
+							},
+							"AgAAACcJAAAAAAAAKAkAAAAAAAAAAAAAKAkAAAAAAAAsCQAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAJwkAAAAAAAAnCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							157,
+							1,
+							"nv_enter_normal_mode",
+							{
+								"mode": "mode_insert"
+							},
+							"AQAAACgJAAAAAAAAKAkAAAAAAAAEAAAAICAgIA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAALAkAAAAAAAAsCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							158,
+							1,
+							"nv_vi_paste",
+							{
+								"before_cursor": false,
+								"count": 1,
+								"mode": "mode_internal_normal",
+								"register": "\""
+							},
+							"AQAAACgJAAAAAAAAeQkAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAKAkAAAAAAAAoCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							162,
+							1,
+							"nv_vi_greater_than",
+							{
+								"count": 1,
+								"mode": "mode_visual"
+							},
+							"AQAAACgJAAAAAAAALAkAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAKAkAAAAAAAApCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							166,
+							1,
+							"nv_vi_d",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal",
+								"motion":
+								{
+									"motion": "nv_vi_e",
+									"motion_args":
+									{
+										"count": 1,
+										"mode": "mode_internal_normal"
+									}
+								},
+								"register": "\""
+							},
+							"AQAAACwJAAAAAAAALAkAAAAAAAAGAAAAc3RhdGlj",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAALAkAAAAAAAAsCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							167,
+							1,
+							"nv_vi_x",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal",
+								"register": "\""
+							},
+							"AQAAACwJAAAAAAAALAkAAAAAAAABAAAAIA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAALAkAAAAAAAAsCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							170,
+							1,
+							"sequence",
+							{
+								"commands":
+								[
+									[
+										"insert",
+										{
+											"characters": "let"
+										}
+									],
+									[
+										"insert",
+										{
+											"characters": " "
+										}
+									]
+								]
+							},
+							"BAAAACwJAAAAAAAALQkAAAAAAAAAAAAALQkAAAAAAAAuCQAAAAAAAAAAAAAuCQAAAAAAAC8JAAAAAAAAAAAAAC8JAAAAAAAAMAkAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAALAkAAAAAAAAsCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							179,
+							1,
+							"nv_vi_d",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal",
+								"motion":
+								{
+									"motion": "nv_vi_find_in_line",
+									"motion_args":
+									{
+										"char": "=",
+										"count": 1,
+										"inclusive": false,
+										"mode": "mode_internal_normal"
+									}
+								},
+								"register": "\""
+							},
+							"AQAAAEIJAAAAAAAAQgkAAAAAAAAVAAAAOiBhdG9taWM6OkF0b21pY0Jvb2wg",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAQgkAAAAAAABCCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							181,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAEIJAAAAAAAAQwkAAAAAAAAAAAAA",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAQgkAAAAAAABCCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							186,
+							1,
+							"nv_vi_d",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal",
+								"motion":
+								{
+									"motion": "nv_vi_j",
+									"motion_args":
+									{
+										"count": 1,
+										"mode": "mode_internal_normal",
+										"xpos": 26
+									}
+								},
+								"register": "\""
+							},
+							"AQAAAGUJAAAAAAAAZQkAAAAAAAACAAAACgo",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAZQkAAAAAAABlCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							197,
+							1,
+							"rust_fmt_format_buffer",
+							null,
+							"AQAAACcJAAAAAAAAJwkAAAAAAAABAAAACg",
+							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAKAkAAAAAAAAoCQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							76,
+							1,
+							"nv_vi_big_j",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal"
+							},
+							"AQAAAIkQAAAAAAAAixAAAAAAAAACAAAAfQo",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACJEAAAAAAAAIkQAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							91,
+							1,
+							"sequence",
+							{
+								"commands":
+								[
+									[
+										"nv_vi_o",
+										{
+											"count": 1,
+											"mode": "mode_internal_normal"
+										}
+									],
+									[
+										"insert",
+										{
+											"characters": "struct"
+										}
+									],
+									[
+										"insert",
+										{
+											"characters": " "
+										}
+									],
+									[
+										"insert",
+										{
+											"characters": "even"
+										}
+									]
+								]
+							},
+							"DAAAAEYCAAAAAAAARwIAAAAAAAAAAAAARwIAAAAAAABIAgAAAAAAAAAAAABIAgAAAAAAAEkCAAAAAAAAAAAAAEkCAAAAAAAASgIAAAAAAAAAAAAASgIAAAAAAABLAgAAAAAAAAAAAABLAgAAAAAAAEwCAAAAAAAAAAAAAEwCAAAAAAAATQIAAAAAAAAAAAAATQIAAAAAAABOAgAAAAAAAAAAAABOAgAAAAAAAE8CAAAAAAAAAAAAAE8CAAAAAAAAUAIAAAAAAAAAAAAAUAIAAAAAAABRAgAAAAAAAAAAAABRAgAAAAAAAFICAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABGAgAAAAAAAEYCAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							97,
+							1,
+							"nv_vi_d",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal",
+								"motion":
+								{
+									"motion": "nv_vi_b",
+									"motion_args":
+									{
+										"count": 1,
+										"mode": "mode_internal_normal"
+									}
+								},
+								"register": "\""
+							},
+							"AQAAAE4CAAAAAAAATgIAAAAAAAADAAAAZXZl",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABRAgAAAAAAAFECAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							98,
+							1,
+							"nv_vi_x",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal",
+								"register": "\""
+							},
+							"AQAAAE4CAAAAAAAATgIAAAAAAAABAAAAbg",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABOAgAAAAAAAE4CAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							111,
+							1,
+							"sequence",
+							{
+								"commands":
+								[
+									[
+										"nv_vi_a",
+										{
+											"count": 1,
+											"mode": "mode_internal_normal"
+										}
+									],
+									[
+										"insert",
+										{
+											"characters": "EventInte"
+										}
+									],
+									[
+										"insert",
+										{
+											"characters": "r"
+										}
+									],
+									[
+										"insert_completion",
+										{
+											"completion": "EventInterceptor$0",
+											"format": "snippet",
+											"keep_prefix": false,
+											"must_insert": false,
+											"trigger": "EventInterceptor"
+										}
+									],
+									[
+										"insert",
+										{
+											"characters": " "
+										}
+									],
+									[
+										"insert_snippet",
+										{
+											"contents": "{$0}"
+										}
+									],
+									[
+										"run_macro_file",
+										{
+											"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+										}
+									],
+									[
+										"unindent",
+										null
+									],
+									[
+										"insert",
+										{
+											"characters": "jla"
+										}
+									],
+									[
+										"insert",
+										{
+											"characters": "hh"
+										}
+									]
+								]
+							},
+							"FwAAAE4CAAAAAAAATwIAAAAAAAAAAAAATwIAAAAAAABQAgAAAAAAAAAAAABQAgAAAAAAAFECAAAAAAAAAAAAAFECAAAAAAAAUgIAAAAAAAAAAAAAUgIAAAAAAABTAgAAAAAAAAAAAABTAgAAAAAAAFQCAAAAAAAAAAAAAFQCAAAAAAAAVQIAAAAAAAAAAAAAVQIAAAAAAABWAgAAAAAAAAAAAABWAgAAAAAAAFcCAAAAAAAAAAAAAFcCAAAAAAAAWAIAAAAAAAAAAAAATgIAAAAAAABOAgAAAAAAAAoAAABFdmVudEludGVyTgIAAAAAAABeAgAAAAAAAAAAAABeAgAAAAAAAF8CAAAAAAAAAAAAAF8CAAAAAAAAYQIAAAAAAAAAAAAAYAIAAAAAAABhAgAAAAAAAAAAAABhAgAAAAAAAGICAAAAAAAAAAAAAGECAAAAAAAAZQIAAAAAAAAAAAAAYQIAAAAAAABhAgAAAAAAAAQAAAAgICAgYQIAAAAAAABiAgAAAAAAAAAAAABiAgAAAAAAAGMCAAAAAAAAAAAAAGMCAAAAAAAAZAIAAAAAAAAAAAAAZAIAAAAAAABlAgAAAAAAAAAAAABlAgAAAAAAAGYCAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABNAgAAAAAAAE0CAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							121,
+							1,
+							"nv_vi_dd",
+							{
+								"count": 1,
+								"mode": "mode_internal_normal",
+								"register": "\""
+							},
+							"AQAAAGECAAAAAAAAYQIAAAAAAAAGAAAAamxhaGgK",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABlAgAAAAAAAGUCAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							145,
+							1,
+							"sequence",
+							{
+								"commands":
+								[
+									[
+										"nv_vi_o",
+										{
+											"count": 1,
+											"mode": "mode_internal_normal"
+										}
+									],
+									[
+										"unindent",
+										null
+									],
+									[
+										"unindent",
+										null
+									],
+									[
+										"unindent",
+										null
+									],
+									[
+										"unindent",
+										null
+									],
+									[
+										"unindent",
+										null
+									],
+									[
+										"unindent",
+										null
+									]
+								]
+							},
+							"AwAAAGACAAAAAAAAYQIAAAAAAAAAAAAAYQIAAAAAAABlAgAAAAAAAAAAAABhAgAAAAAAAGECAAAAAAAABAAAACAgICA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABHAgAAAAAAAEcCAAAAAAAAAAAAAAAA8L8"
+						]
+					]
+				},
+				{
+					"file": "/C/Users/przem/Projects/rust/rwm/src/tray_icon.rs",
+					"settings":
+					{
+						"buffer_size": 1203,
+						"line_ending": "Windows"
+					},
+					"undo_stack":
+					[
+						[
+							10,
+							1,
+							"nv_vi_r",
+							{
+								"char": ">",
+								"count": 1,
+								"mode": "mode_internal_normal",
+								"register": "\""
+							},
+							"AQAAAGMDAAAAAAAAZAMAAAAAAAABAAAAQQ",
+							"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABjAwAAAAAAAGMDAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							21,
+							1,
+							"revert",
+							null,
+							"AgAAAAAAAAAAAAAAAAAAAAAAAACzBAAAdXNlIGNyYXRlOjp3aW5hcGlfd3JhcHBlcjo6bGlzdF9hbGxfd2luZG93czsKCnB1YiBmbiBzaG93X3RyYXlfaWNvbigpIC0+IFJlc3VsdDwoKSwgc3lzdHJheTo6RXJyb3I+IHsKICAgIGxldCBtdXQgYXBwOwogICAgbWF0Y2ggc3lzdHJheTo6QXBwbGljYXRpb246Om5ldygpIHsKICAgICAgICBPayh3KSA9PiBhcHAgPSB3LAogICAgICAgIEVycihfKSA9PiBwYW5pYyEoIkNhbid0IGNyZWF0ZSB3aW5kb3chIiksCiAgICB9CiAgICBsZXQgZXJyID0gYXBwLnNldF9pY29uX2Zyb21fZmlsZSgKICAgICAgICAmIkM6XFxVc2Vyc1xccHJ6ZW1cXFByb2plY3RzXFxydXN0XFxzeXN0cmF5LXJzXFxyZXNvdXJjZXNcXHJ1c3QuaWNvIi50b19zdHJpbmcoKSwKICAgICk7CiAgICBpZiBlcnIuaXNfZXJyKCkgewogICAgICAgIHJldHVybiBlcnI7CiAgICB9CiAgICBsZXQgZXJyID0gYXBwLnNldF90b29sdGlwKCYiV2hhdGV2ZXIiLnRvX3N0cmluZygpKTsKICAgIGlmIGVyci5pc19lcnIoKSB7CiAgICAgICAgcmV0dXJuIGVycjsKICAgIH0KCiAgICBhcHAuYWRkX21lbnVfaXRlbSgiTGlzdCBhbGwgd2luZHdvcy4iLCB8X3wgewogICAgICAgIGxpc3RfYWxsX3dpbmRvd3MoKTsKICAgICAgICBPazo6PF8sIHN5c3RyYXk6OkVycm9yPigoKSkKICAgIH0pPzsKCiAgICAvLyB0b2RvOiBhZGRpbmcgbmV3IGl0ZW0gdG8gbWVudQogICAgLy8gYXBwLmFkZF9tZW51X2l0ZW0oIkFkZCBNZW51IEl0ZW0iLCB8d2luZG93fCB7CiAgICAvLyAgICAgd2luZG93LmFkZF9tZW51X2l0ZW0oIkludGVyaW9yIGl0ZW0iLCB8X3wgewogICAgLy8gICAgICAgICBwcmludGxuISgid2hhdCIpOwogICAgLy8gICAgICAgICBPazo6PF8sIHN5c3RyYXk6OkVycm9yPigoKSkKICAgIC8vICAgICB9KT87CiAgICAvLyAgICAgd2luZG93LmFkZF9tZW51X3NlcGFyYXRvcigpPzsKICAgIC8vICAgICBPazo6PF8sIHN5c3RyYXk6OkVycm9yPigoKSkKICAgIC8vIH0pPzsKCiAgICBhcHAuYWRkX21lbnVfc2VwYXJhdG9yKCk/OwoKICAgIGFwcC5hZGRfbWVudV9pdGVtKCJRdWl0IiwgfHdpbmRvd3wgewogICAgICAgIHdpbmRvdy5xdWl0KCk7CiAgICAgICAgT2s6OjxfLCBzeXN0cmF5OjpFcnJvcj4oKCkpCiAgICB9KT87CgogICAgcHJpbnRsbiEoIldhaXRpbmcgb24gbWVzc2FnZSEiKTsKICAgIGFwcC53YWl0X2Zvcl9tZXNzYWdlKCk/OwogICAgT2soKCkpCn0KAAAAAAAAAACzBAAAAAAAAAAAAAA",
+							"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABjAwAAAAAAAGMDAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							72,
+							1,
+							"revert",
+							null,
+							"CQAAAAAAAAAAAAAAAAAAAAAAAACzBAAAdXNlIGNyYXRlOjp3aW5hcGlfd3JhcHBlcjo6bGlzdF9hbGxfd2luZG93czsKCnB1YiBmbiBzaG93X3RyYXlfaWNvbigpIC0+IFJlc3VsdDwoKSwgc3lzdHJheTo6RXJyb3I+IHsKICAgIGxldCBtdXQgYXBwOwogICAgbWF0Y2ggc3lzdHJheTo6QXBwbGljYXRpb246Om5ldygpIHsKICAgICAgICBPayh3KSA9PiBhcHAgPSB3LAogICAgICAgIEVycihfKSA9PiBwYW5pYyEoIkNhbid0IGNyZWF0ZSB3aW5kb3chIiksCiAgICB9CiAgICBsZXQgZXJyID0gYXBwLnNldF9pY29uX2Zyb21fZmlsZSgKICAgICAgICAmIkM6XFxVc2Vyc1xccHJ6ZW1cXFByb2plY3RzXFxydXN0XFxzeXN0cmF5LXJzXFxyZXNvdXJjZXNcXHJ1c3QuaWNvIi50b19zdHJpbmcoKSwKICAgICk7CiAgICBpZiBlcnIuaXNfZXJyKCkgewogICAgICAgIHJldHVybiBlcnI7CiAgICB9CiAgICBsZXQgZXJyID0gYXBwLnNldF90b29sdGlwKCYiV2hhdGV2ZXIiLnRvX3N0cmluZygpKTsKICAgIGlmIGVyci5pc19lcnIoKSB7CiAgICAgICAgcmV0dXJuIGVycjsKICAgIH0KCiAgICBhcHAuYWRkX21lbnVfaXRlbSgiTGlzdCBhbGwgd2luZHdvcy4iLCB8X3wgewogICAgICAgIGxpc3RfYWxsX3dpbmRvd3MoKTsKICAgICAgICBPazo6PF8sIHN5c3RyYXk6OkVycm9yPigoKSkKICAgIH0pPzsKCiAgICAvLyB0b2RvOiBhZGRpbmcgbmV3IGl0ZW0gdG8gbWVudQogICAgLy8gYXBwLmFkZF9tZW51X2l0ZW0oIkFkZCBNZW51IEl0ZW0iLCB8d2luZG93fCB7CiAgICAvLyAgICAgd2luZG93LmFkZF9tZW51X2l0ZW0oIkludGVyaW9yIGl0ZW0iLCB8X3wgewogICAgLy8gICAgICAgICBwcmludGxuISgid2hhdCIpOwogICAgLy8gICAgICAgICBPazo6PF8sIHN5c3RyYXk6OkVycm9yPigoKSkKICAgIC8vICAgICB9KT87CiAgICAvLyAgICAgd2luZG93LmFkZF9tZW51X3NlcGFyYXRvcigpPzsKICAgIC8vICAgICBPazo6PF8sIHN5c3RyYXk6OkVycm9yPigoKSkKICAgIC8vIH0pPzsKCiAgICBhcHAuYWRkX21lbnVfc2VwYXJhdG9yKCk/OwoKICAgIGFwcC5hZGRfbWVudV9pdGVtKCJRdWl0IiwgfHdpbmRvd3wgewogICAgICAgIHdpbmRvdy5xdWl0KCk7CiAgICAgICAgT2s6OjxfLCBzeXN0cmF5OjpFcnJvcj4oKCkpCiAgICB9KT87CgogICAgcHJpbnRsbiEoIldhaXRpbmcgb24gbWVzc2FnZSEiKTsKICAgIGFwcC53YWl0X2Zvcl9tZXNzYWdlKCk/OwogICAgT2soKCkpCn0KAAAAAAAAAACzBAAAAAAAAAAAAAAAAAAAAAAAALMEAAAAAAAAAAAAAAAAAAAAAAAAswQAAAAAAAAAAAAAAAAAAAAAAACzBAAAAAAAAAAAAAAAAAAAAAAAALMEAAAAAAAAAAAAAAAAAAAAAAAAswQAAAAAAAAAAAAAAAAAAAAAAACzBAAAAAAAAAAAAAAAAAAAAAAAALMEAAAAAAAAAAAAAA",
+							"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACnAgAAAAAAAKcCAAAAAAAAAAAAAAAA8L8"
+						]
 					]
 				}
 			],
@@ -1291,17 +2428,25 @@
 				[
 					[
 						[
-							"Packages/Python/Python.sublime-build",
+							"Packages/C++/C++ Single File.sublime-build",
 							""
 						],
 						[
-							"Packages/Python/Python.sublime-build",
-							"Syntax Check"
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/C++11/C++11.sublime-build",
+							""
+						],
+						[
+							"Packages/C++11/C++11.sublime-build",
+							"Run"
 						]
 					],
 					[
-						"Packages/Python/Python.sublime-build",
-						""
+						"Packages/C++11/C++11.sublime-build",
+						"Run"
 					]
 				]
 			],
@@ -1313,43 +2458,103 @@
 				"selected_items":
 				[
 					[
-						"packa remo",
-						"Package Control: Remove Package"
+						"package up",
+						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
-						"packa list",
-						"Package Control: List Packages"
+						"rust run",
+						"Build With: RustEnhanced - Run"
 					],
 					[
-						"open repo",
-						"Sublime Merge: Open Repository"
+						"rust",
+						"Build With: RustEnhanced - Run"
 					],
 					[
 						"remove packa",
 						"Package Control: Remove Package"
 					],
 					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"origami des",
+						"Origami: Destroy Current Pane"
+					],
+					[
+						"open repo",
+						"Sublime Merge: Open Repository"
+					],
+					[
+						"right",
+						"Origami: Create Pane with File on the Right"
+					],
+					[
 						"list ",
 						"Package Control: List Packages"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
 					],
 					[
 						"remove ",
 						"Package Control: Remove Package"
 					],
 					[
-						"open",
+						"rain",
+						"RainbowBrackets: make rainbow"
+					],
+					[
+						"fmt",
+						"RustFmt: Format Buffer"
+					],
+					[
+						"below",
+						"Origami: Create Pane Below"
+					],
+					[
+						"neovi",
+						"NeoVintageous: Toggle CTRL keys"
+					],
+					[
+						"synta",
+						"Set Syntax: Python"
+					],
+					[
+						"clang",
+						"Clang Format: Select Style"
+					],
+					[
+						"previe",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"format",
+						"Clang Format: Select Style"
+					],
+					[
+						"set syn c++",
+						"Set Syntax: C++"
+					],
+					[
+						"new ",
+						"ANF: New File"
+					],
+					[
+						"install pac",
+						"Package Control: Install Package"
+					],
+					[
+						"merge",
 						"Sublime Merge: Open Repository"
 					],
 					[
-						"open re",
-						"Sublime Merge: Open Repository"
+						"remove",
+						"Remove Selected Whitespace"
 					],
 					[
-						"debug",
-						"Debugger: Open"
-					],
-					[
-						"install",
+						"install ",
 						"Package Control: Install Package"
 					],
 					[
@@ -1357,100 +2562,204 @@
 						"Rename File"
 					],
 					[
-						"copy filenam",
-						"File: Copy Name"
+						"copy",
+						"Copy Filepath With Line Numbers"
 					],
 					[
-						"preview ",
-						"Markdown Preview: Preview in Browser"
+						"blame",
+						"Sublime Merge: Blame File"
 					],
 					[
-						"origami belo",
-						"Origami: Create Pane Below"
-					],
-					[
-						"origa belo",
-						"Origami: Create Pane Below"
-					],
-					[
-						"open ",
+						"open repos",
 						"Sublime Merge: Open Repository"
 					],
 					[
-						"black file",
-						"Sublack: Format file"
-					],
-					[
-						"black",
-						"Sublack: Format file"
-					],
-					[
-						"install pac",
-						"Package Control: Install Package"
-					],
-					[
-						"oper repo",
+						"open",
 						"Sublime Merge: Open Repository"
-					],
-					[
-						"update",
-						"Package Control: Upgrade/Overwrite All Packages"
-					],
-					[
-						"open mer",
-						"Sublime Merge: Open Repository"
-					],
-					[
-						"copy filepat",
-						"File: Copy Path"
-					],
-					[
-						"copy path",
-						"File: Copy Path"
-					],
-					[
-						"copyt path",
-						"File: Copy Path"
 					],
 					[
 						"sublime mer",
 						"Sublime Merge: Open Repository"
 					],
 					[
-						"neovi",
-						"Toggle NeoVintageous"
+						"json",
+						"Pretty JSON: Format (Pretty Print) JSON"
 					],
 					[
-						"package list",
-						"Package Control: List Packages"
+						"set syntax json",
+						"Set Syntax: JSON Key-Value"
+					],
+					[
+						"isntall pac",
+						"Package Control: Install Package"
 					],
 					[
 						"install pack",
 						"Package Control: Install Package"
 					],
 					[
-						"copy file",
-						"File: Copy Name"
+						"list",
+						"Package Control: List Packages"
 					],
 					[
-						"repo",
-						"Sublime Merge: Open Repository"
+						"you",
+						"YouCompleteMe: Edit settings"
 					],
 					[
 						"install pa",
 						"Package Control: Install Package"
 					],
 					[
-						"material theme li",
-						"Material Theme: Configuration"
-					],
-					[
-						"config",
+						"theme",
 						"Material Theme: Configuration"
 					],
 					[
 						"toggle",
 						"NeoVintageous: Toggle CTRL keys"
+					],
+					[
+						"syntac c++",
+						"Set Syntax: C++11"
+					],
+					[
+						"packages",
+						"Package Control: List Packages"
+					],
+					[
+						"set book",
+						"SublimeBookmarks: Toggle Current Line"
+					],
+					[
+						"repos",
+						"Sublime Merge: Open Repository"
+					],
+					[
+						"open rep",
+						"Sublime Merge: Open Repository"
+					],
+					[
+						"rena",
+						"Rename File"
+					],
+					[
+						"TabNine",
+						"TabNine: Open Configuration"
+					],
+					[
+						"tabnin",
+						"TabNine: Open Configuration"
+					],
+					[
+						"ocnifg",
+						"TabNine: Open Configuration"
+					],
+					[
+						"setting",
+						"Preferences: Settings"
+					],
+					[
+						"forma",
+						"Clang Format: Format Selection"
+					],
+					[
+						"remove paca",
+						"Package Control: Remove Package"
+					],
+					[
+						"install p",
+						"Package Control: Install Package"
+					],
+					[
+						"confi",
+						"Material Theme: Configuration"
+					],
+					[
+						"mat",
+						"Material Theme: Activate theme"
+					],
+					[
+						"rmeov",
+						"Package Control: Remove Package"
+					],
+					[
+						"intal",
+						"Package Control: Install Package"
+					],
+					[
+						"tab",
+						"TabNine: Open Configuration"
+					],
+					[
+						"list packa",
+						"Package Control: List Packages"
+					],
+					[
+						"neovin",
+						"Toggle NeoVintageous"
+					],
+					[
+						"renam",
+						"Rename File"
+					],
+					[
+						"copy r",
+						"Copy Reference"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"renamee",
+						"Rename File"
+					],
+					[
+						"neo",
+						"NeoVintageous: Changelog"
+					],
+					[
+						"toggl",
+						"NeoVintageous: Toggle CTRL keys"
+					],
+					[
+						"togg",
+						"NeoVintageous: Toggle CTRL keys"
+					],
+					[
+						"to",
+						"NeoVintageous: Toggle CTRL keys"
+					],
+					[
+						"open ",
+						"Sublime Merge: Open Repository"
+					],
+					[
+						"synta c",
+						"Set Syntax: C"
+					],
+					[
+						"tog",
+						"NeoVintageous: Toggle CTRL keys"
+					],
+					[
+						"packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"synta power",
+						"Set Syntax: PowerShell"
+					],
+					[
+						"mer open",
+						"Sublime Merge: Open Repository"
+					],
+					[
+						"isntall ",
+						"Package Control: Advanced Install Package"
+					],
+					[
+						"isntall pa",
+						"Package Control: Install Package"
 					],
 					[
 						"blame file",
@@ -1485,16 +2794,8 @@
 						"Package Control: Remove Package"
 					],
 					[
-						"renam",
-						"Rename File"
-					],
-					[
 						"ren",
 						"Rename File"
-					],
-					[
-						"copy",
-						"Copy Filepath With Line Numbers"
 					],
 					[
 						"keyb",
@@ -1533,10 +2834,6 @@
 						"Package Control: Install Package"
 					],
 					[
-						"install ",
-						"Package Control: Install Package"
-					],
-					[
 						"inst",
 						"Package Control: Install Package"
 					],
@@ -1549,9 +2846,12 @@
 			},
 			"console":
 			{
-				"height": 520.0,
+				"height": 368.0,
 				"history":
 				[
+					"TabNine::version",
+					"TabNine:version",
+					"tabinene:version",
 					"import os; [(os.path.dirname(file)[len('Packages/'):], sublime.decode_value(sublime.load_resource(file))['url']) for file in sublime.find_resources('package-metadata.json')]"
 				]
 			},
@@ -1566,138 +2866,138 @@
 			},
 			"expanded_folders":
 			[
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib"
+				"/C/Users/przem/Projects/rust/rwm"
 			],
 			"file_history":
 			[
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/docker-compose.yml",
-				"/?wsl$/Ubuntu-20.04/home/przemo/Projects/github_actions/github_actions.pem",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/requirements.txt",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/Temp/Temp1_Sentinel.zip/sentinel/Version.git_hash",
-				"/C/tools/msys64/home/PrzemyslawPorebski/.ssh/config",
-				"/C/Users/PrzemyslawPorebski/.ssh/config",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/docker-compose.prod.yml",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/.github/workflows/continuous_integration.yml",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/development_tools/init_sentineldb.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/.github/pull_request_template.md",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/integration_tests/i_test_celery.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/alarmgeneration/dbnotifylistener.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/r2d2.env",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/.env",
-				"/C/Users/PrzemyslawPorebski/.ssh/known_hosts",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/integration_tests/i_test_plantui_notifications.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/messaging/README.md",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/alarmgeneration/notifyplantui.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/development_tools/init_rabbitmq.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/messaging/utils.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/messaging/schemas.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/alarmgeneration/test_notifications.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/messaging/main.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/alarmgeneration/alarmcreator.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/integration_tests/i_test_scandataapi.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/.coveragerc",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/alarmgeneration/test_criterias.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/messaging/tests/test_utils.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/log.log",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/integration_tests/i_test_sentineldb.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/sentineldb/db_helpers.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/refresh_sentineldb_for_test.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/README.md",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/imagegeneration/test_report_image_generation.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/profiler/imagegeneration/test.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/requirements_tracker.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/requirements.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/Dockerfile-profiler",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/pytest-coverage.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/pytest-coverage_from_docker.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/coverage_html_report/index.html",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/.run/Integrationtest  for celery.run.xml",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/alembic/examples/65fcd70876d3_create_heading_elevation.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/sentineldb/dbclasses.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/alembic.ini",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/alembic/versions/674af69a893e_create_account_table.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/docker-compose.dev.yml",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/create_sentineldb.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/alembic/env.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/.run/Unittests in alarmgeneration.run.xml",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Merge/Packages/User/Default (Windows).sublime-keymap",
-				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Merge/Packages/User/Preferences.sublime-settings",
-				"/C/Users/przem/OneDrive/Dokumente/Kurs niemiecki - Goethe/link.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/scanfelddb/sentineldb/db_schema_conversion/convert_v0.12_to_v0.13.py",
-				"/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/python/Lib/site-packages/sqlalchemy_utils/functions/database.py",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/Grandperspective/Sentinel/sentinel.settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_scripts/convert_helpers.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/.github/workflows/continuous_integration.yml",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/helpers/configparser.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_scripts/create_database.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/todo.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_scripts/create_tables.sql",
-				"/C/Users/PrzemyslawPorebski/Stuff/vpnuser_Porebski_grandperspective_de.cfg",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/test_path.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/labtools/Histogram_Analysis.ipynb",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/requirements_jupyter.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/labtools/Timeseries_Analysis.ipynb",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/labtools/Spectral_Data_Access.ipynb",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/sentineldb/dbclasses.py",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/integration_tests/i_test_sentineldb.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/docker-compose.ci.yml",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/Dockerfile-alarmcreator",
-				"/C/Users/PrzemyslawPorebski/Documents/RDP/cabinetPC-1.rdp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_conversion_scripts/convert_v0.7_to_v0.8.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/.env.ci",
-				"/C/Users/PrzemyslawPorebski/$env",
-				"/C/Users/PrzemyslawPorebski/Documents/RDP/cabinet_PC.rdp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_conversion_scripts/convert_v0.5_to_v0.6.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_conversion_scripts/convert_v0.4_to_v0.5.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/alarmgeneration/test.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/imagegeneration/generatereportimage.py",
-				"/C/Users/PrzemyslawPorebski/_vimrc",
-				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/windows/settings.json",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_conversion_scripts/convert_v0.6_to_v0.7.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/imagegeneration/compound_color_assignment.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/alarmgeneration/alarmcreator.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/development_tools/db_copy_scan.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/python/Lib/site-packages/astropy/time/core.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/python/Lib/site-packages/sqlalchemy/orm/session.py",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnection.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/requirements.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaHttpDriver.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaHttpPagesReplies.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaConnectionTests.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/Sentinel.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/Connection_DatabaseTest.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Toxel.cpp",
-				"/C/Users/PrzemyslawPorebski/Documents/paths_K53SV.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/Toxel_DatabaseTest.cpp",
+				"/C/Users/przem/Projects/rust/rwm/target/debug/build/bindings-d17650f45e4bd9cf/out/windows.rs",
+				"/C/Users/przem/Projects/rust/rwm/bindings/build.rs",
+				"/C/Users/przem/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/settings.json",
+				"/C/Users/przem/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1",
+				"/C/Users/przem/Desktop/New Text Document.json",
+				"/C/Users/przem/Projects/rust/rwm/src/winapi_wrapper.rs",
+				"/C/Users/przem/Projects/rust/rwm/target/debug/build/bindings-13028fb91a5ee5fc/out/windows.rs",
+				"/C/Users/przem/Projects/rust/rwm/Cargo.toml",
+				"/C/Users/przem/Projects/rust/rwm/bindings/Cargo.toml",
+				"/C/Users/przem/Projects/rust/rwm/bindings/src/lib.rs",
+				"/C/Users/przem/Projects/rust/rwm/src/tray_icon.rs",
+				"/C/Users/przem/Projects/rust/rwm/src/main.rs",
+				"/C/Users/przem/Projects/rust/rwm/bindings/target/debug/build/bindings-a57180432aa194db/out/windows.rs",
+				"/C/Users/przem/Projects/dotfiles/windows/update.ps1",
+				"/C/Users/przem/Projects/rust/rwm/.github/workflows/rust.yml",
+				"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów_do_środy.txt",
+				"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów_od_środy.txt",
+				"/c/Users/przem/Projects/rust/rwm/target/debug/build/bindings-0b5290a4e1d76f8e/out/windows.rs",
+				"/C/Users/przem/.cargo/registry/src/github.com-1ecc6299db9ec823/windows-0.8.0/src/lib.rs",
+				"/C/Users/przem/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/src/rust/library/core/src/convert/mod.rs",
+				"/C/Users/przem/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/src/rust/library/core/src/mem/mod.rs",
+				"/C/Users/przem/Projects/rust/rwm/target/debug/build/bindings-0b5290a4e1d76f8e/out/windows.rs",
+				"/C/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um/dwmapi.h",
+				"/C/Users/przem/.neovintageousrc",
+				"/C/Users/przem/AppData/Roaming/Mozilla/Firefox/Profiles/sueea553.default-release/chrome/userChrome.css",
+				"/C/Users/przem/Google Drive/documents/Firefox/OneTab.exported",
+				"/C/Users/przem/Projects/rwm/cpp/build/qml/main.qml",
+				"/C/Users/przem/Projects/rwm/src/main.rs",
+				"/C/Users/przem/Projects/rwm/cpp/main.cpp",
+				"/C/ProgramData/chocolatey/lib/gstreamer-devel/gstreamer-devel.nuspec",
+				"/C/ProgramData/chocolatey/logs/chocolatey.log",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.clang-format",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.github/workflows/continuous_integration.yml",
+				"/C/Users/PrzemyslawPorebski/Downloads/Program.txt",
+				"/C/Users/PrzemyslawPorebski/Downloads/Rozmowa.cmd",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient.h",
-				"/C/Users/PrzemyslawPorebski/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/Sentinel.h",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient.cpp",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/ComClient-internal.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/CMakeLists.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Scan.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GigECamera.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel-pylib/sentinelpylib/.github/workflows/continuous_integration.yml",
-				"/C/Program Files/STEMMER IMAGING/Common Vision Blox/Drivers/CVMock.ini",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GeDetekt.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GeDetekt.h",
-				"/C/Users/PrzemyslawPorebski/Programs/testserver-win.rdp",
-				"/C/Users/PrzemyslawPorebski/Stuff/spectrum",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/Scan_DatabaseTest.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/helpers/SafeArrayAccess.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/data/GeDetektToxel.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ImageProvider.cpp",
-				"/C/Users/PrzemyslawPorebski/Stuff/database_testserver_addres.txt",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/integrationTests/AlphaConnectionComClient_Test.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/AqTimestamper.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaConnectionConfigTests.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaConnectionHttpPagesReplies.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AbstractAlphaConnection.h",
+				"/C/Users/PrzemyslawPorebski/AppData/Local/Grandperspective/Sentinel/sentinel.settings.json",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/alpha_access/AlphaConnectionTests.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/gtags.files",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnection.cpp",
 				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnection.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaConnectionConfig.cpp",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/commonTest/mocks/AlphaConnectionMock.h",
-				"/C/Users/PrzemyslawPorebski/Projects/sentinel/commonTest/mocks/AlphaConnectionMock.cpp"
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaStatemachine.scxml",
+				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/windows/build_gtags.cmd",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/vcpkg.txt",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/CTags/Default.sublime-keymap",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/Sentinel.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/main.qml",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaHttpDriver.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GigECamera.cpp",
+				"/C/Users/PrzemyslawPorebski/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/settings.json",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/DatabaseConnection.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Scan.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Toxel.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/CMakeLists.txt",
+				"//wsl$/Ubuntu-20.04/home/przemo/Projects/26158053.1",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.gitignore",
+				"/C/Users/PrzemyslawPorebski/Projects/hello_github_action/.github/workflows/cmake.yml",
+				"/C/Users/PrzemyslawPorebski/Projects/HelloWorld/.github/workflows/build_cmake.yml",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Merge/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanArea.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanArea.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanAreaContainer.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanAreaContainer.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/DatabaseConnection.h",
+				"/C/Users/PrzemyslawPorebski/Projects/builds/install/release/opusRsTimesFile.log",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/User/clang_format.sublime-settings",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/Clang Format/clang_format.sublime-settings",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/PrzemyslawPorebski/AppData/Roaming/Sublime Text 3/Packages/Clang Format/Default (Windows).sublime-keymap",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/CameraControl.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/CameraControl.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/builds/install/release/opusRsTimesFile",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl-internal.h",
+				"//wsl$/kali-linux/home/przemo/.vimrc",
+				"//wsl$/Ubuntu-20.04/home/przemo/.config/nvim/init.vim",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/modules/PtuControlTest.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuDriver.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/CMakeLists.txt.user",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/sentinel-fluent-bit-dev/Readme.md",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/PtuControl.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Spectrum.cpp",
+				"/C/Users/PrzemyslawPorebski/PycharmProjects/pythonProject/main.py",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/TimestampToxelCollator.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/AqTimestamper.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/AqTimestamper.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Spectrum.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/model/PtuPositionsContainerTest.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/PtuPositionsContainer.cpp",
+				"/C/Users/PrzemyslawPorebski/Documents/n53sv_Przemek.rdp",
+				"/C/Users/PrzemyslawPorebski/Documents/PowerShell/Microsoft.PowerShell_profile.ps1",
+				"/C/Users/PrzemyslawPorebski/_vimrc",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/PtuPositionsContainer.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/PtuControl.qml",
+				"/C/Users/PrzemyslawPorebski/Projects/mlcourse.ai/run_docker_jupyter_windows.cmd",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/jsonstruct/Timestamp.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ScanProxy.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/presenter/ScanProxy.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanBackground.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/ScanBackground.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Toxel.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/Scan.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/MsTimestamp.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/model/MsTimestamp.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/qmlExtracted/SidebarDirectControl.qml",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/Sentinel_AlphaConnectino_coordination.txt",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/helpers/TimeConversion.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/NordVPN_Polish_servers.txt",
+				"/C/Users/PrzemyslawPorebski/Stuff/LassPass.csv",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/SentinelTest.cpp",
+				"/C/Users/PrzemyslawPorebski/AppData/Local/Grandperspective/Sentinel/subl",
+				"/C/Users/PrzemyslawPorebski/Projects/opus-rs-testclient/Unit1.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/opus-rs-alpha/OpagIFM.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/unitTests/ProjectionTest.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaCalibrationData.h",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/alpha_access/AlphaCalibrationData.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/dotfiles/windows/choco_local.list",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/modules/GeDetekt.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/vcpkg/buildtrees/opencv4/src/4.1.1-fb9e10326a/modules/core/src/matrix.cpp",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/.gitbugtraq",
+				"/C/Users/PrzemyslawPorebski/Projects/sentinel/sentinel.log",
+				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr27.log",
+				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr19.log",
+				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr22.log",
+				"/C/Users/PrzemyslawPorebski/Projects/dump/cold_temp_299.75_PARAMETERS_nr13.log"
 			],
 			"find":
 			{
@@ -1708,13 +3008,27 @@
 				"height": 136.0,
 				"where_history":
 				[
+					"C:\\Users\\przem\\Projects\\rust\\rwm",
+					""
 				]
 			},
 			"find_state":
 			{
-				"case_sensitive": false,
+				"case_sensitive": true,
 				"find_history":
 				[
+					"C:\\\\Users\\\\%USERNAME%",
+					"register_keyboard_clicks",
+					"buf1",
+					"HRESULT",
+					"Windows::Win32::",
+					"Waiting on message",
+					"Waiting on message!",
+					"Waiting on message!\nerror: process",
+					"buf",
+					"MA_NOACTIVATE",
+					"        ",
+					"GetClassNameA"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1728,15 +3042,9 @@
 				"show_context": true,
 				"use_buffer2": true,
 				"use_gitignore": true,
-				"whole_word": false,
+				"whole_word": true,
 				"wrap": true
 			},
-			"folders":
-			[
-				{
-					"path": "C:\\Users\\PrzemyslawPorebski\\Projects\\scanfeld-pylib"
-				}
-			],
 			"groups":
 			[
 				{
@@ -1744,27 +3052,59 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/C/Users/PrzemyslawPorebski/Projects/scanfeld-pylib/.pre-commit-config.yaml",
-							"selected": true,
-							"semi_transient": true,
+							"file": "/C/Users/przem/Projects/rust/rwm/src/main.rs",
+							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 374,
+								"buffer_size": 228,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										374,
-										374
+										228,
+										228
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/C/Users/przem/Projects/rust/rwm/src/winapi_wrapper.rs",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 10851,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2563,
+										2563
 									]
 								],
 								"settings":
 								{
 									"_nv_visual_sel_mode": "mode_visual",
-									"syntax": "Packages/YAML/YAML.sublime-syntax",
-									"tab_size": 2,
+									"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+									"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
@@ -1772,6 +3112,38 @@
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/C/Users/przem/Projects/rust/rwm/src/tray_icon.rs",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1203,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										649,
+										649
+									]
+								],
+								"settings":
+								{
+									"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+									"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
 							"stack_multiselect": false,
 							"type": "text"
 						}
@@ -1784,7 +3156,7 @@
 			},
 			"input":
 			{
-				"height": 65.0
+				"height": 55.0
 			},
 			"layout":
 			{
@@ -1809,17 +3181,17 @@
 				]
 			},
 			"menu_visible": false,
-			"output.Debugger":
+			"output.ECC":
 			{
-				"height": 104.0
+				"height": 334.0
 			},
 			"output.exec":
 			{
-				"height": 189.0
+				"height": 390.0
 			},
 			"output.find_results":
 			{
-				"height": 98.0
+				"height": 0.0
 			},
 			"output.hex_viewer_inspector":
 			{
@@ -1830,8 +3202,8 @@
 				"height": 324.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,1,-1,-1,-1,-1,1577,911,0,2694,ba4f84f07263ef4c9980a9edff5884d8",
-			"project": "",
+			"position": "0,0,1,-1,-1,-1,-1,1577,1913,0,3847,d8953c22d64d9a4eb996c041628c50f8",
+			"project": "rwm.sublime-project",
 			"replace":
 			{
 				"height": 44.0
@@ -1844,168 +3216,208 @@
 				"selected_items":
 				[
 					[
-						".github/workflows/continuous_integration.yml",
-						".github\\workflows\\continuous_integration.yml"
+						"winap",
+						"src\\winapi_wrapper.rs"
 					],
 					[
-						"profiler/integration_tests/i_test_celery.py",
-						"profiler\\integration_tests\\i_test_celery.py"
+						"window",
+						"target\\debug\\build\\bindings-d17650f45e4bd9cf\\out\\windows.rs"
 					],
 					[
-						"profiler/alarmgeneration/dbnotifylistener.py",
-						"profiler\\alarmgeneration\\dbnotifylistener.py"
+						"windows.rs",
+						"target\\debug\\build\\bindings-d17650f45e4bd9cf\\out\\windows.rs"
 					],
 					[
-						"docker-compose.yml",
-						"docker-compose.yml"
+						"win",
+						"src\\winapi_wrapper.rs"
 					],
 					[
-						"env",
-						".env"
+						"tray",
+						"src\\tray_icon.rs"
 					],
 					[
-						"profiler/integration_tests/i_test_plantui_notifications.py",
-						"profiler\\integration_tests\\i_test_plantui_notifications.py"
+						"main.rs",
+						"src\\main.rs"
 					],
 					[
-						"profiler/messaging/utils.py",
-						"profiler\\messaging\\utils.py"
+						"",
+						".clang-format"
 					],
 					[
-						"profiler/development_tools/init_rabbitmq.py",
-						"profiler\\development_tools\\init_rabbitmq.py"
+						"comclien",
+						"modules\\ComClient.h"
 					],
 					[
-						"test_notifications.py",
-						"profiler\\alarmgeneration\\test_notifications.py"
+						"gitign",
+						".gitignore"
 					],
 					[
-						"profiler/alarmgeneration/test_notifications.py",
-						"profiler\\alarmgeneration\\test_notifications.py"
+						"client",
+						"modules\\ComClient.cpp"
 					],
 					[
-						"profiler/alarmgeneration/notifyplantui.py",
-						"profiler\\alarmgeneration\\notifyplantui.py"
+						"cam",
+						"modules\\GigECamera.cpp"
 					],
 					[
-						"profiler/alarmgeneration/alarmcreator.py",
-						"profiler\\alarmgeneration\\alarmcreator.py"
+						"readm",
+						"sentinel-fluent-bit-dev\\Readme.md"
 					],
 					[
-						"db_helpers.py",
-						"scanfelddb\\sentineldb\\db_helpers.py"
+						"cmake",
+						"CMakeLists.txt"
 					],
 					[
-						"db_helpers",
-						"scanfelddb\\sentineldb\\db_helpers.py"
+						"ptuconto",
+						"modules\\PtuControl.cpp"
 					],
 					[
-						"imagegeneration/test.py",
-						"profiler\\imagegeneration\\test.py"
+						"ptucontte",
+						"unitTests\\modules\\PtuControlTest.cpp"
 					],
 					[
-						"refresh_sentineldb_for_test.py",
-						"scanfelddb\\refresh_sentineldb_for_test.py"
+						"ptudriver",
+						"modules\\PtuDriver.cpp"
 					],
 					[
-						"test.py",
-						"scanfelddb\\refresh_sentineldb_for_test.py"
+						"comclient",
+						"modules\\ComClient.cpp"
 					],
 					[
-						"profiler/imagegeneration/test.py",
-						"profiler\\imagegeneration\\test.py"
+						"PtuControl",
+						"modules\\PtuControl.h"
 					],
 					[
-						"readme",
-						"README.md"
+						"ptucon",
+						"modules\\PtuControl.h"
 					],
 					[
-						"test_",
-						"profiler\\alarmgeneration\\test_notifications.py"
+						"unitTests/model/PtuPositionsContainerTest.cpp",
+						"unitTests\\model\\PtuPositionsContainerTest.cpp"
 					],
 					[
-						".env",
-						".env"
+						"ptu",
+						"modules\\PtuControl.h"
 					],
 					[
-						"from_docker",
-						"pytest-coverage_from_docker.txt"
+						"alpha",
+						"alpha_access\\AlphaConnection.cpp"
 					],
 					[
-						"inter",
-						".run\\Integrationtest  for celery.run.xml"
+						"aqtim",
+						"modules\\AqTimestamper.cpp"
 					],
 					[
-						"profiler/development_tools/init_sentineldb.py",
-						"profiler\\development_tools\\init_sentineldb.py"
+						"aqtime",
+						"modules\\AqTimestamper.cpp"
 					],
 					[
-						"dbclass",
-						"scanfelddb\\sentineldb\\dbclasses.py"
+						"time",
+						"helpers\\TimeConversion.cpp"
 					],
 					[
-						"alem",
-						"scanfelddb\\alembic.ini"
+						"com",
+						"modules\\ComClient.cpp"
 					],
 					[
-						"init",
-						"profiler\\development_tools\\init_sentineldb.py"
+						"sentinelTest",
+						"unitTests\\SentinelTest.cpp"
 					],
 					[
-						"development_tools/init_sentineldb.py",
-						"profiler\\development_tools\\init_sentineldb.py"
+						"comclie in",
+						"modules\\ComClient-internal.h"
 					],
 					[
-						"re",
-						"requirements.txt"
+						"comclie",
+						"modules\\ComClient.cpp"
 					],
 					[
-						"create",
-						"sentinelpylib\\development_tools\\db_scripts\\create_database.py"
+						"alpha test",
+						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
 					],
 					[
-						"Timeseries_Analysis.ipynb ",
-						"sentinelpylib\\labtools\\Timeseries_Analysis.ipynb"
+						"alphatest",
+						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
 					],
 					[
-						"histo",
-						"sentinelpylib\\labtools\\Histogram_Analysis.ipynb"
+						"http",
+						"alpha_access\\AlphaHttpDriver.cpp"
 					],
 					[
-						"times",
-						"sentinelpylib\\labtools\\Timeseries_Analysis.ipynb"
+						"gedete",
+						"modules\\GeDetekt.cpp"
 					],
 					[
-						"i_test_sentineldb.py ",
-						"sentinelpylib\\integration_tests\\i_test_sentineldb.py"
+						"comclientin",
+						"modules\\ComClient-internal.h"
 					],
 					[
-						"docker-compo",
-						"docker-compose.ci.yml"
+						"comcli",
+						"modules\\ComClient.cpp"
 					],
 					[
-						"dockerfile",
-						"Dockerfile-alarmcreator"
+						"gede",
+						"modules\\GeDetekt.cpp"
 					],
 					[
-						"compose",
-						"docker-compose.ci.yml"
+						"pha_access/AlphaConnectionTests.cpp ",
+						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
 					],
 					[
-						"sentinelpylib/imagegeneration/compound_color_assignment.py",
-						"sentinelpylib\\imagegeneration\\compound_color_assignment.py"
+						"AlphaStatemachine.scxml",
+						"alpha_access\\AlphaStatemachine.scxml"
 					],
 					[
-						"sentinelpylib/alarmgeneration/test.py",
-						"sentinelpylib\\alarmgeneration\\test.py"
+						"sentine",
+						"Sentinel.cpp"
 					],
 					[
-						"sentinelpylib/alarmgeneration/alarmcreator.py",
-						"sentinelpylib\\alarmgeneration\\alarmcreator.py"
+						"comclient_te",
+						"integrationTests\\ComClient_test.cpp"
 					],
 					[
-						"sentinelpylib/development_tools/db_copy_scan.py",
-						"sentinelpylib\\development_tools\\db_copy_scan.py"
+						"AlphaConnection.cpp",
+						"alpha_access\\AlphaConnection.cpp"
+					],
+					[
+						"AlphaConnectionTe.",
+						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
+					],
+					[
+						"AlphaStatemachine.scxml ",
+						"alpha_access\\AlphaStatemachine.scxml"
+					],
+					[
+						"comclien inte",
+						"modules\\ComClient-internal.h"
+					],
+					[
+						"alphacali",
+						"alpha_access\\AlphaCalibrationData.h"
+					],
+					[
+						"ab",
+						"alpha_access\\AbstractAlphaConnection.h"
+					],
+					[
+						"AlphaConnectionTests.cpp",
+						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
+					],
+					[
+						"gigecam",
+						"modules\\GigECamera.cpp"
+					],
+					[
+						"ge",
+						"modules\\GeDetekt.cpp"
+					],
+					[
+						"drivermock",
+						"commonTest\\mocks\\AlphaHttpDriverMock.h"
+					],
+					[
+						"alphaconn test",
+						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
 					],
 					[
 						"alphacon",
@@ -2036,16 +3448,8 @@
 						"model\\Toxel.cpp"
 					],
 					[
-						"gedete",
-						"modules\\GeDetekt.cpp"
-					],
-					[
 						"GeDetekt.cpp",
 						"modules\\GeDetekt.cpp"
-					],
-					[
-						"AlphaConnectionTests.cpp",
-						"unitTests\\alpha_access\\AlphaConnectionTests.cpp"
 					],
 					[
 						"unitTests/alpha_access/AlphaConnectionTests.cpp",
@@ -2086,14 +3490,6 @@
 					[
 						"NetworkAccessManagerMock.cpp",
 						"unitTests\\mocks\\NetworkAccessManagerMock.cpp"
-					],
-					[
-						"",
-						"integrationTests\\mocks\\NetworkAccessManagerMock.cpp"
-					],
-					[
-						"cam",
-						"modules\\GigECamera.cpp"
 					],
 					[
 						"test-main.cpp",
@@ -2172,16 +3568,8 @@
 						"model\\SpherePosition.h"
 					],
 					[
-						"comclient",
-						"modules\\ComClient.cpp"
-					],
-					[
 						"sentinelstatemachine",
 						"SentinelStateMachine.scxml"
-					],
-					[
-						"cmake",
-						"alpha_access\\CMakeLists.txt"
 					],
 					[
 						"QNetworkAccessManagerDummyMock.h",
@@ -2206,76 +3594,64 @@
 				[
 					[
 						"",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
-					],
-					[
-						"sentine",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
-					],
-					[
-						"confi",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\scanfeld-configuration.sublime-project"
-					],
-					[
-						"sent",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
+						"C:\\Users\\przem\\OneDrive\\Dokumente\\dieta\\lista_zakupów.sublime-project"
 					],
 					[
 						"sen",
 						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
 					],
 					[
-						"sentin",
+						"entin",
 						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
 					],
 					[
-						"config",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\scanfeld-configuration.sublime-project"
-					],
-					[
-						"setnine",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
-					],
-					[
-						"scna pyli",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\scanfeld-pylib.sublime-project"
-					],
-					[
-						"hello",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\HelloWorld_githubActions.sublime-project"
-					],
-					[
-						"ardu",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\arduino_libraries.sublime-project"
-					],
-					[
-						"seneint",
-						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel.sublime-project"
+						"rwm",
+						"C:\\Users\\przem\\Projects\\sublime_projects\\rwm.sublime-project"
 					],
 					[
 						"test",
 						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\testserver-configuration.sublime-project"
+					],
+					[
+						"pyli",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel-pylib.sublime-project"
+					],
+					[
+						"pylib",
+						"C:\\Users\\PrzemyslawPorebski\\Projects\\sublime_projects\\sentinel-pylib.sublime-project"
 					]
 				],
 				"width": 380.0
 			},
 			"select_symbol":
 			{
-				"height": 311.0,
-				"last_filter": "test_error_no_qp",
+				"height": 91.0,
+				"last_filter": "savetodb",
 				"selected_items":
 				[
 					[
-						"test_error_no_qp",
-						"test_error_no_qp"
+						"savetodb",
+						"saveToDb"
 					],
 					[
-						"test_create_message_new",
-						"test_create_message_new_alert"
+						"calibrateWithCollectedData",
+						"calibrateWithCollectedData"
 					],
 					[
-						"comment",
-						"getDatabaseComment"
+						"calibrationDataCollected ",
+						"calibrationDataCollected"
+					],
+					[
+						"calibrationDataCollected",
+						"calibrationDataCollected"
+					],
+					[
+						"dump",
+						"dumpMeasurementData"
+					],
+					[
+						"isMeasurementFull",
+						"isMeasurementFull"
 					],
 					[
 						"blackbody",
@@ -2302,37 +3678,40 @@
 						"GeDetekt"
 					]
 				],
-				"width": 584.0
+				"width": 574.0
 			},
 			"selected_group": 0,
 			"settings":
 			{
+				"_vintageous_last_buffer_search": "on_mouse_event",
+				"_vintageous_last_buffer_search_command": "nv_vi_star",
+				"_vintageous_last_char_search": "=",
+				"_vintageous_last_char_search_command": "vi_t",
 				"_vintageous_reset_during_init": true
 			},
 			"show_minimap": true,
 			"show_open_files": true,
 			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 251.0,
+			"side_bar_visible": false,
+			"side_bar_width": 206.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 524,
-			"workspace_name": ""
+			"window_id": 506,
+			"workspace_name": "/C/Users/przem/Projects/sublime_projects/rwm.sublime-workspace"
 		}
 	],
 	"workspaces":
 	{
 		"recent_workspaces":
 		[
-			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/scanfeld-configuration_WSL.sublime-workspace",
-			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/scanfeld-pylib.sublime-workspace",
-			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/sentinel.sublime-workspace",
-			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/CD_pipeline.sublime-workspace",
 			"/C/Users/przem/Projects/sublime_projects/rwm.sublime-workspace",
+			"/C/Users/przem/OneDrive/Dokumente/dieta/lista_zakupów.sublime-workspace",
+			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/sentinel.sublime-workspace",
 			"/C/Users/przem/Projects/sublime_projects/orst_ubuntu.sublime-workspace",
 			"/C/Users/przem/Projects/sublime_projects/wmm.sublime-workspace",
+			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/scanfeld-pylib.sublime-workspace",
 			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/sentinel-pylib.sublime-workspace",
 			"/C/Users/PrzemyslawPorebski/Projects/sublime_projects/dotfiles.sublime-workspace",
 			"/C/Users/przem/Projects/sublime_projects/switcheroo.sublime-workspace",

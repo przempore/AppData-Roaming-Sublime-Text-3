@@ -1,3 +1,4 @@
+from __future__ import annotations
 from .. typecheck import *
 
 # TODO: Reclaulate css when the layout changes and replace REM_WIDTH_SCALE with the real value from rem_width_scale
@@ -34,6 +35,9 @@ base_css = '''
 a {
 	text-decoration: none;
 }
+img {
+	height: 1.6rem;
+}
 '''
 
 class css:
@@ -42,13 +46,16 @@ class css:
 
 	def __init__(
 		self,
-		raw: Optional[str] = None,
-		padding_top: Optional[float] = None,
-		padding_bottom: Optional[float] = None,
-		padding_left: Optional[float] = None,
-		padding_right: Optional[float] = None,
-		background_color: Optional[str] = None,
-		color: Optional[str] = None,
+		raw: str|None = None,
+		width: float|None = None,
+		height: float|None = None,
+		padding_top: float|None = None,
+		padding_bottom: float|None = None,
+		padding_left: float|None = None,
+		padding_right: float|None = None,
+		radius: float|None = None,
+		background_color: str|None = None,
+		color: str|None = None,
 	):
 
 		self.id = css.id
@@ -61,6 +68,12 @@ class css:
 		additional_width = 0.0
 		additional_height = 0.0
 
+		if not height is None:
+			css_string += 'height:{}rem;'.format(height * REM_WIDTH_SCALE)
+			additional_height += height
+		if not width is None:
+			css_string += 'width:{}rem;'.format(width * REM_WIDTH_SCALE)
+			additional_width += width
 		if not padding_top is None:
 			css_string += 'padding-top:{}rem;'.format(padding_top * REM_WIDTH_SCALE)
 			additional_height += padding_top
@@ -77,6 +90,8 @@ class css:
 			css_string += 'background-color:{};'.format(background_color)
 		if not color is None:
 			css_string += 'color:{};'.format(color)
+		if not radius is None:
+			css_string += 'border-radius:{}rem;'.format(radius * REM_WIDTH_SCALE)
 		if not raw is None:
 			css_string += raw
 
