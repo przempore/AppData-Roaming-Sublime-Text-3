@@ -110,7 +110,7 @@
 		"/C/Users/PrzemyslawPorebski/Projects/vcpkg/buildtrees/protobuf/x86-windows-dbg/share/protobuf",
 		"/C/Users/PrzemyslawPorebski/Projects/build-simple_widgee_app-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug"
 	],
-	"last_version": 4107,
+	"last_version": 4113,
 	"last_window_id": 507,
 	"log_indexing": false,
 	"settings":
@@ -348,6 +348,10 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"update",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
 					[
 						"update ",
 						"Package Control: Upgrade/Overwrite All Packages"
@@ -892,7 +896,7 @@
 			],
 			"find":
 			{
-				"height": 30.0
+				"height": 24.0
 			},
 			"find_in_files":
 			{
@@ -939,7 +943,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 30.0
+				"height": 24.0
 			},
 			"input":
 			{
@@ -969,7 +973,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 56.0
+				"height": 44.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -1691,6 +1695,10 @@
 				"selected_items":
 				[
 					[
+						"update",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
 						"update ",
 						"Package Control: Upgrade/Overwrite All Packages"
 					],
@@ -2234,7 +2242,7 @@
 			],
 			"find":
 			{
-				"height": 30.0
+				"height": 24.0
 			},
 			"find_in_files":
 			{
@@ -2289,7 +2297,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 30.0
+				"height": 24.0
 			},
 			"input":
 			{
@@ -2339,11 +2347,11 @@
 				"height": 324.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,1,-1,-1,-1,-1,1577,1047,0,2336,d8953c22d64d9a4eb996c041628c50f8",
+			"position": "0,0,1,-1,-1,-1,-1,1577,1047,0,2336,ba4f84f07263ef4c9980a9edff5884d8",
 			"project": "",
 			"replace":
 			{
-				"height": 56.0
+				"height": 44.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -2820,7 +2828,7 @@
 			"selected_group": 0,
 			"settings":
 			{
-				"_vintageous_reset_during_init": true
+				"_vintageous_reset_during_init": false
 			},
 			"show_minimap": true,
 			"show_open_files": true,
