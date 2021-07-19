@@ -111,7 +111,7 @@
 		"/C/Users/PrzemyslawPorebski/Projects/build-simple_widgee_app-Desktop_Qt_5_14_1_MSVC2017_64bit-Debug"
 	],
 	"last_version": 4113,
-	"last_window_id": 507,
+	"last_window_id": 508,
 	"log_indexing": false,
 	"settings":
 	{
@@ -348,6 +348,10 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"remove pa",
+						"Package Control: Remove Package"
+					],
 					[
 						"update",
 						"Package Control: Upgrade/Overwrite All Packages"
@@ -1695,6 +1699,10 @@
 				"selected_items":
 				[
 					[
+						"remove pa",
+						"Package Control: Remove Package"
+					],
+					[
 						"update",
 						"Package Control: Upgrade/Overwrite All Packages"
 					],
@@ -2347,7 +2355,7 @@
 				"height": 324.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,1,-1,-1,-1,-1,1577,1047,0,2336,ba4f84f07263ef4c9980a9edff5884d8",
+			"position": "0,0,1,-32000,-32000,-1,-1,1577,1047,0,2336,ba4f84f07263ef4c9980a9edff5884d8",
 			"project": "",
 			"replace":
 			{
@@ -2828,7 +2836,7 @@
 			"selected_group": 0,
 			"settings":
 			{
-				"_vintageous_reset_during_init": false
+				"_vintageous_reset_during_init": true
 			},
 			"show_minimap": true,
 			"show_open_files": true,
