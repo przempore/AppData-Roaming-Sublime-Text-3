@@ -6,7 +6,6 @@
 	"installed_packages":
 	[
 		"10% Too Dull for My Tastes Color Scheme",
-		"AdvancedNewFile",
 		"BetterFindBuffer",
 		"C++11",
 		"Clang Format",
@@ -15,9 +14,11 @@
 		"Copy Filepath With Line Numbers",
 		"CTags",
 		"Debugger",
+		"Dockerfile Syntax Highlighting",
 		"Focus File on Sidebar",
 		"Git",
 		"HexViewer",
+		"Jinja2",
 		"JSONLint",
 		"MarkdownPreview",
 		"Material Theme",
