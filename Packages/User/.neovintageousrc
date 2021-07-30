@@ -1,1 +1,4 @@
 " Type :help nv for help.
+
+set number relativenumber  "Show relative line numbers
+set so=5

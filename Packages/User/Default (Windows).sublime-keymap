@@ -38,10 +38,10 @@
         "keys": ["ctrl+k", "ctrl+p"]
     },
 
-    { "keys": ["ctrl+shift+e"], "command": "focus_file_on_sidebar" },
+    // { "keys": ["ctrl+shift+e"], "command": "focus_file_on_sidebar" },
 
-    { "keys": ["ctrl+k"], "command": "move", "args": {"by": "lines", "forward": false} },
-    { "keys": ["ctrl+j"], "command": "move", "args": {"by": "lines", "forward": true} },
+    // { "keys": ["ctrl+k"], "command": "move", "args": {"by": "lines", "forward": false} },
+    // { "keys": ["ctrl+j"], "command": "move", "args": {"by": "lines", "forward": true} },
 
     { "keys": ["\""], "command": "insert", "args": {"characters": "\""}, "context":
         [

@@ -6,6 +6,8 @@
 	"installed_packages":
 	[
 		"10% Too Dull for My Tastes Color Scheme",
+		"Ansible",
+		"Ansible Vault",
 		"BetterFindBuffer",
 		"C++11",
 		"Clang Format",
